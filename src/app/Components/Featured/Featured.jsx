@@ -13,16 +13,14 @@ export default function FeaturedItems() {
 
   return (
     <div className="max-w-7xl mx-auto py-16">
-      <h2 className="text-5xl font-bold mb-16">
-        Featured Parts
-      </h2>
+      <h2 className="text-5xl font-bold mb-16">Featured Parts</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10">
         {products.slice(0, 6).map((product) => (
           <div
             key={product.id}
             className="relative rounded-lg group overflow-hidden"
           >
-            <Link href={`/shop/${product.url}`}>
+            <Link href={`/produits/${product.url}`}>
               <div className="relative">
                 <Image
                   width={700}

@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
 
         {/* Button */}
-        <BuyButton text="see produits" />
+        <BuyButton href="produits" text="see produits" />
       </div>
 
       {/* Small Cards Container */}

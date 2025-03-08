@@ -29,7 +29,7 @@ export default function FeaturedItems() {
                   height={600}
                   src={product.image}
                   alt={product.title}
-                  className="w-full h-[300px] object-cover mx-auto hover:opacity-80 transition-opacity duration-300"
+                  className="w-full border border-gray-300 h-[300px] object-cover mx-auto hover:opacity-80 transition-opacity duration-300"
                 />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/30 bg-opacity-50">
                   <span className="text-white text-lg font-semibold">
@@ -42,7 +42,7 @@ export default function FeaturedItems() {
         ))}
       </div>
       <div className="text-center mt-16">
-        <BuyButton text="All Produits" />
+        <BuyButton href="produits" text="All Produits" />
       </div>
     </div>
   );

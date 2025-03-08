@@ -59,7 +59,7 @@ export default function Header() {
             Contact
           </Link>
           <Link
-            href="/get-help"
+            href="/faq"
             className={`text-lg font-[500] uppercase tracking-wider hover:text-red-400 transition ${
               isScrolled ? "text-[#1e1e1e]" : "text-red-400"
             }`}

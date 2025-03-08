@@ -36,7 +36,7 @@ const InformativeSection = () => {
             </p>
 
 {/* Call to Action Button */}
-<BuyButton text="About us" />
+<BuyButton href="about-us" text="About us" />
           </div>
         </div>
       </div>

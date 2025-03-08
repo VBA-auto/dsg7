@@ -81,7 +81,7 @@ const SearchOverlay = ({ isOpen, onClose }) => {
                 {filteredProducts.map((product) => (
                   <Link
                     key={product.id}
-                    href={`/shop/${product.url}`}
+                    href={`/produits/${product.url}`}
                     
                     onClick={() => {
                       onClose();

@@ -29,7 +29,7 @@ export default function Header() {
           <Link
             href="/"
             className={`text-lg font-[500] uppercase tracking-wider hover:text-red-400 transition ${
-              isScrolled ? "text-[#1e1e1e]" : "text-red-500"
+              isScrolled ? "text-[#1e1e1e]" : "text-red-400"
             }`}
           >
             Accueil
@@ -37,7 +37,7 @@ export default function Header() {
           <Link
             href="/produits"
             className={`text-lg font-[500] uppercase tracking-wider hover:text-red-400 transition ${
-              isScrolled ? "text-[#1e1e1e]" : "text-red-500"
+              isScrolled ? "text-[#1e1e1e]" : "text-red-400"
             }`}
           >
             Produits
@@ -45,7 +45,7 @@ export default function Header() {
           <Link
             href="/about-us"
             className={`text-lg font-[500] uppercase tracking-wider hover:text-red-400 transition ${
-              isScrolled ? "text-[#1e1e1e]" : "text-red-500"
+              isScrolled ? "text-[#1e1e1e]" : "text-red-400"
             }`}
           >
             About Us
@@ -53,7 +53,7 @@ export default function Header() {
           <Link
             href="/contact"
             className={`text-lg font-[500] uppercase tracking-wider hover:text-red-400 transition ${
-              isScrolled ? "text-[#1e1e1e]" : "text-red-500"
+              isScrolled ? "text-[#1e1e1e]" : "text-red-400"
             }`}
           >
             Contact
@@ -61,7 +61,7 @@ export default function Header() {
           <Link
             href="/get-help"
             className={`text-lg font-[500] uppercase tracking-wider hover:text-red-400 transition ${
-              isScrolled ? "text-[#1e1e1e]" : "text-red-500"
+              isScrolled ? "text-[#1e1e1e]" : "text-red-400"
             }`}
           >
             FAQ

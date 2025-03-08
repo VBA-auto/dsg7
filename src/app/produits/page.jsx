@@ -1,19 +1,27 @@
 // app/shop/page.jsx
-"use client";
 import Link from "next/link";
 import Image from "next/image";
-import useProducts from "../Components/Hookes/useProducts";
 
-export default function ShopPage() {
-  const { products, loading, error } = useProducts();
+async function fetchProducts() {
+  try {
+    const res = await fetch("https://dsg7.vercel.app/products.json");
+    const products = await res.json();
+    return products;
+  } catch (error) {
+    console.error("Error fetching products:", error);
+    return [];
+  }
+}
 
-  if (loading) return <p className="text-center text-lg">Loading...</p>;
-  if (error) return <p className="text-center text-red-500">{error}</p>;
+
+
+export default async function ShopPage() {
+  const products = await fetchProducts();
 
   return (
     <div className="max-w-7xl mx-auto py-8">
       <h1 className="text-5xl font-bold text-center mb-8">
-        Our Top Collection
+        Our Premium Collection
       </h1>
 
       <div className="text-center mb-8">
@@ -30,7 +38,7 @@ export default function ShopPage() {
             key={product.id}
             className="relative rounded-lg group overflow-hidden"
           >
-            <Link href={`/shop/${product.url}`}>
+            <Link href={`/produits/${product.url}`}>
               <div className="relative">
                 <Image
                   width={700}
@@ -39,7 +47,7 @@ export default function ShopPage() {
                   alt={product.title}
                   className="w-full h-[300px] object-cover mx-auto hover:opacity-80 transition-opacity duration-300"
                 />
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/5 bg-opacity-50">
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/30 bg-opacity-50">
                   <span className="text-white text-lg font-semibold">
                     See Details
                   </span>

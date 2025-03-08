@@ -4,7 +4,9 @@ import Image from "next/image";
 
 async function fetchProducts() {
   try {
-    const res = await fetch("https://dsg7.vercel.app/products.json");
+    const res = await fetch("https://dsg7.vercel.app/products.json", {
+      cache: "force-cache",
+    });
     const products = await res.json();
     return products;
   } catch (error) {
@@ -12,8 +14,6 @@ async function fetchProducts() {
     return [];
   }
 }
-
-
 
 export default async function ShopPage() {
   const products = await fetchProducts();

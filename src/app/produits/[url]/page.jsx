@@ -3,7 +3,9 @@ import Image from "next/image";
 
 async function fetchProduct(url) {
   try {
-    const res = await fetch("https://dsg7.vercel.app/products.json");
+    const res = await fetch("https://dsg7.vercel.app/products.json", {
+      cache: "force-cache",
+    });
     const products = await res.json();
     const product = products.find((p) => p.url === url);
     return product;

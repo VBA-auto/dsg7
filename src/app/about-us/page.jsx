@@ -5,118 +5,54 @@ const AboutUs = () => {
     <div className="bg-white">
       {/* Mission Statement */}
       <div className="max-w-7xl mx-auto px-4 py-12">
-        <div className="text-center">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Mission</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            At DSG7, we are committed to providing high-quality car parts and
-            accessories that keep your vehicle running at its best. Our mission
-            is to deliver exceptional products and services to car enthusiasts
-            and professionals alike.
-          </p>
-        </div>
-      </div>
-
-      {/* Team Section */}
-      <div className="bg-gray-50 py-12">
-        <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-gray-800 text-center mb-8">
-            Meet Our Team
+        <div className="mb-24">
+          <h2 className="text-4xl text-center font-bold text-gray-800 mb-4">
+            Qui sommes-nous ?
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            {/* Team Member 1 */}
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="relative h-48 w-48 mx-auto mb-4">
-                <Image
-                  src="/images/team.jpg" // Replace with team member image
-                  alt="Team Member 1"
-                  fill
-                  className="object-cover rounded-full"
-                />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-800">John Doe</h3>
-              <p className="text-gray-600">CEO & Founder</p>
-            </div>
 
-            {/* Team Member 2 */}
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="relative h-48 w-48 mx-auto mb-4">
-                <Image
-                  src="/images/team.jpg" // Replace with team member image
-                  alt="Team Member 2"
-                  fill
-                  className="object-cover rounded-full"
-                />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-800">
-                Jane Smith
-              </h3>
-              <p className="text-gray-600">Head of Operations</p>
-            </div>
+          <p className="text-[17px font-[500] mb-5">
+            Depuis près de huit ans, nous nous consacrons à l'univers complexe
+            et fascinant des boîtes automatiques. Si nos premiers pas nous ont
+            conduits à intervenir sur des boîtes à convertisseur de couple et
+            des boîtes à variation continue (CVT), notre expertise s'est
+            progressivement affinée pour se concentrer exclusivement sur les
+            boîtes à double embrayage. Aujourd'hui, nous sommes devenus des
+            spécialistes reconnus des transmissions{" "}
+            <b>DSG du groupe Volkswagen</b> et des{" "}
+            <b>EDC 6DCT250 GETRAG de Renault</b>.
+          </p>
 
-            {/* Team Member 3 */}
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="relative h-48 w-48 mx-auto mb-4">
-                <Image
-                  src="/images/team.jpg" // Replace with team member image
-                  alt="Team Member 3"
-                  fill
-                  className="object-cover rounded-full"
-                />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-800">
-                Mike Johnson
-              </h3>
-              <p className="text-gray-600">Lead Engineer</p>
-            </div>
-          </div>
-        </div>
-      </div>
+          <p className="text-[17px font-[500] mb-5">
+            Notre savoir-faire repose sur un service complet de programmation,
+            réparation et vente de calculateurs de marque <b>Continental</b>.
+            Pour garantir des interventions précises et fiables, nous nous
+            appuyons sur un <b>banc d'essai dédié</b>, conçu exclusivement pour
+            tester et optimiser les calculateurs de boîtes automatiques. Chaque
+            panne est pour nous un défi technique à relever, chaque diagnostic
+            une opportunité d'affiner notre maîtrise de ces systèmes
+            sophistiqués.
+          </p>
 
-      {/* Values Section */}
-      <div className="max-w-7xl mx-auto px-4 py-12">
-        <h2 className="text-3xl font-bold text-gray-800 text-center mb-8">
-          Our Values
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {/* Value 1 */}
-          <div className="bg-white p-6 rounded-lg shadow-md text-center">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Quality
-            </h3>
-            <p className="text-gray-600">
-              We prioritize quality in every product we offer.
-            </p>
-          </div>
+          <p className="text-[17px font-[500] mb-5">
+            Si les boîtes à double embrayage sont au cœur de notre activité,
+            nous en maîtrisons chaque subtilité, qu'elles soient à sec- comme
+            les <b>EDC (DC4) de Renault</b> et les{" "}
+            <b>DSG7 (DQ200) du groupe Volkswagen</b> - ou à bain d'huile, à
+            l'image des <b>DSG6, 0B5 DL501, DQ381 et DQ500</b>. Derrière ces
+            désignations techniques se cachent des mécaniques de précision, où
+            la moindre anomalie peut impacter le comportement du véhicule. Notre
+            mission ? Diagnostiquer et corriger ces dysfonctionnements avec la
+            plus grande rigueur.
+          </p>
 
-          {/* Value 2 */}
-          <div className="bg-white p-6 rounded-lg shadow-md text-center">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Innovation
-            </h3>
-            <p className="text-gray-600">
-              We embrace innovation to deliver cutting-edge solutions.
-            </p>
-          </div>
-
-          {/* Value 3 */}
-          <div className="bg-white p-6 rounded-lg shadow-md text-center">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Customer Focus
-            </h3>
-            <p className="text-gray-600">
-              Our customers are at the heart of everything we do.
-            </p>
-          </div>
-
-          {/* Value 4 */}
-          <div className="bg-white p-6 rounded-lg shadow-md text-center">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Integrity
-            </h3>
-            <p className="text-gray-600">
-              We operate with honesty and transparency.
-            </p>
-          </div>
+          <p className="text-[17px font-[500] mb-5">
+            Un voyant <b>"Boîte de vitesses à contrôler"</b> s'allume sur votre
+            tableau de bord ? Un message vous invite à{" "}
+            <b>"Aller à l'atelier"</b> ? Ne laissez pas un problème mécanique se
+            transformer en panne irréversible. Notre équipe est à votre
+            disposition pour vous accompagner et trouver la meilleure solution.
+            Nous sommes ouverts du lundi au vendredi, de 8h à 18h.
+          </p>
         </div>
       </div>
     </div>

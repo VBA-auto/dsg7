@@ -13,35 +13,66 @@ const FAQ = () => {
   // FAQ data
   const faqData = [
     {
-      question: "What types of car parts do you offer?",
+      question: "Qu’est-ce qu’une boîte S-Tronic ou DSG7 ?",
       answer:
-        "We offer a wide range of car parts, including engine components, brake systems, suspension parts, and more. All our products are sourced from trusted manufacturers.",
+        "La boîte DSG7 (DQ200), aussi appelée S-Tronic chez Audi, est une transmission à double embrayage et 7 rapports utilisée sur les véhicules du groupe Volkswagen (VW, Audi, Seat, Skoda). Elle combine la réactivité d'une boîte manuelle et le confort d’une boîte automatique, mais nécessite un entretien rigoureux pour éviter les pannes.",
     },
     {
-      question: "How can I place an order?",
+      question: "Doit-on vidanger sa boîte auto ?",
       answer:
-        "You can place an order directly through our website by adding products to your cart and completing the checkout process. Alternatively, you can contact our sales team for assistance.",
+        "Oui, la vidange est essentielle pour préserver les performances et éviter une usure prématurée des composants. Pour les boîtes à double embrayage à bain d’huile (DSG6 DQ250, DQ381, 0B5 S-Tronic), la vidange est recommandée tous les 60 000 km.",
     },
     {
-      question: "Do you offer international shipping?",
+      question:
+        "Quels sont les symptômes d’un problème avec ma boîte DSG ou EDC ?",
       answer:
-        "Yes, we offer international shipping to most countries. Shipping costs and delivery times vary depending on your location.",
+        "Un dysfonctionnement peut se manifester par des passages de vitesses saccadés, un mode dégradé activé, une perte de certaines vitesses, des bruits métalliques ou des vibrations.",
     },
     {
-      question: "What is your return policy?",
+      question:
+        "Quelle est la différence entre un double embrayage à sec et mouillé ?",
       answer:
-        "We offer a 30-day return policy for unused and undamaged products. Please contact our support team to initiate a return.",
+        "Le double embrayage à sec est plus léger et économique, mais plus sensible à l’usure. Le double embrayage à bain d’huile est plus durable et offre un fonctionnement plus souple.",
     },
     {
-      question: "How can I contact customer support?",
+      question:
+        "J’ai une Mégane III, Scénic III, Captur ou Clio IV et je n’ai pas de vitesse paire ni de marche arrière. C’est le calculateur ?",
       answer:
-        "You can reach our customer support team via email at support@dsg7.com or by calling +880 1234 567890. We're available 24/7 to assist you.",
+        "Oui, cela indique généralement un problème du calculateur. Avant de le remplacer, vérifiez les moteurs d’embrayage et les tolérances d’usure.",
+    },
+    {
+      question: "Mon levier de vitesse est bloqué en position P. Que faire ?",
+      answer:
+        "Ce problème survient lorsque le calculateur ne communique plus avec le système. Vérifiez les codes défauts à la valise et testez l’alimentation du calculateur.",
+    },
+    {
+      question:
+        "J’ai une boîte DSG7 et seules les vitesses paires ou impaires passent. Calculateur ou embrayage ?",
+      answer:
+        "Si le problème est hydraulique, le calculateur est probablement défectueux. Si le problème concerne l’embrayage, les disques sont peut-être usés ou bloqués.",
+    },
+    {
+      question: "Comment savoir si mon volant moteur est défectueux ?",
+      answer:
+        "Un volant moteur usé ne génère pas de code défaut. Si vous entendez un bruit métallique en démarrant sans accélérer, il est probablement en fin de vie.",
+    },
+    {
+      question:
+        "Le message 'Boîte de vitesses à contrôler' s’affiche. Que faire ?",
+      answer:
+        "Ce message peut indiquer un problème électronique ou mécanique. Vérifiez les symptômes et consultez les codes défaut à la valise.",
+    },
+    {
+      question: "Comment commander un calculateur de boîte EDC Renault ?",
+      answer: "➡ Commandez ici : La Boîte Automatique",
     },
   ];
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold text-center mb-8">Frequently Asked Questions</h1>
+      <h1 className="text-4xl font-bold text-center mb-8">
+        Frequently Asked Questions
+      </h1>
       <div className="space-y-4">
         {faqData.map((faq, index) => (
           <div key={index} className="border rounded-lg shadow-sm">
@@ -50,7 +81,7 @@ const FAQ = () => {
               className="p-4 flex justify-between items-center cursor-pointer bg-gray-50 hover:bg-gray-100 transition duration-300"
               onClick={() => toggleAccordion(index)}
             >
-              <h3 className="text-lg font-semibold text-gray-800">
+              <h3 className="text-[18px] font-semibold text-gray-800">
                 {faq.question}
               </h3>
               <span className="text-gray-600">
@@ -61,7 +92,9 @@ const FAQ = () => {
             {/* FAQ Answer */}
             {activeIndex === index && (
               <div className="p-4 border-t bg-white">
-                <p className="text-gray-600">{faq.answer}</p>
+                <p className="text-[17px] font-[500] text-gray-800">
+                  {faq.answer}
+                </p>
               </div>
             )}
           </div>

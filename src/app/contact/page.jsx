@@ -42,18 +42,19 @@ const ContactPage = () => {
           </p>
           <div className="space-y-4">
             <div>
-              <h3 className="text-lg font-semibold text-gray-800">Address</h3>
+              <h3 className="text-lg font-semibold text-gray-800">Adress</h3>
+              <p className="text-gray-600">DSG7.FR</p>
               <p className="text-gray-600">
-                123 Car Parts Street, Dhaka, Bangladesh
+                110 rue de Fontenay 94300, Vincennes
               </p>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-gray-800">Phone</h3>
-              <p className="text-gray-600">+880 1234 567890</p>
+              <p className="text-gray-600">0757831203</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-gray-800">Email</h3>
-              <p className="text-gray-600">info@dsg7.com</p>
+              <p className="text-gray-600">contact@dsg7.fr</p>
             </div>
           </div>
         </div>

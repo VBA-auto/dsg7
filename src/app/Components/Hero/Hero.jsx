@@ -15,75 +15,74 @@ const Hero = () => {
             <div className="">
               <div className="">
                 {/* Bold Title */}
-                <h1 className="text-5xl md:text-6xl font-bold">DSG7</h1>
-
-                {/* Paragraph */}
-                <h3 className="text-[17px] font-[500] mb-3">
-                  Spécialiste double embrayage DSG et DC4: Vente mécatronique et
-                  calculateur. Possibilité de porgrammation
-                </h3>
+                <h1 className="text-5xl font-bold">
+                  Spécialiste boite automatique 
+                </h1>
+                <h1 className="text-4xl mb-4 font-bold">
+                Renault et DSG 
+                </h1>
               </div>
             </div>
             <div className="flex gap-2 mb-8">
-            <div className="grid grid-cols-2 gap-5 md:grid-cols-3 ">
-                    {[
-                      {
-                        href: "/captur",
-                        src: "/images/calculators.png",
-                        alt: "Renault Captur",
-                        label: "Renault DC4",
-                      },
+              <div className="grid grid-cols-2 gap-5 md:grid-cols-3 ">
+                {[
+                  {
+                    href: "/captur",
+                    src: "/images/calculators.png",
+                    alt: "Renault Captur",
+                    label: "Renault DC4",
+                  },
 
-                      {
-                        href: "/clio",
-                        src: "/images/dsg7dq200.png",
-                        alt: "Renault Clio IV",
-                        label: "DSQ7",
-                      },
-                      {
-                        href: "/megane",
-                        src: "/images/dq381.png",
-                        alt: "Renault Megane",
-                        label: "DQ381",
-                      },
-                      {
-                        href: "/scenic",
-                        src: "/images/6hp.png",
-                        alt: "Renault Scenic",
-                        label: "6HP",
-                      },
-                      {
-                        href: "/fluence",
-                        src: "/images/8hp.png",
-                        alt: "Renault Fluence",
-                        label: "8HP",
-                      },
-                      {
-                        href: "/clio-rs",
-                        src: "/images/dsg7dq200.png",
-                        alt: "Ford Focus",
-                        label: "DQ200",
-                      },
-                    ].map((car, index) => (
-                      <div key={index} className="carsCard rounded-md">
-                        <Link
-                          rel="preload"
-                          href={car.href}
-                          className="text-[17px] font-[500] text-center"
-                        >
-                          <Image
-                            width={110}
-                            height={100}
-                            src={car.src}
-                            alt={car.alt}
-                            loading="lazy"
-                            className="m-auto h-[70px] object-contain"
-                          />
-                          {car.label}
-                        </Link>
-                      </div>
-                    ))}
+                  {
+                    href: "/clio",
+                    src: "/images/dsg7dq200.png",
+                    alt: "Renault Clio IV",
+                    label: "DSQ7",
+                  },
+                  {
+                    href: "/megane",
+                    src: "/images/dq381.png",
+                    alt: "Renault Megane",
+                    label: "DQ381",
+                  },
+                  {
+                    href: "/scenic",
+                    src: "/images/6hp.png",
+                    alt: "Renault Scenic",
+                    label: "6HP",
+                  },
+                  {
+                    href: "/fluence",
+                    src: "/images/8hp.png",
+                    alt: "Renault Fluence",
+                    label: "8HP",
+                  },
+                  {
+                    href: "/clio-rs",
+                    src: "/images/dsg7dq200.png",
+                    alt: "Ford Focus",
+                    label: "DQ200",
+                  },
+                ].map((car, index) => (
+                  <div key={index} className="carsCard rounded-md">
+                    <Link
+                      rel="preload"
+                      href={car.href}
+                      className="text-[17px] font-[500] text-center"
+                    >
+                      <Image
+                        width={110}
+                        height={100}
+                        src={car.src}
+                        alt={car.alt}
+                        loading="lazy"
+                        className="m-auto h-[70px] object-contain"
+                      />
+                      {car.label}
+                    </Link>
                   </div>
+                ))}
+              </div>
             </div>
             {/* Button */}
             <BuyButton href="produits" text="Nos produits" />

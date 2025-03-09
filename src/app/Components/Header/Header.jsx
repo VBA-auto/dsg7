@@ -26,45 +26,55 @@ export default function Header() {
 
         {/* Center Navigation Links */}
         <nav className="flex space-x-12 items-center md:absolute left-1/2 transform -translate-x-1/2">
-          <Link
-            href="/"
-            className={`text-lg font-[500] uppercase tracking-wider hover:text-red-400 transition ${
-              isScrolled ? "text-[#1e1e1e]" : "text-red-400"
-            }`}
-          >
-            Accueil
+          <Link href="/" className="relative group">
+            <span
+              className={`text-lg font-[500] uppercase tracking-wider transition ${
+                isScrolled ? "text-red-500" : "text-red-500"
+              }`}
+            >
+              Accueil
+            </span>
+            <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-red-500 transition-all duration-300 group-hover:w-full" />
           </Link>
-          <Link
-            href="/produits"
-            className={`text-lg font-[500] uppercase tracking-wider hover:text-red-400 transition ${
-              isScrolled ? "text-[#1e1e1e]" : "text-red-400"
-            }`}
-          >
-            Produits
+          <Link href="/produits" className="relative group">
+            <span
+              className={`text-lg font-[500] uppercase tracking-wider transition ${
+                isScrolled ? "text-red-500" : "text-red-500"
+              }`}
+            >
+              Produits
+            </span>
+            <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-red-500 transition-all duration-300 group-hover:w-full" />
           </Link>
-          <Link
-            href="/about-us"
-            className={`text-lg font-[500] uppercase tracking-wider hover:text-red-400 transition ${
-              isScrolled ? "text-[#1e1e1e]" : "text-red-400"
-            }`}
-          >
-            About Us
+          <Link href="/about-us" className="relative group">
+            <span
+              className={`text-lg font-[500] uppercase tracking-wider transition ${
+                isScrolled ? "text-red-500" : "text-red-500"
+              }`}
+            >
+              About Us
+            </span>
+            <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-red-500 transition-all duration-300 group-hover:w-full" />
           </Link>
-          <Link
-            href="/contact"
-            className={`text-lg font-[500] uppercase tracking-wider hover:text-red-400 transition ${
-              isScrolled ? "text-[#1e1e1e]" : "text-red-400"
-            }`}
-          >
-            Contact
+          <Link href="/contact" className="relative group">
+            <span
+              className={`text-lg font-[500] uppercase tracking-wider transition ${
+                isScrolled ? "text-red-500" : "text-red-500"
+              }`}
+            >
+              Contact
+            </span>
+            <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-red-500 transition-all duration-300 group-hover:w-full" />
           </Link>
-          <Link
-            href="/faq"
-            className={`text-lg font-[500] uppercase tracking-wider hover:text-red-400 transition ${
-              isScrolled ? "text-[#1e1e1e]" : "text-red-400"
-            }`}
-          >
-            FAQ
+          <Link href="/faq" className="relative group">
+            <span
+              className={`text-lg font-[500] uppercase tracking-wider transition ${
+                isScrolled ? "text-red-500" : "text-red-500"
+              }`}
+            >
+              FAQ
+            </span>
+            <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-red-500 transition-all duration-300 group-hover:w-full" />
           </Link>
         </nav>
 
@@ -73,8 +83,8 @@ export default function Header() {
           {/* Search Icon */}
           <button
             onClick={() => setIsSearchOpen(!isSearchOpen)}
-            className={`p-2 hover:bg-gray-100 hover:text-red-400 cursor-pointer rounded-full ${
-              isScrolled ? "text-black" : "text-white"
+            className={`p-2 hover:bg-gray-100 hover:text-red-500 cursor-pointer rounded-full ${
+              isScrolled ? "text-red-500" : "text-red-500"
             }`}
           >
             <svg

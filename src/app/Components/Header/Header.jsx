@@ -20,7 +20,7 @@ export default function Header() {
         {/* Logo on the Left */}
         <div className="flex items-center">
           <Link href="/" className="">
-            <h1 className="text-[50px] text-red-500 font-extrabold">DSG7</h1>
+            <h1 className="text-[50px] text-red-500 font-extrabold">DSG7.FR</h1>
           </Link>
         </div>
 

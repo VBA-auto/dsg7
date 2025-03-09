@@ -7,8 +7,8 @@ const MainLayout = () => {
   return (
     <div>
       <Hero/>
-      <FeaturedItems/>
-      <InformativeSection/>
+      {/* <FeaturedItems/> */}
+      {/* <InformativeSection/> */}
     </div>
   );
 };

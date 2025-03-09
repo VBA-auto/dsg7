@@ -2,9 +2,10 @@
 import Link from "next/link";
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
+
 export default function Footer() {
   return (
-    <footer className="text-gray-800 py-10 mt-10">
+    <footer className="text-gray-800 mb-5">
       <div className="max-w-7xl mx-auto px-5">
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-700 pb-8">

@@ -4,9 +4,9 @@ const AboutUs = () => {
   return (
     <div className="bg-white">
       {/* Mission Statement */}
-      <div className="max-w-7xl mx-auto px-4 py-12">
+      <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="mb-24">
-          <h2 className="text-4xl text-center font-bold text-gray-800 mb-4">
+          <h2 className="text-5xl font-bold text-center mb-8">
             Qui sommes-nous ?
           </h2>
 

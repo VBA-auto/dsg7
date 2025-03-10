@@ -21,14 +21,13 @@ export default async function ShopPage() {
   return (
     <div className="max-w-7xl mx-auto py-8">
       <h1 className="text-5xl font-bold text-center mb-8">
-        Our Premium Collection
+        Retrouvez nous produits
       </h1>
 
       <div className="text-center mb-8">
         <p className="text-gray-600 max-w-2xl mx-auto">
-          Discover our handpicked collection of premium products. Each item is
-          carefully selected to ensure the highest quality and style for our
-          valued customers.
+          Ci-dessous l’ensemble de nos produits détaillés & garantie
+          constructeur
         </p>
       </div>
 

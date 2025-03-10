@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-700 pb-8">
           {/* Logo & About */}
           <div>
-            <h2 className="text-2xl font-bold mb-3">DSG7</h2>
+            <h2 className="text-2xl font-bold mb-3">DSG7.FR</h2>
             <p className="text-gray-800 text-sm">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             </p>

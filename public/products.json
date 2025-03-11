@@ -11,6 +11,7 @@
     "orderLink": "#",
     "url": "DSG7(DQ200)",
     "id": 1,
+    "status": "single",
     "description": "Mécatronique DSG7 (DQ200) monté principalement sur véhicules du groupe Volkswagen. Pièce d'origine avec plusieurs références disponibles. Compatible avec divers modèles de 2010 à 2018. Programmation et reprogrammation possibles sur demande."
   },
   {
@@ -21,13 +22,19 @@
     "orderLink": "#",
     "url": "DSG7(DQ381)",
     "id": 2,
+    "status": "single",
     "description": "Mécatronique DSG7 DQ-381, monté sur les nouvelles Golf. Double embrayage mouillé, pièce d'origine avec plusieurs références disponibles. Compatible avec divers modèles de 2015 à 2023. Programmation et reprogrammation possibles sur demande."
   },
   {
     "image": [
-      "/images/calculateurs.jpeg",
-      "/images/calculateurs.jpeg",
-      "/images/calculateurs.jpeg"
+      "/images/cal-normal-3.webp",
+      "/images/cal-normal-1.webp",
+      "/images/cal-normal-2.webp",
+      "/images/cal-normal-0.webp",
+      "/images/cal-normal-4.webp",
+      "/images/cal-normal-5.webp",
+      "/images/cal-normal-6.webp",
+      "/images/cal-normal-7.webp"
     ],
     "title": "Renault Captur (DC4)",
     "paragraph": "Calculateur pour Renault Captur 1.5 Diesel et 1.2 Essence.",
@@ -35,13 +42,20 @@
     "orderLink": "#",
     "url": "Captur(DC4)",
     "id": 5,
-    "description": "<div> <p>Calculateur pour Renault Captur 1.5 diesel et 1.2 essence, boîte automatique double embrayage DC4 Getrag 6DCT250 Continental. Pièce d'origine Compatible avec divers modèles de Captur de 2010 à 2018. Programmation et clonage possibles <a class='text-[#2C80EF]' href='https://laboiteautomatique.com/captur'>https://laboiteautomatique.com/captur</a>.</p> </div>"
+    "status": "double",
+    "product": "Captur",
+    "description": "<div> <p>Vérifiez la disponibilté de votre module (boite de vitesse à contrôler) pour votre boite automatique EDC Renault Captur. Celui-ci peut être livré vierge ou directement programmé (Plug & Play). L’installation est possible en fonction de votre lieu géographique. Choisissez votre modèle pour Renault Captur: Essence ou Diesel. N’hésitez pas à nous contacter si vous souhaitez être absolument certain que cette pièce est bien à l’origine du problème. Pour plus d'informations, vous pouvez consulter notre aide en ligne.</p> </div>"
   },
   {
     "image": [
-      "/images/calculateurs.jpeg",
-      "/images/calculateurs.jpeg",
-      "/images/calculateurs.jpeg"
+      "/images/cal-normal-3.webp",
+      "/images/cal-normal-1.webp",
+      "/images/cal-normal-2.webp",
+      "/images/cal-normal-0.webp",
+      "/images/cal-normal-4.webp",
+      "/images/cal-normal-5.webp",
+      "/images/cal-normal-6.webp",
+      "/images/cal-normal-7.webp"
     ],
     "title": "Renault Clio (DC4)",
     "paragraph": "Calculateur Renault pour Clio 1.5 Diesel ou Clio 1.2 Essence et 1.6.",
@@ -49,27 +63,41 @@
     "orderLink": "#",
     "url": "clio(DC4)",
     "id": 6,
-    "description": "<div> <p>Calculateur pour Renault Clio 1.5 diesel et 1.2 essence, boîte automatique double embrayage DC4 Getrag 6DCT250 Continental. Pièce d'origine Renault avec plusieurs références disponibles. Compatible avec Clio, Clio RS, et Clio GT de 2010 à 2018 <a class='text-[#2C80EF]' href='https://laboiteautomatique.com/clio'>https://laboiteautomatique.com/clio</a>.</p> </div>"
+    "product": "Clio",
+    "status": "double",
+    "description": "<div> <p>Vérifiez la disponibilté de votre module (boite de vitesse à contrôler) pour votre boite automatique EDC Renault Clio 4. Celui-ci peut être livré vierge ou directement programmé (Plug & Play). L’installation est possible en fonction de votre lieu géographique. Choisissez votre modèle pour Renault Clio 4: Essence ou Diesel. N’hésitez pas à nous contacter si vous souhaitez être absolument certain que cette pièce est bien à l’origine du problème. Pour plus d'informations, vous pouvez consulter notre aide en ligne.</p> </div>"
   },
   {
     "image": [
-      "/images/calculateurs.jpeg",
-      "/images/calculateurs.jpeg",
-      "/images/calculateurs.jpeg"
+      "/images/cal-normal-3.webp",
+      "/images/cal-normal-1.webp",
+      "/images/cal-normal-2.webp",
+      "/images/cal-normal-0.webp",
+      "/images/cal-normal-4.webp",
+      "/images/cal-normal-5.webp",
+      "/images/cal-normal-6.webp",
+      "/images/cal-normal-7.webp"
     ],
     "title": "Renault Clio RS (DC4)",
     "paragraph": "Calculateur Renault pour Clio 1.5 Diesel ou Clio 1.2 Essence et 1.6.",
     "price": "700",
     "orderLink": "#",
-    "url": "clio(DC4)",
+    "url": "clioRS(DC4)",
     "id": 3,
-    "description": "<div> <p>Calculateur pour Renault Clio 1.5 diesel et 1.2 essence, boîte automatique double embrayage DC4 Getrag 6DCT250 Continental. Pièce d'origine Renault avec plusieurs références disponibles. Compatible avec Clio, Clio RS, et Clio GT de 2010 à 2018 <a class='text-[#2C80EF]' href='https://laboiteautomatique.com/clio'>https://laboiteautomatique.com/clio</a>.</p> </div>"
+    "status": "double",
+    "product": "Clio RS",
+    "description": "<div> <p>Vérifiez la disponibilté de votre module (boite de vitesse à contrôler) pour votre boite automatique EDC Renault Clio RS. Celui-ci peut être livré vierge ou directement programmé (Plug & Play). L’installation est possible en fonction de votre lieu géographique. Il n’existe qu’un modèle pour Renault Clio 4 RS: Essence (1.6). N’hésitez pas à nous contacter si vous souhaitez être absolument certain que cette pièce est bien à l’origine du problème. Pour plus d'informations, vous pouvez consulter notre aide en ligne.</p> </div>"
   },
   {
     "image": [
-      "/images/calculateurs.jpeg",
-      "/images/calculateurs.jpeg",
-      "/images/calculateurs.jpeg"
+      "/images/cal-normal-3.webp",
+      "/images/cal-normal-1.webp",
+      "/images/cal-normal-2.webp",
+      "/images/cal-normal-0.webp",
+      "/images/cal-normal-4.webp",
+      "/images/cal-normal-5.webp",
+      "/images/cal-normal-6.webp",
+      "/images/cal-normal-7.webp"
     ],
     "title": "Renault Megane (DC4)",
     "paragraph": "Calculateur Renault pour Mégane 1.5 Diesel entre 2008 et 2013.",
@@ -77,13 +105,20 @@
     "orderLink": "#",
     "url": "Megane(DC4)",
     "id": 7,
-    "description": "<div> <p>Calculateur pour Renault Megane 1.5 diesel, boîte automatique DC4 Getrag 6DCT250 Continental. Pièce d'origine Renault avec références K00, K01, K03, A2C30743000, A2C53374830. Compatible avec Megane de 2010 à 2018 <a class='text-[#2C80EF]' href='https://laboiteautomatique.com/megane'>https://laboiteautomatique.com/megane</a>.</p> </div>"
+    "status": "double",
+    "product": "Megane",
+    "description": "<div> <p>Vérifiez la disponibilté de votre module (boite de vitesse à contrôler) pour votre boite automatique EDC Renault Mégane 3. Celui-ci peut être livré vierge ou directement programmé (Plug & Play). L’installation est possible en fonction de votre lieu géographique. Choisissez votre modèle pour Renault Mégane 3: Essence ou Diesel. N’hésitez pas à nous contacter si vous souhaitez être absolument certain que cette pièce est bien à l’origine du problème. Pour plus d'informations, vous pouvez consulter notre aide en ligne.</p> </div>"
   },
   {
     "image": [
-      "/images/calculateurs.jpeg",
-      "/images/calculateurs.jpeg",
-      "/images/calculateurs.jpeg"
+      "/images/cal-normal-3.webp",
+      "/images/cal-normal-1.webp",
+      "/images/cal-normal-2.webp",
+      "/images/cal-normal-0.webp",
+      "/images/cal-normal-4.webp",
+      "/images/cal-normal-5.webp",
+      "/images/cal-normal-6.webp",
+      "/images/cal-normal-7.webp"
     ],
     "title": "Renault Scénic (DC4)",
     "paragraph": "Calculateur Renault pour Scénic 1.5 Diesel entre 2008 et 2013.",
@@ -91,7 +126,9 @@
     "orderLink": "#",
     "url": "Scenic(DC4)",
     "id": 8,
-    "description": "<div> <p>Calculateur pour Renault Scénic 1.5 diesel, boîte automatique DC4 Getrag 6DCT250 Continental. Pièce d'origine Renault avec plusieurs références disponibles. Compatible avec Scénic de 2010 à 2018. Programmation et clonage possibles sur demande <a class='text-[#2C80EF]' href='https://laboiteautomatique.com/scenic'>https://laboiteautomatique.com/scenic</a>.</p> </div>"
+    "status": "double",
+    "product": "Scenic",
+    "description": "<div> <p>Vérifiez la disponibilté de votre module (boite de vitesse à contrôler) pour votre boite automatique EDC Renault Scénic 3. Celui-ci peut être livré vierge ou directement programmé (Plug & Play). L’installation est possible en fonction de votre lieu géographique. Il n’existe qu’un modèle pour Renault Scénic 3: Diesel. N’hésitez pas à nous contacter si vous souhaitez être absolument certain que cette pièce est bien à l’origine du problème. Pour plus d'informations, vous pouvez consulter notre aide en ligne.</p> </div>"
   },
   {
     "image": [
@@ -105,6 +142,7 @@
     "orderLink": "#",
     "url": "DSG7(DQ200)",
     "id": 9,
+    "status": "single",
     "description": "<div> <p>Calculateur pour DSG 7, monté sur Audi A1, Golf, Polo et autres modèles du groupe Volkswagen, également appelé DQ 200. Pièce d'origine Volkswagen avec plusieurs références disponibles. Compatible avec divers modèles de 2010 à 2018 <a class='text-[#2C80EF]' href='https://laboiteautomatique.com/contact'>https://laboiteautomatique.com/contact</a>.</p> </div>"
   },
   {
@@ -115,6 +153,7 @@
     "orderLink": "#",
     "url": "DW5(7DCT300)",
     "id": 10,
+    "status": "single",
     "description": "<div> <p>Calculateur DW5 (7DCT300), monté principalement sur les nouveaux Renault tels que le Renault Kadjar et Megane 4. Pièce d'origine Renault avec plusieurs références disponibles. Compatible avec divers modèles de Kadjar de 2015 à 2021 <a class='text-[#2C80EF]' href='https://laboiteautomatique.com/contact'>https://laboiteautomatique.com/contact</a>.</p> </div>"
   }
 ]

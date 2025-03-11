@@ -1,11 +1,12 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 :root {
   --background: #fff;
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #fff;
     --foreground: #171717;
@@ -47,4 +48,22 @@ li {
 }
 .carsCard:hover {
   box-shadow: 0 3px 5px #cecece;
+}
+.thumbnail-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between buttons and thumbnails */
+}
+.thumbnails {
+  display: flex;
+  overflow: hidden; /* Prevent overflow */
+  flex-grow: 1; /* Allow thumbnails to take available space */
+}
+
+.thumbnails img {
+  transition: transform 0.3s ease;
+  border: 1px solid #cfcfcf; /* Smooth transition for thumbnail images */
+}
+.prices {
+  font-family: monospace;
 }

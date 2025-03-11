@@ -28,7 +28,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
+    <div className="max-w-7xl mx-auto px-4 py-12">
       <h1 className="text-5xl font-bold text-center mb-8">Contact Us</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
         {/* Left Side: Content */}
@@ -36,25 +36,25 @@ const ContactPage = () => {
           <h2 className="text-2xl font-bold text-gray-800">
             Get in Touch with DSG7
           </h2>
-          <p className="text-gray-600">
+          <h4 className="text-gray-900 text-[18px] font-[500]">
             Have questions or need assistance? We're here to help! Reach out to
             us, and our team will get back to you as soon as possible.
-          </p>
+          </h4>
           <div className="space-y-4">
             <div>
               <h3 className="text-lg font-semibold text-gray-800">Adress</h3>
-              <p className="text-gray-600">DSG7.FR</p>
-              <p className="text-gray-600">
+              <p className="text-gray-900">DSG7.FR</p>
+              <p className="text-gray-900">
                 110 rue de Fontenay 94300, Vincennes
               </p>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-gray-800">Phone</h3>
-              <p className="text-gray-600">0757831203</p>
+              <p className="text-gray-900">0757831203</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-gray-800">Email</h3>
-              <p className="text-gray-600">contact@dsg7.fr</p>
+              <p className="text-gray-900">contact@dsg7.fr</p>
             </div>
           </div>
         </div>
@@ -69,9 +69,9 @@ const ContactPage = () => {
             <div>
               <label
                 htmlFor="name"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-[16px] font-medium text-gray-700"
               >
-                Name
+                Nom / Prénom *
               </label>
               <input
                 type="text"
@@ -88,9 +88,9 @@ const ContactPage = () => {
             <div>
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-[16px] font-medium text-gray-700"
               >
-                Email
+                E-mail*
               </label>
               <input
                 type="email"
@@ -107,9 +107,9 @@ const ContactPage = () => {
             <div>
               <label
                 htmlFor="phone"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-[16px] font-medium text-gray-700"
               >
-                Phone
+                Téléphone*
               </label>
               <input
                 type="tel"
@@ -126,7 +126,7 @@ const ContactPage = () => {
             <div>
               <label
                 htmlFor="message"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-[16px] font-medium text-gray-700"
               >
                 Message
               </label>

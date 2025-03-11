@@ -4,7 +4,7 @@ import Image from "next/image";
 
 async function fetchProducts() {
   try {
-    const res = await fetch("https://dsg7.vercel.app/products.json", {
+    const res = await fetch("http://localhost:3000/products.json", {
       cache: "force-cache",
     });
     const products = await res.json();
@@ -42,7 +42,7 @@ export default async function ShopPage() {
                 <Image
                   width={700}
                   height={600}
-                  src={product.image}
+                  src={product.image[0]}
                   alt={product.title}
                   className="w-full border h-[240px]  mx-auto hover:opacity-80 transition-opacity duration-300"
                 />

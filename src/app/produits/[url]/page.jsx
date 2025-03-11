@@ -1,10 +1,9 @@
 // app/shop/[id]/page.jsx
 import DefaultSingle from "@/app/Components/Single Pages/DefaultSingle";
-import Image from "next/image";
 
 async function fetchProduct(url) {
   try {
-    const res = await fetch("https://dsg7.vercel.app/products.json", {
+    const res = await fetch("http://localhost:3000/products.json", {
       cache: "force-cache",
     });
     const products = await res.json();

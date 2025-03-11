@@ -3,7 +3,7 @@ import DefaultSingle from "@/app/Components/Single Pages/DefaultSingle";
 
 async function fetchProduct(url) {
   try {
-    const res = await fetch("http://localhost:3000/products.json", {
+    const res = await fetch("https://dsg7.vercel.app/products.json", {
       cache: "force-cache",
     });
     const products = await res.json();

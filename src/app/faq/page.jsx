@@ -15,12 +15,12 @@ const FAQ = () => {
     {
       question: "Qu’est-ce qu’une boîte S-Tronic ou DSG7 ?",
       answer:
-        "La boîte DSG7 (DQ200), aussi appelée S-Tronic chez Audi, est une transmission à double embrayage et 7 rapports utilisée sur les véhicules du groupe Volkswagen (VW, Audi, Seat, Skoda). Elle combine la réactivité d'une boîte manuelle et le confort d’une boîte automatique, mais nécessite un entretien rigoureux pour éviter les pannes.",
+        "<div><p>La boîte <strong>DSG7 (DQ200)</strong>, aussi appelée <strong>S-Tronic</strong> chez Audi, est une transmission à <strong>double embrayage</strong> et <strong>7 rapports</strong> utilisée sur les véhicules du groupe Volkswagen (VW, Audi, Seat, Skoda).</p><p>Elle est composée de :</p><ul class='list-disc ms-5'><li>Un <strong>calculateur (module de commande)</strong> électro-hydraulique qui gère l'embrayage et les rapports de vitesse.</li><li>Deux <strong>embrayages à sec</strong>, permettant des passages de vitesses rapides et fluides.</li></ul><p>Elle combine la réactivité d'une boîte manuelle et le confort d’une boîte automatique, mais nécessite un entretien rigoureux pour éviter les pannes.</p></div>",
     },
     {
       question: "Doit-on vidanger sa boîte auto ?",
       answer:
-        "Oui, la vidange est essentielle pour préserver les performances et éviter une usure prématurée des composants. Pour les boîtes à double embrayage à bain d’huile (DSG6 DQ250, DQ381, 0B5 S-Tronic), la vidange est recommandée tous les 60 000 km.",
+        "<div><p>La boîte <strong>DSG7 (DQ200)</strong>, aussi appelée <strong>S-Tronic</strong> chez Audi, est une transmission à <strong>double embrayage</strong> et <strong>7 rapports</strong> utilisée sur les véhicules du groupe Volkswagen (VW, Audi, Seat, Skoda).</p><p>Elle est composée de :</p><ul class='list-disc ms-5'><li>Un <strong>calculateur (module de commande)</strong> électro-hydraulique qui gère l'embrayage et les rapports de vitesse.</li><li>Deux <strong>embrayages à sec</strong>, permettant des passages de vitesses rapides et fluides.</li></ul><p>Elle combine la réactivité d'une boîte manuelle et le confort d’une boîte automatique, mais nécessite un entretien rigoureux pour éviter les pannes.</p></div>",
     },
     {
       question:
@@ -92,9 +92,10 @@ const FAQ = () => {
             {/* FAQ Answer */}
             {activeIndex === index && (
               <div className="p-4 border-t bg-white">
-                <p className="text-[17px] font-[500] text-gray-800">
-                  {faq.answer}
-                </p>
+                <p
+                  className="text-[17px] font-[500] text-gray-800"
+                  dangerouslySetInnerHTML={{ __html: faq.answer }}
+                />
               </div>
             )}
           </div>

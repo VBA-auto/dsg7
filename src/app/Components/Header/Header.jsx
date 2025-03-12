@@ -16,7 +16,7 @@ export default function Header() {
         isScrolled ? "bg-white shadow-md" : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto py-2 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto py-1 flex items-center justify-between">
         {/* Logo on the Left */}
         <div className="flex items-center">
           <Link href="/" className="">

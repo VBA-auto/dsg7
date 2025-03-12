@@ -82,7 +82,6 @@ const SearchOverlay = ({ isOpen, onClose }) => {
                   <Link
                     key={product.id}
                     href={`/produits/${product.url}`}
-                    
                     onClick={() => {
                       onClose();
                       setSearchTerm("");
@@ -91,7 +90,7 @@ const SearchOverlay = ({ isOpen, onClose }) => {
                   >
                     <div className="relative aspect-square">
                       <Image
-                        src={product.image}
+                        src={product.image[0]}
                         alt={product.title}
                         width={400}
                         height={400}

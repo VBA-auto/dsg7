@@ -7,13 +7,14 @@ import ClioModalButtons from "./All Modal/Clio/ClioModalButtons";
 import ClioRSModalButtons from "./All Modal/Clio RS/ClioRsModalButtons";
 import MeganeModalButtons from "./All Modal/Megane/MeganeModalButtons";
 import ScenicModalButtons from "./All Modal/Scenic/ScenicModalButtons";
+import RecommendedProducts from "./References";
 
 const DefaultSingle = ({ product }) => {
   console.log(product);
   const imageSlide = product?.image;
   return (
     <div>
-      <div className="max-w-7xl mx-auto mt-8 mb-96">
+      <div className="max-w-7xl mx-auto mt-8 mb-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="w-2/3 ms-auto">
             <ResponsiveSlider images={imageSlide} />
@@ -23,14 +24,18 @@ const DefaultSingle = ({ product }) => {
           {/* Product Details */}
           <div>
             <h1 className="text-2xl font-bold mt-2">{product?.title}</h1>
-            <p className="text-gray-700 text-[20px] font-[600] mt-2">
-              {product?.description}
-            </p>
+            <h3 className="text-[18px] text-gray-700 font-bold mt-2">
+              {product?.paragraph}
+            </h3>
+            <h4
+              className="text-[19px] mt-2 font-[500] text-gray-800"
+              dangerouslySetInnerHTML={{ __html: product?.description }}
+            />
 
             {/* Price */}
-            <p className="text-2xl font-semibold text-blue-500 mt-4">
-              {product?.price}
-            </p>
+            <h5 className="text-[18px] font-semibold text-blue-500 mt-4">
+              {product?.price}€
+            </h5>
             {product?.status === "single" && (
               <div className="mt-5">
                 <Link
@@ -58,6 +63,9 @@ const DefaultSingle = ({ product }) => {
               <ScenicModalButtons />
             )}
           </div>
+        </div>
+        <div className="mt-16">
+          <RecommendedProducts />
         </div>
       </div>
     </div>

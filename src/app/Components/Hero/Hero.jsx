@@ -5,6 +5,7 @@ import { FaShippingFast, FaHeadset, FaWhatsapp } from "react-icons/fa"; // Impor
 import { TbRestore } from "react-icons/tb";
 import { AiFillSafetyCertificate } from "react-icons/ai";
 import Link from "next/link";
+import ReviewSlider from "../Review";
 
 const Hero = () => {
   return (
@@ -16,11 +17,9 @@ const Hero = () => {
               <div className="">
                 {/* Bold Title */}
                 <h1 className="text-5xl font-bold">
-                  Spécialiste boite automatique 
+                  Spécialiste boite automatique
                 </h1>
-                <h1 className="text-4xl mb-4 font-bold">
-                Renault et DSG 
-                </h1>
+                <h1 className="text-4xl mb-4 font-bold">Renault et DSG</h1>
               </div>
             </div>
             <div className="flex gap-2 mb-8">
@@ -139,6 +138,9 @@ const Hero = () => {
             <h4 className="font-semibold">Garantie</h4>
             <p className="text-sm">Garantie satidfait ou remboursé</p>
           </div>
+        </div>
+        <div className="my-16">
+          <ReviewSlider />
         </div>
       </div>
     </div>

@@ -76,6 +76,18 @@ export default function Footer() {
                 <FaYoutube size={20} />
               </a>
             </div>
+            <div className="mt-3">
+              <p className="underline">
+                <Link href="/politique-de-cookies">
+                  Politique de cookies (UE)
+                </Link>
+              </p>
+            </div>
+            <div className="mt-1">
+              <p className="underline">
+                <Link href="/mentions-legales">Mentions légales</Link>
+              </p>
+            </div>
           </div>
         </div>
 

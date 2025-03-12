@@ -27,8 +27,8 @@ const DefaultSingle = ({ product }) => {
             <h3 className="text-[18px] text-gray-700 font-bold mt-2">
               {product?.paragraph}
             </h3>
-            <h4
-              className="text-[19px] mt-2 font-[500] text-gray-800"
+            <p
+              className=" mt-2 font-[500] text-gray-800"
               dangerouslySetInnerHTML={{ __html: product?.description }}
             />
 

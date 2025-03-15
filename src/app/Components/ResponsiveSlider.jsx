@@ -8,7 +8,7 @@ const ResponsiveSlider = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [thumbnailStartIndex, setThumbnailStartIndex] = useState(0);
   const thumbnailsToShow = Math.min(3, images.length);
-  const [thumbnailWidth, setThumbnailWidth] = useState(70);
+  const [thumbnailWidth, setThumbnailWidth] = useState(90);
 
   const handleThumbnailClick = (index) => {
     setCurrentIndex(index); // Update main image to match the thumbnail clicked
@@ -19,18 +19,29 @@ const ResponsiveSlider = ({ images }) => {
       const newIndex = (prevIndex + direction + images.length) % images.length;
 
       // Update thumbnailStartIndex based on the direction and new index
-      const newStartIndex = Math.min(
-        Math.max(newIndex - (thumbnailsToShow - 1), 0),
-        images.length - thumbnailsToShow
-      );
+      let newStartIndex = thumbnailStartIndex;
+      if (
+        direction === 1 &&
+        newIndex >= thumbnailStartIndex + thumbnailsToShow
+      ) {
+        newStartIndex = newIndex - (thumbnailsToShow - 1);
+      } else if (direction === -1 && newIndex < thumbnailStartIndex) {
+        newStartIndex = newIndex;
+      }
+
+      // Ensure the last thumbnail stays at the end
+      if (newStartIndex > images.length - thumbnailsToShow) {
+        newStartIndex = images.length - thumbnailsToShow;
+      }
 
       setThumbnailStartIndex(newStartIndex); // Update thumbnail start index
       return newIndex;
     });
   };
+
   useEffect(() => {
     const handleResize = () => {
-      setThumbnailWidth(window.innerWidth < 768 ? 80 : 70);
+      setThumbnailWidth(window.innerWidth < 768 ? 180 : 70);
     };
 
     // Set initial width
@@ -59,7 +70,7 @@ const ResponsiveSlider = ({ images }) => {
       </div>
 
       {/* Thumbnails Controls */}
-      <div className="thumbnail-controls mt-5 flex items-center justify-center">
+      <div className="thumbnail-controls mt-5 flex items-center justify-center me-8">
         {/* Left Button */}
         <button
           onClick={() => slideThumbnails(-1)}
@@ -70,12 +81,7 @@ const ResponsiveSlider = ({ images }) => {
         </button>
 
         {/* Thumbnails Container */}
-        <div
-          className="thumbnails flex overflow-hidden "
-          style={{
-            width: `${thumbnailsToShow * 0}px`,
-          }}
-        >
+        <div className="thumbnails w-1/2 flex overflow-hidden ">
           <div
             className="h-[51px] w-[55px] flex"
             style={{
@@ -83,6 +89,7 @@ const ResponsiveSlider = ({ images }) => {
               transform: `translateX(-${
                 thumbnailStartIndex * thumbnailWidth
               }px)`,
+              width: `${images.length * thumbnailWidth}px`, // Ensure the container width fits all thumbnails
             }}
           >
             {images.map((image, index) => (

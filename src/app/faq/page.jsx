@@ -82,13 +82,13 @@ const FAQ = () => {
       </h1>
       <div className="space-y-4">
         {faqData.map((faq, index) => (
-          <div key={index} className="border rounded-lg shadow-sm">
+          <div key={index} className="border rounded-md  shadow-sm">
             {/* FAQ Header */}
             <div
-              className="p-4 flex justify-between items-center cursor-pointer bg-gray-50 hover:bg-gray-100 transition duration-300"
+              className="p-4 flex justify-between items-center cursor-pointer rounded-md hover:bg-gray-100 transition duration-300"
               onClick={() => toggleAccordion(index)}
             >
-              <h3 className="text-[18px] font-semibold text-gray-800">
+              <h3 className="text-[18px] font-semibold text-red-500">
                 {faq.question}
               </h3>
               <span className="text-gray-600">

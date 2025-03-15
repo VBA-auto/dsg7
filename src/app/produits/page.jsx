@@ -46,14 +46,15 @@ export default async function ShopPage() {
                   alt={product.title}
                   className="w-full border h-[240px]  mx-auto hover:opacity-80 transition-opacity duration-300"
                 />
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/30 bg-opacity-50">
-                  <span className="text-white text-lg font-semibold">
-                    See Details
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50 bg-opacity-50">
+                  <span className="text-white text-center text-lg font-semibold">
+                    <h3 className="text-lg font-semibold">{product.title}</h3>
+                    <p className="text-white mb-5">${product.price}</p>
                   </span>
                 </div>
               </div>
             </Link>
-            <div className="p-4 border-t border-gray-300">
+            <div className="p-4 border-t text-center border-gray-300">
               <h3 className="text-lg font-semibold">{product.title}</h3>
               <p className="text-gray-700 mb-5">${product.price}</p>
               <Link

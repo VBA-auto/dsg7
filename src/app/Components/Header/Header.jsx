@@ -1,7 +1,6 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import BuyButton from "../Buttons/BuyButton";
 import useScrollHeader from "./useScrollHeader";
 import SearchOverlay from "./SearchOverlay";
@@ -9,6 +8,32 @@ import SearchOverlay from "./SearchOverlay";
 export default function Header() {
   const isScrolled = useScrollHeader(); // Using the custom hook
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  // Ref for the mobile menu
+  const mobileMenuRef = useRef(null);
+
+  // Function to close the mobile menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        mobileMenuRef.current &&
+        !mobileMenuRef.current.contains(event.target)
+      ) {
+        setIsMobileMenuOpen(false);
+      }
+    };
+
+    // Add event listener when the mobile menu is open
+    if (isMobileMenuOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+
+    // Cleanup the event listener
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isMobileMenuOpen]);
 
   return (
     <header
@@ -16,16 +41,18 @@ export default function Header() {
         isScrolled ? "bg-white shadow-md" : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto py-1 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1 flex items-center justify-between">
         {/* Logo on the Left */}
         <div className="flex items-center">
           <Link href="/" className="">
-            <h1 className="text-[50px] text-red-500 font-extrabold">DSG7.FR</h1>
+            <h1 className="text-4xl sm:text-[50px] text-red-500 font-extrabold">
+              DSG7.FR
+            </h1>
           </Link>
         </div>
 
         {/* Center Navigation Links */}
-        <nav className="flex space-x-12 items-center md:absolute left-1/2 transform -translate-x-1/2">
+        <nav className="hidden md:flex space-x-12 items-center md:absolute left-1/2 transform -translate-x-1/2">
           <Link href="/" className="relative group">
             <span
               className={`text-lg font-[500] uppercase tracking-wider transition ${
@@ -105,14 +132,11 @@ export default function Header() {
 
           {/* Call to Action Button */}
           <BuyButton text="Aide en ligne" />
-        </div>
 
-        {/* Mobile Menu (Visible on Small Screens) */}
-        <div className="md:hidden">
+          {/* Mobile Menu Button */}
           <button
-            className={`hover:text-[#6B8375] focus:outline-none ${
-              isScrolled ? "text-gray-600" : "text-white"
-            }`}
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className="md:hidden p-2 hover:bg-gray-100 hover:text-red-500 cursor-pointer rounded-full"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -131,6 +155,42 @@ export default function Header() {
           </button>
         </div>
       </div>
+
+      {/* Mobile Menu (Visible on Small Screens) */}
+      {isMobileMenuOpen && (
+        <div
+          ref={mobileMenuRef}
+          className="md:hidden bg-white shadow-md absolute w-full z-50"
+        >
+          <nav className="flex flex-col space-y-4 p-4">
+            <Link href="/" className="relative group">
+              <span className="text-lg font-[500] uppercase tracking-wider text-red-500">
+                Accueil
+              </span>
+            </Link>
+            <Link href="/produits" className="relative group">
+              <span className="text-lg font-[500] uppercase tracking-wider text-red-500">
+                Produits
+              </span>
+            </Link>
+            <Link href="/about-us" className="relative group">
+              <span className="text-lg font-[500] uppercase tracking-wider text-red-500">
+                Qui sommes nous ?
+              </span>
+            </Link>
+            <Link href="/contact" className="relative group">
+              <span className="text-lg font-[500] uppercase tracking-wider text-red-500">
+                Contact
+              </span>
+            </Link>
+            <Link href="/faq" className="relative group">
+              <span className="text-lg font-[500] uppercase tracking-wider text-red-500">
+                FAQ
+              </span>
+            </Link>
+          </nav>
+        </div>
+      )}
 
       <SearchOverlay
         isOpen={isSearchOpen}

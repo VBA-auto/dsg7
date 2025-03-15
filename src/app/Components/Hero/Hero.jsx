@@ -110,7 +110,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="mt-20 flex justify-around gap-10">
+        <div className="mt-20 md:flex justify-around gap-10">
           {/* Card 1: Fast Delivery */}
           <div className=" text-black  p-4 rounded-lg text-center">
             <FaShippingFast className="text-3xl mx-auto mb-2" />

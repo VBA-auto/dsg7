@@ -5,8 +5,8 @@ import InformativeSection from "./Components/Featured/InfoSection";
 
 const MainLayout = () => {
   return (
-    <div>
-      <Hero/>
+    <div className="">
+      <Hero />
       {/* <FeaturedItems/> */}
       {/* <InformativeSection/> */}
     </div>

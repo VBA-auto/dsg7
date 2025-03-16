@@ -24,65 +24,67 @@ const Hero = () => {
                 </h1>
               </div>
             </div>
-            <div className="md:flex gap-2 mb-8">
-              <div className="grid grid-cols-2 gap-5 md:grid-cols-3 ">
-                {[
-                  {
-                    href: "/captur",
-                    src: "/images/calculators.png",
-                    alt: "Renault Captur",
-                    label: "Renault DC4",
-                  },
+            <div className="">
+              <div className="md:flex md:gap-2 mb-8">
+                <div className="grid grid-cols-2 md:gap-5 md:grid-cols-3 ">
+                  {[
+                    {
+                      href: "/captur",
+                      src: "/images/calculators.png",
+                      alt: "Renault Captur",
+                      label: "Renault DC4",
+                    },
 
-                  {
-                    href: "/clio",
-                    src: "/images/dq381-1.webp",
-                    alt: "Renault Clio IV",
-                    label: "DSG7 (DQ381)",
-                  },
-                  {
-                    href: "/megane",
-                    src: "/images/dq200C.webp",
-                    alt: "Renault Megane",
-                    label: "DSG7 (DQ200)",
-                  },
-                  {
-                    href: "/scenic",
-                    src: "/images/dq200M-1.webp",
-                    alt: "Renault Scenic",
-                    label: "DSG7 (DQ200)",
-                  },
-                  {
-                    href: "/fluence",
-                    src: "/images/cal-normal-1.webp",
-                    alt: "Renault Fluence",
-                    label: "Clio (DC4)",
-                  },
-                  {
-                    href: "/clio-rs",
-                    src: "/images/plat-1.webp",
-                    alt: "Ford Focus",
-                    label: "DW5 MEGANE 4",
-                  },
-                ].map((car, index) => (
-                  <div key={index} className="carsCard rounded-md">
-                    <Link
-                      rel="preload"
-                      href={car.href}
-                      className="text-[17px] font-[500] text-center"
-                    >
-                      <Image
-                        width={110}
-                        height={100}
-                        src={car.src}
-                        alt={car.alt}
-                        loading="lazy"
-                        className="m-auto h-[70px] object-contain"
-                      />
-                      {car.label}
-                    </Link>
-                  </div>
-                ))}
+                    {
+                      href: "/clio",
+                      src: "/images/dq381-1.webp",
+                      alt: "Renault Clio IV",
+                      label: "DSG7 (DQ381)",
+                    },
+                    {
+                      href: "/megane",
+                      src: "/images/dq200C.webp",
+                      alt: "Renault Megane",
+                      label: "DSG7 (DQ200)",
+                    },
+                    {
+                      href: "/scenic",
+                      src: "/images/dq200M-1.webp",
+                      alt: "Renault Scenic",
+                      label: "DSG7 (DQ200)",
+                    },
+                    {
+                      href: "/fluence",
+                      src: "/images/cal-normal-1.webp",
+                      alt: "Renault Fluence",
+                      label: "Clio (DC4)",
+                    },
+                    {
+                      href: "/clio-rs",
+                      src: "/images/plat-1.webp",
+                      alt: "Ford Focus",
+                      label: "DW5 MEGANE 4",
+                    },
+                  ].map((car, index) => (
+                    <div key={index} className="carsCard rounded-md">
+                      <Link
+                        rel="preload"
+                        href={car.href}
+                        className="text-[17px] font-[500] text-center"
+                      >
+                        <Image
+                          width={110}
+                          height={100}
+                          src={car.src}
+                          alt={car.alt}
+                          loading="lazy"
+                          className="m-auto h-[70px] object-contain"
+                        />
+                        {car.label}
+                      </Link>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
             {/* Button */}

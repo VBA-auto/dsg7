@@ -4,13 +4,13 @@ import Image from "next/image";
 const RecommendedProducts = () => {
   // List of product reference codes
   const products = [
-    { id: "310321488R", image: "/images/calc.png" },
-    { id: "A2C30743000", image: "/images/calc.png" },
-    { id: "310320749R", image: "/images/calc.png" },
-    { id: "A2C53374830", image: "/images/calc.png" },
-    { id: "A2C30743002", image: "/images/calc.png" },
-    { id: "310320468R", image: "/images/calc.png" },
-    { id: "310321517R", image: "/images/calc.png" },
+    { id: "310321488R", image: "/images/calcu.webp" },
+    { id: "A2C30743000", image: "/images/calcu.webp" },
+    { id: "310320749R", image: "/images/calcu.webp" },
+    { id: "A2C53374830", image: "/images/calcu.webp" },
+    { id: "A2C30743002", image: "/images/calcu.webp" },
+    { id: "310320468R", image: "/images/calcu.webp" },
+    { id: "310321517R", image: "/images/calcu.webp" },
   ];
 
   return (

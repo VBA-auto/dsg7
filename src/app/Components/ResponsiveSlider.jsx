@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { FaArrowRight } from "react-icons/fa";
-import { FaArrowLeft } from "react-icons/fa";
+import { MdArrowForwardIos } from "react-icons/md";
+import { MdArrowBackIosNew } from "react-icons/md";
 
 const ResponsiveSlider = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -70,14 +70,14 @@ const ResponsiveSlider = ({ images }) => {
       </div>
 
       {/* Thumbnails Controls */}
-      <div className="thumbnail-controls mt-5 flex items-center justify-center me-8">
+      <div className="thumbnail-controls mt-5 flex items-center justify-center md:me-8">
         {/* Left Button */}
         <button
           onClick={() => slideThumbnails(-1)}
           disabled={currentIndex === 0}
           className="bg-white h-[60px] px-1 rounded-md text-red-600 disabled:opacity-50"
         >
-          <FaArrowLeft />
+          <MdArrowBackIosNew className="text-3xl font-[500]" />
         </button>
 
         {/* Thumbnails Container */}
@@ -120,7 +120,7 @@ const ResponsiveSlider = ({ images }) => {
           disabled={currentIndex === images.length - 1}
           className="bg-white h-[60px] px-1 rounded-md text-red-600 disabled:opacity-50"
         >
-          <FaArrowRight />
+          <MdArrowForwardIos className="text-3xl font-[500]" />
         </button>
       </div>
     </div>

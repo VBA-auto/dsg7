@@ -3,8 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 
 async function fetchProducts() {
+  // try {
+  //   const res = await fetch("https://dsg7.vercel.app/products.json", {
+  //     cache: "force-cache",
+  //   });
   try {
-    const res = await fetch("https://dsg7.vercel.app/products.json", {
+    const res = await fetch("http://localhost:3000/products.json", {
       cache: "force-cache",
     });
     const products = await res.json();
@@ -19,13 +23,13 @@ export default async function ShopPage() {
   const products = await fetchProducts();
 
   return (
-    <div className="max-w-7xl mx-auto py-12">
-      <h1 className="text-5xl font-bold text-center mb-2">
+    <div className="max-w-7xl mx-auto py-12 px-5 md:px-0">
+      <h1 className="text-4xl md:text-5xl font-bold text-center mb-2">
         Retrouvez nous produits
       </h1>
 
       <div className="text-center mb-8">
-        <p className="text-gray-600 max-w-2xl mx-auto">
+        <p className="text-gray-900 font-[600] max-w-2xl  mx-auto">
           Ci-dessous l'ensemble de nos produits détaillés & garantie
           constructeur
         </p>
@@ -68,22 +72,27 @@ export default async function ShopPage() {
         ))}
       </div>
 
-      <div className="mt-12 text-center text-gray-600">
+      <div className="mt-16 text-center text-gray-600 mb-8">
         <h2 className="text-2xl font-semibold mb-4">
-          Why Choose Our Products?
+          Pourquoi choisir nos produits
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
           <div>
-            <h3 className="font-medium mb-2">Premium Quality</h3>
-            <p>Guaranteed high-quality materials and craftsmanship</p>
+            <h3 className="font-medium mb-2">Garantie constructeur</h3>
+            <p>1 an de garantie étendu à 2 ans pour le neuf</p>
           </div>
           <div>
-            <h3 className="font-medium mb-2">Fast Delivery</h3>
-            <p>Quick and reliable shipping across Bangladesh</p>
+            <h3 className="font-medium mb-2">Livraison rapide</h3>
+            <p>24:00 à 48:00 pour la France</p>
           </div>
           <div>
-            <h3 className="font-medium mb-2">Customer Satisfaction</h3>
-            <p>100% satisfaction guaranteed with our products</p>
+            <h3 className="font-medium mb-2">Aide en ligne</h3>
+            <p>
+              Par telephone ou en ligne:{" "}
+              <Link href="/aide" className="text-red-500 underline">
+                Aide
+              </Link>
+            </p>
           </div>
         </div>
       </div>

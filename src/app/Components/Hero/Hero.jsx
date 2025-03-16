@@ -11,18 +11,20 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="max-w-7xl mx-auto mt-24">
-        <div className="flex gap-5 justify-baseline items-center ">
-          <div className="md:w-1/2">
+        <div className="md:flex gap-5 justify-baseline items-center ">
+          <div className="md:w-1/2 ms-4">
             <div className="">
               <div className="">
                 {/* Bold Title */}
-                <h1 className="text-5xl font-bold">
+                <h1 className="text-4xl md:text-5xl font-bold">
                   Spécialiste boite automatique
                 </h1>
-                <h1 className="text-4xl mb-4 font-bold">Renault et DSG</h1>
+                <h1 className="text-3xl md:text-4xl mb-4 font-bold">
+                  Renault et DSG
+                </h1>
               </div>
             </div>
-            <div className="flex gap-2 mb-8">
+            <div className="md:flex gap-2 mb-8">
               <div className="grid grid-cols-2 gap-5 md:grid-cols-3 ">
                 {[
                   {
@@ -34,33 +36,33 @@ const Hero = () => {
 
                   {
                     href: "/clio",
-                    src: "/images/dsg7dq200.png",
+                    src: "/images/dq381-1.webp",
                     alt: "Renault Clio IV",
-                    label: "DSQ7",
+                    label: "DSG7 (DQ381)",
                   },
                   {
                     href: "/megane",
-                    src: "/images/dq381.png",
+                    src: "/images/dq200C.webp",
                     alt: "Renault Megane",
-                    label: "DQ381",
+                    label: "DSG7 (DQ200)",
                   },
                   {
                     href: "/scenic",
-                    src: "/images/6hp.png",
+                    src: "/images/dq200M-1.webp",
                     alt: "Renault Scenic",
-                    label: "6HP",
+                    label: "DSG7 (DQ200)",
                   },
                   {
                     href: "/fluence",
-                    src: "/images/8hp.png",
+                    src: "/images/cal-normal-1.webp",
                     alt: "Renault Fluence",
-                    label: "8HP",
+                    label: "Clio (DC4)",
                   },
                   {
                     href: "/clio-rs",
-                    src: "/images/dsg7dq200.png",
+                    src: "/images/plat-1.webp",
                     alt: "Ford Focus",
-                    label: "DQ200",
+                    label: "DW5 MEGANE 4",
                   },
                 ].map((car, index) => (
                   <div key={index} className="carsCard rounded-md">
@@ -110,7 +112,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="mt-20 md:flex justify-around gap-10">
+        <div className="mt-20 md:flex justify-around gap-10 ">
           {/* Card 1: Fast Delivery */}
           <div className=" text-black  p-4 rounded-lg text-center">
             <FaShippingFast className="text-3xl mx-auto mb-2" />
@@ -139,8 +141,10 @@ const Hero = () => {
             <p className="text-sm">Garantie satidfait ou remboursé</p>
           </div>
         </div>
-        <div className="my-16">
-          <ReviewSlider />
+        <div className="md:my-[60px] my-[30px] md:px-0 w-full">
+          <div className="md:w-full w-[420px] mx-auto px-8">
+            <ReviewSlider />
+          </div>
         </div>
       </div>
     </div>

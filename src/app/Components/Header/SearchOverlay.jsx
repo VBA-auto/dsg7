@@ -60,7 +60,7 @@ const SearchOverlay = ({ isOpen, onClose }) => {
               placeholder="Search products... eg: renault"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-1/2 mx-auto px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
+              className="md:w-1/2 w-[100%] mx-auto px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
               autoFocus
             />
           </div>

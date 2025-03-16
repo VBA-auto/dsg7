@@ -29,20 +29,22 @@ const ContactPage = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
-      <h1 className="text-5xl font-bold text-center mb-8">Contact Us</h1>
+      <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
+        Contactez nous
+      </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
         {/* Left Side: Content */}
         <div className="space-y-6">
           <h2 className="text-2xl font-bold text-gray-800">
-            Get in Touch with DSG7
+            Nous sommes là pour vous aider!
           </h2>
           <h4 className="text-gray-900 text-[18px] font-[500]">
-            Have questions or need assistance? We're here to help! Reach out to
-            us, and our team will get back to you as soon as possible.
+            Vous avez une question? N’hésitez pas à nous contacter. Notre équipe
+            s’engage à vous répondre sous 24:00
           </h4>
           <div className="space-y-4">
             <div>
-              <h3 className="text-lg font-semibold text-gray-800">Adress</h3>
+              <h3 className="text-lg font-semibold text-gray-800">Adresse</h3>
               <p className="text-gray-900">DSG7.FR</p>
               <p className="text-gray-900">
                 110 rue de Fontenay 94300, Vincennes
@@ -62,7 +64,7 @@ const ContactPage = () => {
         {/* Right Side: Form */}
         <div className="rounded-lg">
           <h2 className="text-2xl font-bold text-gray-800 mb-6">
-            Send Us a Message
+            Envoyez-nous un message
           </h2>
           <form onSubmit={handleSubmit} className="space-y-4">
             {/* Name Field */}
@@ -145,7 +147,7 @@ const ContactPage = () => {
             <div>
               <button
                 type="submit"
-                className="w-full bg-red-400 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition duration-300"
+                className="w-full bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition duration-300"
               >
                 Submit
               </button>

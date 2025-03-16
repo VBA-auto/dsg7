@@ -76,7 +76,7 @@ const ReviewSlider = () => {
   };
 
   return (
-    <div className="container mx-auto p-4 mb-8 review">
+    <div className=" container mx-auto p-4 mb-8 slider-container">
       <Slider {...settings}>
         {reviews?.map((review, index) => (
           <div key={index} className="p-2">

@@ -14,9 +14,9 @@ const DefaultSingle = ({ product }) => {
   const imageSlide = product?.image;
   return (
     <div>
-      <div className="max-w-7xl mx-auto mt-8 mb-24">
+      <div className="max-w-7xl mx-auto mt-8 mb-24 px-5 md:px-0">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div className="w-2/3 ms-auto">
+          <div className="md:w-2/3 md:ms-auto">
             <ResponsiveSlider images={imageSlide} />
             {/* <Image width={600} height={500} src={product?.image} alt="sd" /> */}
           </div>
@@ -27,13 +27,13 @@ const DefaultSingle = ({ product }) => {
             <h3 className="text-[18px] text-gray-700 font-bold mt-2">
               {product?.paragraph}
             </h3>
-            <p
+            <h5
               className=" mt-2 font-[500] text-gray-800"
               dangerouslySetInnerHTML={{ __html: product?.description }}
             />
 
             {/* Price */}
-            <h5 className="text-[18px] font-semibold text-blue-500 mt-4">
+            <h5 className="text-[18px] font-semibold text-red-500 mt-4">
               {product?.price}€
             </h5>
             {product?.status === "single" && (
@@ -42,7 +42,7 @@ const DefaultSingle = ({ product }) => {
                   href={product?.orderLink}
                   className="text-sm font-bold text-center uppercase tracking-wider px-8 py-2.5 text-white duration-300 rounded bg-gradient-to-r from-red-600 to-red-600 shadow-lg hover:shadow-xl shadow-[#6B8375]/50 hover:scale-105 transition-all"
                 >
-                  Buy Now
+                  COMMANDER
                 </Link>
               </div>
             )}

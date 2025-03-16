@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useCallback } from "react";
 import Link from "next/link";
 import BuyButton from "../Buttons/BuyButton";
 import useScrollHeader from "./useScrollHeader";
@@ -34,6 +34,10 @@ export default function Header() {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [isMobileMenuOpen]);
+
+  const closeNavbar = useCallback(() => {
+    setIsMobileMenuOpen(false);
+  }, []);
 
   return (
     <header
@@ -131,7 +135,10 @@ export default function Header() {
           </button>
 
           {/* Call to Action Button */}
-          <BuyButton text="Aide en ligne" />
+
+          <div className="hidden md:block">
+            <BuyButton text="Aide en ligne" />
+          </div>
 
           {/* Mobile Menu Button */}
           <button
@@ -163,31 +170,46 @@ export default function Header() {
           className="md:hidden bg-white shadow-md absolute w-full z-50"
         >
           <nav className="flex flex-col space-y-4 p-4">
-            <Link href="/" className="relative group">
+            <Link href="/" className="relative group" onClick={closeNavbar}>
               <span className="text-lg font-[500] uppercase tracking-wider text-red-500">
                 Accueil
               </span>
             </Link>
-            <Link href="/produits" className="relative group">
+            <Link
+              href="/produits"
+              className="relative group"
+              onClick={closeNavbar}
+            >
               <span className="text-lg font-[500] uppercase tracking-wider text-red-500">
                 Produits
               </span>
             </Link>
-            <Link href="/about-us" className="relative group">
+            <Link
+              href="/about-us"
+              className="relative group"
+              onClick={closeNavbar}
+            >
               <span className="text-lg font-[500] uppercase tracking-wider text-red-500">
                 Qui sommes nous ?
               </span>
             </Link>
-            <Link href="/contact" className="relative group">
+            <Link
+              href="/contact"
+              className="relative group"
+              onClick={closeNavbar}
+            >
               <span className="text-lg font-[500] uppercase tracking-wider text-red-500">
                 Contact
               </span>
             </Link>
-            <Link href="/faq" className="relative group">
+            <Link href="/faq" className="relative group" onClick={closeNavbar}>
               <span className="text-lg font-[500] uppercase tracking-wider text-red-500">
                 FAQ
               </span>
             </Link>
+            <div className="md:hidden block" onClick={closeNavbar}>
+              <BuyButton text="Aide en ligne" />
+            </div>
           </nav>
         </div>
       )}

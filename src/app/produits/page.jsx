@@ -5,7 +5,7 @@ import Image from "next/image";
 async function fetchProducts() {
   try {
     const res = await fetch("https://dsg7.fr/products.json", {
-      cache: "force-cache",
+      cache: "no-cache",
     });
     // try {
     //   const res = await fetch("http://localhost:3000/products.json", {

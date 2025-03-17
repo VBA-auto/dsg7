@@ -176,9 +176,6 @@ const ContactPage = () => {
                 ? "Erreur lors de l'envoi du formulaire, vérifier votre numéro de téléphone"
                 : ""}
             </p>
-            <p className="text-red-500">
-              {isError ? "Erreur lors de l'envoi du formulaire" : ""}
-            </p>
 
             {/* Submit Button */}
             <div>
@@ -192,10 +189,12 @@ const ContactPage = () => {
           </form>
 
           {/* Success Message */}
-          {isSubmitted && (
+          {isSubmitted ? (
             <div className="mt-4 p-4 bg-green-100 text-green-700 rounded-lg">
-              Form submitted successfully!
+              Formulaire envoyé avec succès
             </div>
+          ) : (
+            <p className="text-red-500"></p>
           )}
         </div>
       </div>

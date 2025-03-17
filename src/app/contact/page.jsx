@@ -9,6 +9,13 @@ const ContactPage = () => {
     message: "",
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isTel, setIsTel] = useState(false);
+  const [isError, setIsError] = useState(false);
+
+  const isPhoneNumberValid = (phoneNumber) => {
+    const phoneRegex = /^[0-9]{10}$/;
+    return phoneRegex.test(phoneNumber);
+  };
 
   // Handle form input changes
   const handleChange = (e) => {
@@ -20,8 +27,30 @@ const ContactPage = () => {
   };
 
   // Handle form submission
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!formData.phone || !isPhoneNumberValid(formData.phone)) {
+      setIsTel(true);
+      return;
+    }
+
+    try {
+      const response = await fetch("/api/contactForm", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setIsOk(true);
+      } else {
+        setIsError(true);
+      }
+    } catch (error) {
+      setIsError(true);
+    }
     console.log("Form Data Submitted:", formData); // Log form data to console
     setIsSubmitted(true); // Show success message
     setFormData({ name: "", email: "", phone: "", message: "" }); // Reset form
@@ -142,6 +171,14 @@ const ContactPage = () => {
                 required
               />
             </div>
+            <p className="text-red-500">
+              {isTel
+                ? "Erreur lors de l'envoi du formulaire, vérifier votre numéro de téléphone"
+                : ""}
+            </p>
+            <p className="text-red-500">
+              {isError ? "Erreur lors de l'envoi du formulaire" : ""}
+            </p>
 
             {/* Submit Button */}
             <div>

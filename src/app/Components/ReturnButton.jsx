@@ -10,7 +10,7 @@ const ReturnButton = () => {
           onClick={() => window.history.back()}
         >
           <IoArrowBackSharp className="text-red-500 text-md mr-1" />
-          <p className="text-red-500 text-[15px]">retour</p>
+          <p className="text-red-500 text-[18px] font-[500]">retour</p>
         </button>
       </div>
     </div>

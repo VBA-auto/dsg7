@@ -39,10 +39,28 @@
     "status": "single",
     "description": "<div> <p>La mécatronique DSG7 (DQ200) - TEMIC 0AM927769D / 0AM325065 contrôle le passage des rapports et le double embrayage. Une défaillance peut entraîner des pertes de vitesses (P189C, P17BF, P0841, P177B), un voyant 'Boîte de vitesses à contrôler' allumé (P17BF, P189C) ou un dysfonctionnement de la pompe hydraulique et des moteurs d’embrayage (P0C21800, P0C21900). Disponible en stock, avec expédition 24/48h. </br>Mécatronique livré vierge ou pré-programmé.</p> </div>"
   },
+  {
+    "id": 15,
+    "image": [
+      "/images/dq250-1.webp",
+      "/images/dq250-2.webp",
+      "/images/dq250-3.webp",
+      "/images/dq250-4.webp"
+    ],
+    "title": "Mécatronique DSG6 (DQ250)",
+    "paragraph": "Mécatronique complet DSG6 (DQ250) pour Audi, volswagen, Skoda",
+    "price": "700",
+    "orderLink": "#",
+    "url": "MecatroniqueDSG6(DQ250)",
+
+    "status": "single",
+    "description": "<div> <p>Le mécatronique DSG6 (DQ250) pour les boîtes à double embrayage mouillé. Compatible avec de nombreux moteurs, notamment les 2.0 TSI/TFSI, 3.2 V6, 1.9 TDI et 2.0 TDI. Ce module équipe plusieurs modèles des groupes Volkswagen, Audi, Seat et Skoda, tels que les Volkswagen Golf, Jetta, Passat, Scirocco, Touran, Sharan, Audi A3, TT, Seat Leon, Alhambra, Altea et Skoda Octavia, Superb, Yeti. Cette mécatronique est disponible sous plusieurs références OEM, incluant 02E DQ250, 02E927770AD, 02E927770AJ, 02E927770AT, 02E927770AQ, 02E927770AM, 02E927770AS et 02E927770AL.</p> </div>"
+  },
 
   {
     "id": 4,
     "image": [
+      "/images/Calfeat.webp",
       "/images/boite.webp",
       "/images/cal-normal-3.webp",
       "/images/cal-normal-1.webp",
@@ -66,6 +84,7 @@
   {
     "id": 5,
     "image": [
+      "/images/Calfeat.webp",
       "/images/boite.webp",
       "/images/cal-normal-3.webp",
       "/images/cal-normal-1.webp",
@@ -88,6 +107,7 @@
   {
     "id": 6,
     "image": [
+      "/images/Calfeat.webp",
       "/images/boite.webp",
       "/images/cal-normal-3.webp",
       "/images/cal-normal-1.webp",
@@ -110,6 +130,7 @@
   {
     "id": 7,
     "image": [
+      "/images/Calfeat.webp",
       "/images/boite.webp",
       "/images/cal-normal-3.webp",
       "/images/cal-normal-1.webp",
@@ -132,6 +153,7 @@
   {
     "id": 8,
     "image": [
+      "/images/Calfeat.webp",
       "/images/boite.webp",
       "/images/cal-normal-3.webp",
       "/images/cal-normal-1.webp",
@@ -154,7 +176,7 @@
   {
     "id": 9,
     "image": [
-      "/images/plat-1.webp",
+      "/images/platFeat.webp",
       "/images/plat-2.webp",
       "/images/plat-3.webp",
       "/images/plat-4.webp",
@@ -173,7 +195,7 @@
   {
     "id": 10,
     "image": [
-      "/images/plat-1.webp",
+      "/images/platFeat.webp",
       "/images/plat-2.webp",
       "/images/plat-3.webp",
       "/images/plat-4.webp",
@@ -192,7 +214,7 @@
   {
     "id": 11,
     "image": [
-      "/images/plat-1.webp",
+      "/images/platFeat.webp",
       "/images/plat-2.webp",
       "/images/plat-3.webp",
       "/images/plat-4.webp",

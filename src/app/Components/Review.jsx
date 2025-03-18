@@ -132,7 +132,7 @@ const ReviewSlider = () => {
               {/* "See More" Button */}
               <label
                 htmlFor="reviewPopup"
-                className="text-blue-500 cursor-pointer mt-2 text-[14px]"
+                className="text-red-500 cursor-pointer mt-2 text-[14px]"
                 onClick={() => handleSeeMoreClick(review)}
               >
                 voir plus

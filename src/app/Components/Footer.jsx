@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Logo & About */}
           <div>
             <h2 className="text-2xl font-bold mb-3">DSG7.FR</h2>
-            <p className="text-gray-800 text-sm">
+            <p className="text-red-500 text-sm">
               Spécialiste boite EDC / DSG double embrayage
             </p>
           </div>
@@ -21,22 +21,22 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-3">Liens rapide</h3>
             <ul className="space-y-2 text-gray-800">
               <li>
-                <Link href="/shop" className="hover:text-white">
+                <Link href="/produits" className="hover:text-red-400">
                   Produits
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-white">
+                <Link href="/about-us" className="hover:text-red-400">
                   Qui sommes-nous ?
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-white">
+                <Link href="/contact" className="hover:text-red-400">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link href="/faq" className="hover:text-white">
+                <Link href="/faq" className="hover:text-red-400">
                   FAQ
                 </Link>
               </li>
@@ -50,41 +50,41 @@ export default function Footer() {
               <a
                 href="https://facebook.com"
                 target="_blank"
-                className="text-gray-800 hover:text-white"
+                className="text-gray-800 hover:text-red-400"
               >
                 <FaFacebookF size={20} />
               </a>
               <a
                 href="https://instagram.com"
                 target="_blank"
-                className="text-gray-800 hover:text-white"
+                className="text-gray-800 hover:text-red-400"
               >
                 <FaInstagram size={20} />
               </a>
               <a
                 href="https://twitter.com"
                 target="_blank"
-                className="text-gray-800 hover:text-white"
+                className="text-gray-800 hover:text-red-400"
               >
                 <FaTwitter size={20} />
               </a>
               <a
                 href="https://youtube.com"
                 target="_blank"
-                className="text-gray-800 hover:text-white"
+                className="text-gray-800 hover:text-red-400"
               >
                 <FaYoutube size={20} />
               </a>
             </div>
             <div className="mt-3">
-              <p className="underline">
+              <p className="underline hover:text-red-400">
                 <Link href="/politique-de-cookies">
                   Politique de cookies (UE)
                 </Link>
               </p>
             </div>
             <div className="mt-1">
-              <p className="underline">
+              <p className="underline hover:text-red-400">
                 <Link href="/mentions-legales">Mentions légales</Link>
               </p>
             </div>

@@ -137,7 +137,7 @@ export default function Header() {
           {/* Call to Action Button */}
 
           <div className="hidden md:block">
-            <BuyButton text="Aide en ligne" />
+            <BuyButton href="aide-en-ligne" text="Aide en ligne" />
           </div>
 
           {/* Mobile Menu Button */}
@@ -208,7 +208,7 @@ export default function Header() {
               </span>
             </Link>
             <div className="md:hidden block" onClick={closeNavbar}>
-              <BuyButton text="Aide en ligne" />
+              <BuyButton href="aide-en-ligne" text="Aide en ligne" />
             </div>
           </nav>
         </div>

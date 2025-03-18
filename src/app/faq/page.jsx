@@ -15,12 +15,12 @@ const FAQ = () => {
     {
       question: "Qu’est-ce qu’une boîte S-Tronic ou DSG7 ?",
       answer:
-        "<div><p>La boîte <strong>DSG7 (DQ200)</strong>, aussi appelée <strong>S-Tronic</strong> chez Audi, est une transmission à <strong>double embrayage</strong> et <strong>7 rapports</strong> utilisée sur les véhicules du groupe Volkswagen (VW, Audi, Seat, Skoda).</p><p>Elle est composée de :</p><ul class='list-disc ms-5'><li>Un <strong>calculateur (module de commande)</strong> électro-hydraulique qui gère l'embrayage et les rapports de vitesse.</li><li>Deux <strong>embrayages à sec</strong>, permettant des passages de vitesses rapides et fluides.</li></ul><p>Elle combine la réactivité d'une boîte manuelle et le confort d’une boîte automatique, mais nécessite un entretien rigoureux pour éviter les pannes.</p></div>",
+        "<div><p>La boîte <strong class='text-[#FB2C37]'>DSG7 (DQ200)</strong>, aussi appelée <strong class='text-[#FB2C37]'>S-Tronic</strong> chez Audi, est une transmission à <strong class='text-[#FB2C37]'>double embrayage</strong> et <strong class='text-[#FB2C37]'>7 rapports</strong> utilisée sur les véhicules du groupe Volkswagen (VW, Audi, Seat, Skoda).</p><p>Elle est composée de :</p><ul class='list-disc ms-5'><li>Un <strong class='text-[#FB2C37]'>calculateur (module de commande)</strong> électro-hydraulique qui gère l'embrayage et les rapports de vitesse.</li><li>Deux <strong class='text-[#FB2C37]'>embrayages à sec</strong>, permettant des passages de vitesses rapides et fluides.</li></ul><p>Elle combine la réactivité d'une boîte manuelle et le confort d’une boîte automatique, mais nécessite un entretien rigoureux pour éviter les pannes.</p></div>",
     },
     {
       question: "Doit-on vidanger sa boîte auto ?",
       answer:
-        "<div><p>Oui, la vidange est essentielle pour préserver les performances et éviter une usure prématurée des composants, mais elle dépend du type de boîte :</p><ul class='list-disc ms-5'><li><strong>Boîtes à double embrayage à sec</strong> (DSG7 DQ200, EDC DC4 Renault) :<ul class='list-disc ms-5'><li>Pas de vidange d’embrayage, mais le calculateur (module de commande) utilise une huile spécifique.</li><li>Pour les EDC DC4, un bouchon sous le cardan permet d’accéder à l’huile.</li></ul></li><li><strong>Boîtes à double embrayage à bain d’huile</strong> (DSG6 DQ250, DQ381, 0B5 S-Tronic) :<ul class='list-disc ms-5'><li>Vidange recommandée tous les 60 000 km avec une huile spécifique.</li><li>Ces boîtes sont plus robustes, mais nécessitent un entretien rigoureux pour éviter l’encrassement du circuit hydraulique.</li></ul></li></ul><p>Une absence d’entretien peut provoquer <b>des à-coups, du patinage excessif et des erreurs du calculateur (module de commande)</b></p></div>",
+        "<div><p>Oui, la vidange est essentielle pour préserver les performances et éviter une usure prématurée des composants, mais elle dépend du type de boîte :</p><ul class='list-disc ms-5'><li><strong class='text-[#FB2C37]'>Boîtes à double embrayage à sec</strong> (DSG7 DQ200, EDC DC4 Renault) :<ul class='list-disc ms-5'><li>Pas de vidange d’embrayage, mais le calculateur (module de commande) utilise une huile spécifique.</li><li>Pour les EDC DC4, un bouchon sous le cardan permet d’accéder à l’huile.</li></ul></li><li><strong class='text-[#FB2C37]'>Boîtes à double embrayage à bain d’huile</strong> (DSG6 DQ250, DQ381, 0B5 S-Tronic) :<ul class='list-disc ms-5'><li>Vidange recommandée tous les 60 000 km avec une huile spécifique.</li><li>Ces boîtes sont plus robustes, mais nécessitent un entretien rigoureux pour éviter l’encrassement du circuit hydraulique.</li></ul></li></ul><p>Une absence d’entretien peut provoquer <b>des à-coups, du patinage excessif et des erreurs du calculateur (module de commande)</b></p></div>",
     },
     {
       question:
@@ -32,7 +32,7 @@ const FAQ = () => {
       question:
         "Quelle est la différence entre un double embrayage à sec et mouillé ?",
       answer:
-        "<div><p><strong>Double embrayage à sec</strong> (DSG7 - DQ200, Renault EDC DC4) :</p><ul class='list-disc ms-5'><li>Plus léger et plus économe en carburant.</li><li>Sensible à l’usure et aux surchauffes.</li><li>Pas de vidange d’huile d’embrayage.</li></ul><p><strong>Double embrayage à bain d’huile</strong> (DSG6, DSG7 DQ500, certaines EDC) :</p><ul class='list-disc ms-5'><li>Durée de vie plus longue grâce à la lubrification.</li><li>Fonctionnement plus souple, idéal pour les moteurs puissants.</li><li>Vidange obligatoire tous les 60 000 km.</li></ul></div>",
+        "<div><p><strong class='text-[#FB2C37]'>Double embrayage à sec</strong> (DSG7 - DQ200, Renault EDC DC4) :</p><ul class='list-disc ms-5'><li>Plus léger et plus économe en carburant.</li><li>Sensible à l’usure et aux surchauffes.</li><li>Pas de vidange d’huile d’embrayage.</li></ul><p><strong class='text-[#FB2C37]'>Double embrayage à bain d’huile</strong> (DSG6, DSG7 DQ500, certaines EDC) :</p><ul class='list-disc ms-5'><li>Durée de vie plus longue grâce à la lubrification.</li><li>Fonctionnement plus souple, idéal pour les moteurs puissants.</li><li>Vidange obligatoire tous les 60 000 km.</li></ul></div>",
     },
     {
       question:
@@ -49,7 +49,7 @@ const FAQ = () => {
       question:
         "J’ai une boîte DSG7 et seules les vitesses paires ou impaires passent. Calculateur ou embrayage ?",
       answer:
-        "<div><p>Le diagnostic dépend des codes défaut enregistrés à la valise :</p><ul class='list-disc ms-5'><li>Si le problème est hydraulique → <strong>Calculateur (module de commande)</strong> défectueux.</li><li>Si le problème concerne l’embrayage → <strong>Disques usés</strong> ou mécanisme bloqué.</li></ul></div>",
+        "<div><p>Le diagnostic dépend des codes défaut enregistrés à la valise :</p><ul class='list-disc ms-5'><li>Si le problème est hydraulique → <strong class='text-[#FB2C37]'>Calculateur (module de commande)</strong> défectueux.</li><li>Si le problème concerne l’embrayage → <strong class='text-[#FB2C37]'>Disques usés</strong> ou mécanisme bloqué.</li></ul></div>",
     },
     {
       question: "Comment savoir si mon volant moteur est défectueux ?",
@@ -65,13 +65,13 @@ const FAQ = () => {
     {
       question: "Comment commander un calculateur de boîte EDC Renault ?",
       answer:
-        "<div><p>➡ Commandez ici : <strong>La Boîte Automatique</strong></p></div>",
+        "<div><p>➡ Commandez ici : <strong class='text-[#FB2C37]'>La Boîte Automatique</strong></p></div>",
     },
     {
       question:
         "J’ai un problème sur mon Captur, Mégane, Scénic ou Clio IV. Que faire ?",
       answer:
-        "<div><p>Obtenez une assistance en ligne via notre site partenaire.</p><p>➡ Accédez à l’aide en ligne ici : <strong>Aide en ligne - La Boîte Automatique</strong></p></div>",
+        "<div><p>Obtenez une assistance en ligne via notre site partenaire.</p><p>➡ Accédez à l’aide en ligne ici : <strong class='text-[#FB2C37]'>Aide en ligne - La Boîte Automatique</strong></p></div>",
     },
   ];
 
@@ -88,7 +88,7 @@ const FAQ = () => {
               className="p-4 flex justify-between items-center cursor-pointer rounded-md hover:bg-gray-100 transition duration-300"
               onClick={() => toggleAccordion(index)}
             >
-              <h3 className="text-[18px] font-semibold text-red-500">
+              <h3 className="text-[18px] font-semibold text-gray-800">
                 {faq.question}
               </h3>
               <span className="text-gray-600">

@@ -29,41 +29,41 @@ const Hero = () => {
                 <div className="grid grid-cols-2 md:gap-5 md:grid-cols-3 ">
                   {[
                     {
-                      href: "/captur",
+                      href: "/produits/Captur(DC4)",
                       src: "/images/calculators.png",
                       alt: "Renault Captur",
-                      label: "Renault DC4",
+                      label: "Renault Captur",
                     },
 
                     {
-                      href: "/clio",
+                      href: "/produits/clio(DC4)",
                       src: "/images/dq381-1.webp",
                       alt: "Renault Clio IV",
-                      label: "DSG7 (DQ381)",
+                      label: "Renault Clio 4",
                     },
                     {
-                      href: "/megane",
+                      href: "/produits/DSG7(DQ381)",
                       src: "/images/dq200C.webp",
                       alt: "Renault Megane",
-                      label: "DSG7 (DQ200)",
+                      label: "Calculateur DQ381",
                     },
                     {
-                      href: "/scenic",
+                      href: "/produits/MecatroniqueDSG7(DQ200)",
                       src: "/images/dq200M-1.webp",
                       alt: "Renault Scenic",
-                      label: "DSG7 (DQ200)",
+                      label: "Mecatronique DQ200",
                     },
                     {
                       href: "/fluence",
-                      src: "/images/cal-normal-1.webp",
+                      src: "/images/cal-normal-6.webp",
                       alt: "Renault Fluence",
-                      label: "Clio (DC4)",
+                      label: "Calculateur DW5",
                     },
                     {
                       href: "/clio-rs",
-                      src: "/images/plat-1.webp",
+                      src: "/images/platPng.webp",
                       alt: "Ford Focus",
-                      label: "DW5 MEGANE 4",
+                      label: "Calculateur DQ200",
                     },
                   ].map((car, index) => (
                     <div key={index} className="carsCard rounded-md">
@@ -132,7 +132,7 @@ const Hero = () => {
           {/* Card 3: Quality Assurance */}
           <div className=" text-black  p-4 rounded-lg text-center">
             <TbRestore className="text-3xl mx-auto mb-2" />
-            <h4 className="font-semibold">Reconditionnée</h4>
+            <h4 className="font-semibold">Reconditionnement possible</h4>
             <p className="text-sm">pieces d’origine ou reconditionnée</p>
           </div>
 

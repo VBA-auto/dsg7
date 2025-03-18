@@ -73,18 +73,18 @@ const ContactPage = () => {
           </h4>
           <div className="space-y-4">
             <div>
-              <h3 className="text-lg font-semibold text-gray-800">Adresse</h3>
+              <h3 className="text-xl font-semibold text-gray-800">Adresse</h3>
               <p className="text-gray-900">DSG7.FR</p>
               <p className="text-gray-900">
                 110 rue de Fontenay 94300, Vincennes
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-gray-800">Phone</h3>
+              <h3 className="text-xl font-semibold text-gray-800">Phone</h3>
               <p className="text-gray-900">0757831203</p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-gray-800">Email</h3>
+              <h3 className="text-xl font-semibold text-gray-800">Email</h3>
               <p className="text-gray-900">contact@dsg7.fr</p>
             </div>
           </div>
@@ -100,9 +100,9 @@ const ContactPage = () => {
             <div>
               <label
                 htmlFor="name"
-                className="block text-[16px] font-medium text-gray-700"
+                className="block text-[17px] font-medium text-gray-700"
               >
-                Nom / Prénom *
+                Nom / Prénom
               </label>
               <input
                 type="text"
@@ -119,9 +119,9 @@ const ContactPage = () => {
             <div>
               <label
                 htmlFor="email"
-                className="block text-[16px] font-medium text-gray-700"
+                className="block text-[17px] font-medium text-gray-700"
               >
-                E-mail*
+                E-mail
               </label>
               <input
                 type="email"
@@ -138,9 +138,9 @@ const ContactPage = () => {
             <div>
               <label
                 htmlFor="phone"
-                className="block text-[16px] font-medium text-gray-700"
+                className="block text-[17px] font-medium text-gray-700"
               >
-                Téléphone*
+                Téléphone
               </label>
               <input
                 type="tel"
@@ -157,7 +157,7 @@ const ContactPage = () => {
             <div>
               <label
                 htmlFor="message"
-                className="block text-[16px] font-medium text-gray-700"
+                className="block text-[17px] font-medium text-gray-700"
               >
                 Message
               </label>

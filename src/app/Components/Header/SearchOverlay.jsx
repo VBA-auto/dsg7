@@ -57,10 +57,10 @@ const SearchOverlay = ({ isOpen, onClose }) => {
           <div className="flex justify-center">
             <input
               type="text"
-              placeholder="Search products... eg: renault"
+              placeholder="Rechercher votre produit…exemple Renault Clio 4"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="md:w-1/2 w-[100%] mx-auto px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
+              className="md:w-1/2 w-[100%] mx-auto px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-red-500 bg-white"
               autoFocus
             />
           </div>

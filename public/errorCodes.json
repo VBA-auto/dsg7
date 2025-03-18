@@ -1,0 +1,2152 @@
+[
+  {
+    "code": "DTC940811",
+    "description": "Circuit temoin . Court-circuit à la masse",
+    "subTitle": "default with the drum ",
+    "aide": "Vérifier l'état de la batterie"
+  },
+  {
+    "code": "DTC17431C",
+    "description": "Circuit moteur embrayage 1",
+    "subTitle": "Clutch 1 motor circuit supply voltage",
+    "aide": "Vérifier l'état de la batterie"
+  },
+  {
+    "code": "DTC1525F3",
+    "description": "Incohérences information multiplexées pour rv/lv/Régulateur vitesse non conforme",
+    "subTitle": "consistent multiple signals for CC/SL Could not clear",
+    "aide": "Vérifier l'état de la batterie"
+  },
+  {
+    "code": "DTC174301",
+    "description": "Circuit moteur embrayage 1. Panne electrique non identifiée. Problème sur le calculateur",
+    "subTitle": "Clutch 1 motor circuit , Short circuit to earth",
+    "aide": "Vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "DTC174311",
+    "description": "Circuit moteur embrayage 1. Court-circuit à la masse (P0741)",
+    "subTitle": "P0741 - Torque Converter Clutch Circuit Performance or Stuck Off",
+    "aide": "Vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "DTC174401",
+    "description": "Circuit moteur embrayage 2. Panne eléctrique non identifiée",
+    "subTitle": "clutch 2 motor circuit",
+    "aide": "Vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "DTC174411",
+    "description": "Circuit moteur embrayage 2. Court-circuit à la masse (P0741)",
+    "subTitle": "P0741 - Torque Converter Clutch Circuit Performance or Stuck Off",
+    "aide": "Vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "DTC17441C",
+    "description": "Circuit moteur embrayage 2 problème calculateur et/ou embrayage",
+    "subTitle": "clutch 2  motor circuit short circuit to earth",
+    "aide": "problème calculateur et/ou embrayage"
+  },
+  {
+    "code": "DTC180401",
+    "description": "Tension alimentation calculateur/ Mauvaise tension batterie (P0705)",
+    "subTitle": "P0705 - Transmission Range Sensor Circuit (PRNDL Input)",
+    "aide": "Vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "DTC180714",
+    "description": "Circuit contacteur position levier. Circuit ouvert ou court-circuit à la masse (P0705).",
+    "subTitle": "P0705 - Transmission Range Sensor Circuit (PRNDL Input)",
+    "aide": "Vérifier l'état de la batterie + effectuer un calibrage du sélecteur + vérifier le programme"
+  },
+  {
+    "code": "DTC180962",
+    "description": "Circuit contacteur position levier. Signal constant (P0705).",
+    "subTitle": "P0705 - Transmission Range Sensor Circuit (PRNDL Input)",
+    "aide": "Vérifier l'état de la batterie + effectuer un calibrage du sélecteur + vérifier le programme"
+  },
+  {
+    "code": "DTC181516",
+    "description": "Tension batterie 12v. Basse tension (P0562)",
+    "subTitle": "P0562 - System Voltage Low",
+    "aide": "Vérifier l'état de la batterie"
+  },
+  {
+    "code": "DTC183892",
+    "description": "Tambour de selection de vitesse 1. Signal hors limite basse ou haute (P0730)",
+    "subTitle": "P0730 - Incorrect Gear Ratio",
+    "aide": "Vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "DTC185111",
+    "description": "Signal moteur embrayage 2. Court circuit à la masse (P0741)",
+    "subTitle": "P0741 - Torque Converter Clutch Circuit Performance or Stuck Off",
+    "aide": "Problème calculateur"
+  },
+  {
+    "code": "DTC185562",
+    "description": "Signal moteur embrayage 2. Signal non plausible (P0741)",
+    "subTitle": "P0741 - Torque Converter Clutch Circuit Performance or Stuck Off",
+    "aide": "Problème calculateur"
+  },
+  {
+    "code": "DTC185764",
+    "description": "Moteur embrayage 2. Incohérence signal (P0741)",
+    "subTitle": "P0741 - Torque Converter Clutch Circuit Performance or Stuck Off",
+    "aide": "Problème calculateur"
+  },
+  {
+    "code": "DTC187298",
+    "description": "Embrayage 2. Température mesurée trop forte",
+    "subTitle": "Temperature measured for the clutch of gear 2 is too high, possibly due to overheating",
+
+    "aide": "Problème calculateur et/ou embrayage"
+  },
+  {
+    "code": "DTC189311",
+    "description": "Drum 2 moteur. Court circuit à la masse",
+    "subTitle": "Short to ground in the motor for the drum of gear 2",
+    "aide": "Problème calculateur"
+  },
+  {
+    "code": "DTC189412",
+    "description": "Circuit moteur tambour de selection vitesse 1. Court-circuit au + 12 volts",
+    "subTitle": "Short circuit to the positive voltage in the motor circuit for the gear selection drum of gear 1",
+    "aide": "Problème calculateur"
+  },
+  {
+    "code": "DTC191211",
+    "description": "Circuit capteur regime entrée 1 boite. Court-circuit à la masse",
+    "subTitle": "Short to ground in the sensor circuit for gear entry 1 in the transmission.",
+    "aide": "Problème calculateur. Contrôler le programme de la boite automatique"
+  },
+  {
+    "code": "DTC191311",
+    "description": "Circuit capteur régime entrée 2 boite. Court circuit à la masse",
+    "subTitle": "Similar to DTC191211, for gear entry 2.",
+    "aide": "Problème calculateur. Contrôler le programme de la boite automatique"
+  },
+  {
+    "code": "DTC404086",
+    "description": "Info multiplexée pédale de frein uch invalide. Contacteur de frein invalide",
+    "subTitle": "Invalid multiplexed information from the brake pedal switch",
+    "aide": "Vérifier l'état de la batterie + capteur de pédale de frein"
+  },
+  {
+    "code": "DTC500886",
+    "description": "Information multiplexée temerature exterieure. Incohérence du signal (P0071)",
+    "subTitle": "P0071 - Ambient Air Temperature Sensor Range/Performance",
+    "aide": "Vérifier l'état de la batterie + capteur de température"
+  },
+  {
+    "code": "DTC500887",
+    "description": "Information multiplexée temperatere exterieure. Absence de signal (P0070)",
+    "subTitle": "P0070 - Ambient Air Temperature Sensor Circuit",
+    "aide": "Vérifier l'état de la batterie + capteur de température"
+  },
+  {
+    "code": "DTCAAAB47",
+    "description": "Calculateur. Anomalie électronique interne",
+    "subTitle": "Indicates an internal electrical fault, similar to DTCAAAB47.",
+    "aide": "Problème calculateur. Contrôler le programme de la boite automatique. Effectuer un calibrage."
+  },
+  {
+    "code": "DTCAAB047",
+    "description": "Panne electrique interne",
+    "subTitle": "Absence of signal from the secondary brake contact, potentially affecting brake light communication",
+    "aide": "Problème calculateur. Contrôler le programme de la boite automatique"
+  },
+  {
+    "code": "DTCC41787",
+    "description": "Information multiplexée contact frein secondaire",
+    "subTitle": "Indicates an inconsistent signal from the right front wheel, possibly from the wheel speed sensor.",
+    "aide": "Vérifier l'état de la batterie + Capteur de pédale de frein"
+  },
+  {
+    "code": "DTCD22186",
+    "description": "Signal multiplexe roue avant gauche.",
+    "subTitle": "Similar to DTCD22086, but for the left front wheel",
+    "aide": "Vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "DTCD22086",
+    "description": "Signal multiplexe roue avant droite.",
+    "subTitle": "Indicates an inconsistent signal from the right front wheel, possibly from the wheel speed sensor.",
+    "aide": "Incohérence signal vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "DF441",
+    "description": "circuit moteur - tambour de sélection vitesses 2 - circuit ouvert",
+    "subTitle": "Suggests an open circuit in the motor for the gear selection drum of gear 2.",
+    "aide": "problème calculateur"
+  },
+  {
+    "code": "DF442",
+    "description": "circuit moteur tambour de selection vitesse 2 - tension d'alimentation hors tolérance",
+    "subTitle": "Points to a voltage supply issue that is out of tolerance for the motor of the gear selection drum for gear 2",
+    "aide": "vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "DF436",
+    "description": "Tambour de selection de vitesse 2 - detection signal hors limite basse ou haute",
+    "subTitle": "gear 2 selection signal detection that is out of the expected range, either too high or too low",
+    "aide": "vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "DF435",
+    "description": "Tambour de selection de vitesses 2 - Detection signal hors limite basse ou haute ",
+    "subTitle": "related to gear 2 selection signal detection",
+    "aide": "problème calculateur"
+  },
+  {
+    "code": "DF232",
+    "description": "Calculateur - Anomalie électronique interne (P0606)",
+    "subTitle": "P0606 - PCM Processor Fault",
+    "aide": "problème calculateur"
+  },
+  {
+    "code": "DF421",
+    "description": "Tension batterie - sous tension (P0560)",
+    "subTitle": "P0560 - System Voltage Malfunction",
+    "aide": "vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "DTC191001",
+    "description": "Circuit capteur regime entrée 1 boite - Anomalie électronique interne-",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "DTC1525F3",
+    "description": "Cohérence informations multiplexées pour RV/LV",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "Vérifier capteur pédale de frein ou capteur ABS et fusibles (peut-être aussi un problème de calculateur)"
+  },
+  {
+    "code": "DTCC40200",
+    "description": "Informations multiplexées BVA invalides",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "Vérifier capteur pédale de frein ou capteur ABS et fusibles (peut-être aussi un problème de calculateur)"
+  },
+  {
+    "code": "DTC174092",
+    "description": "Tambour de sélection de vitesses détection signal hors limite basse ou haute",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "Vérifier capteur pédale de frein ou capteur ABS + petits moteurs embrayage (peut-être aussi un problème de calculateur)"
+  },
+  {
+    "code": "178094",
+    "description": "Signal moteur embrayage 1",
+    "subTitle": "Default with clutch 1",
+    "aide": "Problème calculateur (+ moteur embrayage)"
+  },
+  {
+    "code": "174301",
+    "description": "Ensemble actionneur embrayage 1",
+    "subTitle": "Default with clutch 1",
+    "aide": "Problème calculateur (+ moteur embrayage)"
+  },
+  {
+    "code": "DTC186978",
+    "description": "Embrayage 1 incohèrence position",
+    "subTitle": "Clutch 1 default position ",
+    "aide": "Problème calculateur et/ou embrayage"
+  },
+  {
+    "code": "DTC175278",
+    "description": "Embrayage 1 incohérence position",
+    "subTitle": "Clutch 1 wrong position",
+    "aide": "Problème embrayage + butée"
+  },
+  {
+    "code": "DF379",
+    "description": "Circuit moteur tambour selection de vitesse 2 dètection signal hors limite basse ou haute",
+    "subTitle": "Default clutch motor 2",
+    "aide": "Problème calculateur"
+  },
+  {
+    "code": "DF381",
+    "description": "Circuit moteur tambour selection de vitesse 2 signal non plausible",
+    "subTitle": "Default clutch motor 2",
+    "aide": "Problème calculateur"
+  },
+  {
+    "code": "DF384",
+    "description": "Circuit moteur embrayage 1 tension d’alimentation hors tolérances",
+    "subTitle": "Default clutch motor 1",
+    "aide": "Problème calculateur"
+  },
+  {
+    "code": "P1839",
+    "description": "Court circuit embrayage",
+    "subTitle": "P1839 short circuit to earth clutch",
+    "aide": "Problème calculateur ou moteur embrayage"
+  },
+  {
+    "code": "P1895",
+    "description": "Court circuit embrayage",
+    "subTitle": "P1839 short circuit to earth clutch",
+    "aide": "Problème calculateur ou moteur embrayage"
+  },
+  {
+    "code": "DF457",
+    "description": "Embrayage 2, incohérence position embrayage",
+    "subTitle": "Clutch 2, position mismatch",
+    "aide": "Problème soit calibrage ou programmation ou bien calculateur"
+  },
+  {
+    "code": "DF421",
+    "description": "Tension batterie, sous-tension",
+    "subTitle": "Battery voltage, undervoltage",
+    "aide": "Problème calculateur ou batterie"
+  },
+  {
+    "code": "DF405",
+    "description": "Tension alimentation calculateur, sous-tension",
+    "subTitle": "ECU power supply, undervoltage",
+    "aide": "Problème calculateur ou batterie"
+  },
+  {
+    "code": "DF428",
+    "description": "Circuit capteur régime entrée 1 boîte, court-circuit à la masse",
+    "subTitle": "Gearbox input speed sensor 1 circuit, short to ground",
+    "aide": "Problème calculateur"
+  },
+  {
+    "code": "DF465",
+    "description": "Circuit capteur régime entrée 2 boîte, court-circuit à la masse",
+    "subTitle": "Gearbox input speed sensor 2 circuit, short to ground",
+    "aide": "Problème calculateur"
+  },
+  {
+    "code": "DF234",
+    "description": "Calculateur, anomalie électronique interne",
+    "subTitle": "ECU, internal electronic fault",
+    "aide": "Problème calculateur"
+  },
+  {
+    "code": "DF117",
+    "description": "Information multiplexée vitesse roue AR. gauche, incohérence du signal",
+    "subTitle": "Rear left wheel speed signal, inconsistency",
+    "aide": "Problème calculateur"
+  },
+  {
+    "code": "050616",
+    "description": "Tension alimentation calculateur, niveau haut permanent",
+    "subTitle": "ECU power supply, high voltage",
+    "aide": "Problème calculateur ou batterie"
+  },
+  {
+    "code": "DF454",
+    "description": "Embrayage 1, incohérence position embrayage",
+    "subTitle": "Clutch 1, position mismatch",
+    "aide": "Problème soit calibrage ou programmation ou bien calculateur"
+  },
+  {
+    "code": "P0700",
+    "description": "Commande de la transmission - panne.",
+    "subTitle": "default with the drum ",
+    "aide": "Vérifier l'état de la batterie"
+  },
+  {
+    "code": "P0701",
+    "description": "Commande de la transmission - problème de performance/de limites.",
+    "subTitle": "consistent multiple signals for CC/SL Could not clear",
+    "aide": "Vérifier l'état de la batterie"
+  },
+  {
+    "code": "P0702",
+    "description": "Commande de la transmission - électrique.",
+    "subTitle": "Clutch 1 motor circuit , Short circuit to earth",
+    "aide": "Vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "P0703",
+    "description": "Convertisseur de couple/contacteur de freinage B - panne du circuit.",
+    "subTitle": "P0741 - Torque Converter Clutch Circuit Performance or Stuck Off",
+    "aide": "Vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "P0704",
+    "description": "Contacteur de position de la pédale d'embrayage - panne du circuit.",
+    "subTitle": "clutch 2 motor circuit",
+    "aide": "Vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "P0705",
+    "description": "Contacteur/capteur de position du levier de vitesse, signal d'entrée PIRMIDL - panne du circuit.",
+    "subTitle": "P0741 - Torque Converter Clutch Circuit Performance or Stuck Off",
+    "aide": "Vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "P0706",
+    "description": "Contacteur/capteur de position du levier de vitesse - problème de performance/de limites.",
+    "subTitle": "clutch 2  motor circuit short circuit to earth",
+    "aide": "problème calculateur et/ou embrayage"
+  },
+  {
+    "code": "P0707",
+    "description": "Contacteur/capteur de position du levier de vitesse - valeur d'entrée trop basse.",
+    "subTitle": "P0562 - System Voltage Low",
+    "aide": "Vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "P0708",
+    "description": "Contacteur/capteur de position du levier de vitesse - valeur d'entrée trop haute.",
+    "subTitle": "P0705 - Transmission Range Sensor Circuit (PRNDL Input)",
+    "aide": "Vérifier l'état de la batterie + effectuer un calibrage du sélecteur + vérifier le programme"
+  },
+  {
+    "code": "P0709",
+    "description": "Contacteur/capteur de position du levier de vitesse - circuit intermittent.",
+    "subTitle": "P0705 - Transmission Range Sensor Circuit (PRNDL Input)",
+    "aide": "Vérifier l'état de la batterie + effectuer un calibrage du sélecteur + vérifier le programme"
+  },
+  {
+    "code": "P0710",
+    "description": "Sonde de température d'huile de transmission - panne du circuit",
+    "subTitle": "P0562 - System Voltage Low",
+    "aide": "Vérifier l'état de la batterie"
+  },
+  {
+    "code": "P0711",
+    "description": "Sonde de température d'huile de transmission - problème de performance/de limites.",
+    "subTitle": "P0730 - Incorrect Gear Ratio",
+    "aide": "Vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "P0712",
+    "description": "Sonde de température d'huile de transmission - valeur d'entrée trop basse.",
+    "subTitle": "P0741 - Torque Converter Clutch Circuit Performance or Stuck Off",
+    "aide": "Problème calculateur"
+  },
+  {
+    "code": "P0713",
+    "description": "Sonde de température d'huile de transmission - valeur d'entrée trop haute.",
+    "subTitle": "P0741 - Torque Converter Clutch Circuit Performance or Stuck Off",
+    "aide": "Problème calculateur"
+  },
+  {
+    "code": "P0714",
+    "description": "Sonde de température d'huile de transmission - circuit intermittent.",
+    "subTitle": "P0741 - Torque Converter Clutch Circuit Performance or Stuck Off",
+    "aide": "Problème calculateur"
+  },
+  {
+    "code": "P0715",
+    "description": "Capteur de vitesse d'arbre de turbine - panne du circuit.",
+    "subTitle": "Temperature measured for the clutch of gear 2 is too high, possibly due to overheating",
+
+    "aide": "Problème calculateur et/ou embrayage"
+  },
+  {
+    "code": "P0716",
+    "description": "Capteur de vitesse d'arbre de turbine - problème de performance/de limites.",
+    "subTitle": "Short to ground in the motor for the drum of gear 2",
+    "aide": "Problème calculateur"
+  },
+  {
+    "code": "P0717",
+    "description": "Capteur de vitesse d'arbre de turbine - aucun signal.",
+    "subTitle": "Short circuit to the positive voltage in the motor circuit for the gear selection drum of gear 1",
+    "aide": "Problème calculateur"
+  },
+  {
+    "code": "P0718",
+    "description": "Capteur de vitesse d'arbre de turbine - circuit intermittent.",
+    "subTitle": "Short to ground in the sensor circuit for gear entry 1 in the transmission.",
+    "aide": "Problème calculateur. Contrôler le programme de la boite automatique"
+  },
+  {
+    "code": "P0719",
+    "description": "Convertisseur de couple/contacteur de freinage B - circuit trop bas.",
+    "subTitle": "Similar to DTC191211, for gear entry 2.",
+    "aide": "Problème calculateur. Contrôler le programme de la boite automatique"
+  },
+  {
+    "code": "P0720",
+    "description": "Capteur de vitesse du véhicule - panne du circuit.",
+    "subTitle": "Invalid multiplexed information from the brake pedal switch",
+    "aide": "Vérifier l'état de la batterie + capteur de pédale de frein"
+  },
+  {
+    "code": "P0721",
+    "description": "Capteur de vitesse du véhicule - problème de performance/de limites.",
+    "subTitle": "P0071 - Ambient Air Temperature Sensor Range/Performance",
+    "aide": "Vérifier l'état de la batterie + capteur de température"
+  },
+  {
+    "code": "P0722",
+    "description": "Capteur de vitesse du véhicule - aucun signal.",
+    "subTitle": "P0070 - Ambient Air Temperature Sensor Circuit",
+    "aide": "Vérifier l'état de la batterie + capteur de température"
+  },
+  {
+    "code": "P0723",
+    "description": "Capteur de vitesse du véhicule - circuit intermittent",
+    "subTitle": "Indicates an internal electrical fault, similar to DTCAAAB47.",
+    "aide": "Problème calculateur. Contrôler le programme de la boite automatique. Effectuer un calibrage."
+  },
+  {
+    "code": "P0724",
+    "description": "Convertisseur de couple/contacteur de freinage B - circuit trop haut.",
+    "subTitle": "Absence of signal from the secondary brake contact, potentially affecting brake light communication",
+    "aide": "Problème calculateur. Contrôler le programme de la boite automatique"
+  },
+  {
+    "code": "P0725",
+    "description": "Entrée du régime moteur - panne du circuit.",
+    "subTitle": "Indicates an inconsistent signal from the right front wheel, possibly from the wheel speed sensor.",
+    "aide": "Vérifier l'état de la batterie + Capteur de pédale de frein"
+  },
+  {
+    "code": "P0726",
+    "description": "Entrée du régime moteur - problème de performance/de limites.",
+    "subTitle": "Similar to DTCD22086, but for the left front wheel",
+    "aide": "Vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "P0727",
+    "description": "Entrée du régime moteur - aucun signal.",
+    "subTitle": "Indicates an inconsistent signal from the right front wheel, possibly from the wheel speed sensor.",
+    "aide": "Incohérence signal vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "P0728",
+    "description": "Entrée du régime moteur - circuit intermittent.",
+    "subTitle": "Suggests an open circuit in the motor for the gear selection drum of gear 2.",
+    "aide": "problème calculateur"
+  },
+  {
+    "code": "P0729",
+    "description": "Vitesse 6 - rapport incorrect.",
+    "subTitle": "Points to a voltage supply issue that is out of tolerance for the motor of the gear selection drum for gear 2",
+    "aide": "vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "P0730",
+    "description": "Rapport de démultiplication de la vitesse incorrect.",
+    "subTitle": "gear 2 selection signal detection that is out of the expected range, either too high or too low",
+    "aide": "vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "P0731",
+    "description": "Vitesse 1 - ratio incorrect.",
+    "subTitle": "related to gear 2 selection signal detection",
+    "aide": "problème calculateur"
+  },
+  {
+    "code": "P0732",
+    "description": "Vitesse 2 - ratio incorrect",
+    "subTitle": "P0606 - PCM Processor Fault",
+    "aide": "problème calculateur"
+  },
+  {
+    "code": "P0733",
+    "description": "Vitesse 3 - ratio incorrect",
+    "subTitle": "P0560 - System Voltage Malfunction",
+    "aide": "vérifier l'état de la batterie + peut être problème calculateur"
+  },
+  {
+    "code": "P0734",
+    "description": "Vitesse 4 - ratio incorrect",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0735",
+    "description": "Vitesse 5 - ratio incorrect",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0736",
+    "description": "Marche arrière - rapport incorrect",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0737",
+    "description": "Régime moteur calculateur de transmission - circuit de sortie.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0738",
+    "description": "Régime moteur calculateur de transmission - circuit de sortie faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0739",
+    "description": "Référence de temps à haute résolution signal B - aucun pulse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0740",
+    "description": "Electrovanne du convertisseur de couple - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0741",
+    "description": "Electrovanne du convertisseur de couple - performance ou blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0742",
+    "description": "Electrovanne du convertisseur de couple - blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0743",
+    "description": "Electrovanne du convertisseur de couple - électrique.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0744",
+    "description": "Electrovanne du convertisseur de couple - circuit intermittent.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0745",
+    "description": "Electrovanne du convertisseur de couple - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0746",
+    "description": "Electrovanne du convertisseur de couple - performance ou blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0747",
+    "description": "Electrovanne du convertisseur de couple - blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0748",
+    "description": "Electrovanne du convertisseur de couple - électrique.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0749",
+    "description": "Electrovanne du convertisseur de couple - circuit intermittent.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0750",
+    "description": "Electrovanne du convertisseur de couple A - circuit intermittent.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0751",
+    "description": "Electrovanne du convertisseur de couple A- performance ou blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0752",
+    "description": "Electrovanne du convertisseur de couple A- blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0753",
+    "description": "Electrovanne du convertisseur de couple A- électrique.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0754",
+    "description": "Electrovanne du convertisseur de couple A- circuit intermittent.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0755",
+    "description": "Electrovanne de changement de vitesse B - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0756",
+    "description": "Electrovanne de changement de vitesse B - performance ou blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0757",
+    "description": "Electrovanne de changement de vitesse B - blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0758",
+    "description": "Electrovanne de changement de vitesse B - électrique.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0759",
+    "description": "Electrovanne de changement de vitesse B - circuit intermittent.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0760",
+    "description": "Electrovanne de changement de vitesse C - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0761",
+    "description": "Electrovanne de changement de vitesse C - performance ou blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0762",
+    "description": "Electrovanne de changement de vitesse C - blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0763",
+    "description": "Electrovanne de changement de vitesse C - électrique.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0764",
+    "description": "Electrovanne de changement de vitesse C - circuit intermittent.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0765",
+    "description": "Electrovanne de changement de vitesse D - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0766",
+    "description": "Electrovanne de changement de vitesse D - performance ou blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0767",
+    "description": "Electrovanne de changement de vitesse D - blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0768",
+    "description": "Electrovanne de changement de vitesse D - électrique.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0769",
+    "description": "Electrovanne de changement de vitesse D - circuit intermittent.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0770",
+    "description": "Electrovanne de changement de vitesse E - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0771",
+    "description": "Electrovanne de changement de vitesse E - performance ou blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0772",
+    "description": "Electrovanne de changement de vitesse E - blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0773",
+    "description": "Electrovanne de changement de vitesse E - électrique.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0774",
+    "description": "Electrovanne de changement de vitesse E - circuit intermittent.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0775",
+    "description": "Electrovanne de commande de pression B - panne.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0776",
+    "description": "Electrovanne de commande de pression B - performance ou blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0777",
+    "description": "Electrovanne de commande de pression B - blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0778",
+    "description": "Electrovanne de commande de pression B - problème électrique.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0779",
+    "description": "Electrovanne de commande de pression B - circuit intermittent.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0780",
+    "description": "Sélection de la vitesse - problème de changement de vitesse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0781",
+    "description": "Sélection de la vitesse, 1-2 - problème de changement de vitesse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0782",
+    "description": "Sélection de la vitesse, 2-3 - problème de changement de vitesse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0783",
+    "description": "Sélection de la vitesse, 3-4 - problème de changement de vitesse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0784",
+    "description": "Sélection de la vitesse, 4-5 - problème de changement de vitesse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0785",
+    "description": "Electrovanne de changement de vitesse A - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0786",
+    "description": "Electrovanne de changement de vitesse A - problème de performance/de limites.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0787",
+    "description": "Electrovanne de changement de vitesse A - basse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0788",
+    "description": "Electrovanne de changement de vitesse A - haute.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0789",
+    "description": "Electrovanne de changement de vitesse A - intermittent.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0790",
+    "description": "Commutateur sélection de mode de transmission - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0791",
+    "description": "Capteur de vitesse de l'arbre intermédiaire de transmission - panne du cicuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0792",
+    "description": "Capteur de vitesse de l'arbre intermédiaire de transmission - problème de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0793",
+    "description": "Capteur de vitesse de l'arbre intermédiaire de transmission - aucun signal.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0794",
+    "description": "Capteur de vitesse de l'arbre intermédiaire de transmission - panne intermittente du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0795",
+    "description": "Electrovanne de pression d'huile de transmission C - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0796",
+    "description": "Electrovanne de pression d'huile de transmission C - performance ou blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0797",
+    "description": "Electrovanne de pression d'huile de transmission C - blocage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0798",
+    "description": "Electrovanne de pression d'huile de transmission C - problème électrique.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0799",
+    "description": "Electrovanne de pression d'huile de transmission C - panne intermittente du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0800",
+    "description": "Système de commande de la boîte de transfert, commande de lampe témoin d'affichage des défauts - panne.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0801",
+    "description": "Circuit de blocage de marche arrière - panne.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0802",
+    "description": "Commande de la transmission, commande de lampe témoin d'affichage des défauts - circuit ouvert.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0803",
+    "description": "Electrovanne de montée des vitesse 1-4 (saut de vitesses) - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0804",
+    "description": "Lampe témoin de montée des vitesses 1-4 (saut de vitesses) - panne de circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0805",
+    "description": "Capteur de la position de la pédale d'embrayage - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0806",
+    "description": "Capteur de la position de la pédale d'embrayage - problème de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0807",
+    "description": "Capteur de la position de la pédale d'embrayage - valeur d'entrée trop basse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0808",
+    "description": "Capteur de la position de la pédale d'embrayage - valeur d'entrée trop élevée.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0809",
+    "description": "Capteur de la position de la pédale d'embrayage - panne intermittente du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0810",
+    "description": "Erreur de commande de position de la pédale d'embrayage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0811",
+    "description": "Patinage excessif de l'embrayage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0812",
+    "description": "Marche arrière - panne du circuit d'entrée.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0813",
+    "description": "Marche arrière - panne du circuit de sortie.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0814",
+    "description": "Affichage de position du levier de vitesses - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0815",
+    "description": "Contacteur de montée des vitesses - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0816",
+    "description": "Contacteur de descente des vitesses - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0817",
+    "description": "Circuit de mise hors service du démarreur - panne.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0818",
+    "description": "Interrupteur de fil d'attaque - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0819",
+    "description": "Corrélation entre le contacteur montée/descente des vitesses et la position du levier de vitesses.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0820",
+    "description": "Capteur de position X-Y du levier de vitesses - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0821",
+    "description": "Capteur de position X du levier de vitesses - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0822",
+    "description": "Capteur de position Y du levier de vitesses - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0823",
+    "description": "Capteur de position X du levier de vitesses - circuit intermittent.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0824",
+    "description": "Capteur de position Y du levier de vitesses - circuit intermittent.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0825",
+    "description": "Commutateur à pression et tirage du levier de vitesses - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0826",
+    "description": "Contacteur montée/descente des vitesses - circuit d'entrée.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0827",
+    "description": "Contacteur montée/descente des vitesses - circuit d'entrée trop faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0828",
+    "description": "Contacteur montée/descente des vitesses - circuit d'entrée trop fort.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0829",
+    "description": "Montée des vitesses 5-6.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0830",
+    "description": "Contacteur de position de la pédale d'embrayage A - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0831",
+    "description": "Contacteur de position de la pédale d'embrayage A - valeur d'entrée trop basse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0832",
+    "description": "Contacteur de position de la pédale d'embrayage A - valeur d'entrée trop haute.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0833",
+    "description": "Contacteur de position de la pédale d'embrayage B - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0834",
+    "description": "Contacteur de position de la pédale d'embrayage B - valeur d'entrée trop basse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0835",
+    "description": "Contacteur de position de la pédale d'embrayage B - valeur d'entrée trop haute.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0836",
+    "description": "Contacteur 4 roues motrices - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0837",
+    "description": "Contacteur 4 roues motrices - problème de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0838",
+    "description": "Contacteur 4 roues motrices - valeur d'entrée trop basse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0839",
+    "description": "Contacteur 4 roues motrices - valeur d'entrée trop élevée.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0840",
+    "description": "Pressostat/capteur de pression d'huile de transmission A - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0841",
+    "description": "Pressostat/capteur de pression d'huile de transmission A - problème de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0842",
+    "description": "Pressostat/capteur de pression d'huile de transmission A - valeur d'entrée trop basse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0843",
+    "description": "Pressostat/capteur de pression d'huile de transmission A - valeur d'entrée trop haute.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0844",
+    "description": "Pressostat/capteur de pression d'huile de transmission A - panne intermittente du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0845",
+    "description": "Pressostat/capteur de pression d'huile de transmission B - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0846",
+    "description": "Pressostat/capteur de pression d'huile de transmission B - problème de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0847",
+    "description": "Pressostat/capteur de pression d'huile de transmission B - valeur d'entrée trop basse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0848",
+    "description": "Pressostat/capteur de pression d'huile de transmission B - valeur d'entrée trop haute.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0849",
+    "description": "Pressostat/capteur de pression d'huile de transmission B - panne intermittente du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0850",
+    "description": "Contacteur de position Neutre/parking - panne du circuit d'entrée.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0851",
+    "description": "Contacteur de position Neutre/Parking - circuit d'entrée trop faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0852",
+    "description": "Contacteur de position Neutre/Parking - circuit d'entrée trop fort.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0853",
+    "description": "Contacteur de position Drive - panne du circuit d'entrée.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0854",
+    "description": "Contacteur de position Drive - circuit d'entrée trop faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0855",
+    "description": "Contacteur de position Drive - circuit d'entrée trop fort.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0856",
+    "description": "Signal d'entrée anti-patinage - panne.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0857",
+    "description": "Signal d'entrée anti-patinage - prolème de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0858",
+    "description": "Signal d'entrée anti-patinage - faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0859",
+    "description": "Signal d'entrée anti-patinage - haut.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0860",
+    "description": "Circuit de communication du boîtier électronique de changement de vitesses - panne.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0861",
+    "description": "Circuit de communication du boîtier électronique de changement de vitesses - valeur d'entrée trop basse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0862",
+    "description": "Circuit de communication du boîtier électronique de changement de vitesses - valeur d'entrée trop haute.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0863",
+    "description": "Circuit de communication du calculateur de transmission - panne.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0864",
+    "description": "Circuit de communication du calculateur de transmission - problème de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0865",
+    "description": "Circuit de communication du calculateur de transmission - valeur d'entrée trop basse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0866",
+    "description": "Circuit de communication du calculateur de transmission - valeur d'entrée trop haute.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0867",
+    "description": "Capteur de pression d'huile de transmission.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0868",
+    "description": "Capteur de pression d'huile de transmission - faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0869",
+    "description": "Capteur de pression d'huile de transmission - haut.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0870",
+    "description": "Capteur de pression d'huile de transmission C - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0871",
+    "description": "Capteur de pression d'huile de transmission C - plage de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0872",
+    "description": "Capteur de pression d'huile de transmission C - circuit trop bas.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0873",
+    "description": "Capteur de pression d'huile de transmission C - circuit trop haut.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0874",
+    "description": "Capteur de pression d'huile de transmission C - panne intermittente du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0875",
+    "description": "Capteur de pression d'huile de transmission D - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0876",
+    "description": "Capteur de pression d'huile de transmission D - plage de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0877",
+    "description": "Capteur de pression d'huile de transmission D - circuit trop bas.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0878",
+    "description": "Capteur de pression d'huile de transmission D - circuit trop haut.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0879",
+    "description": "Capteur de pression d'huile de transmission D - panne intermittente du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0880",
+    "description": "Calculateur de transmission - panne du signal d'entrée de l'amimentation électrique.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0881",
+    "description": "Calculateur de transmission - plage de mesure/performance du signal d'entrée de l'amimentation électrique.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0882",
+    "description": "Calculateur de transmission - signal d'entrée de l'amimentation électrique trop faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0883",
+    "description": "Calculateur de transmission - signal d'entrée de l'amimentation électrique trop fort.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0884",
+    "description": "Calculateur de transmission - panne intermittente du signal d'entrée de l'amimentation électrique.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0885",
+    "description": "Relais d'alimentation électrique du calculateur de transmission - circuit de commande ouvert.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0886",
+    "description": "Relais d'alimentation électrique du calculateur de transmission - circuit de commande trop faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0887",
+    "description": "Relais d'alimentation électrique du calculateur de transmission - circuit de commande trop fort.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0888",
+    "description": "Relais d'alimentation électrique du calculateur de transmission - panne du circuit de sondage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0889",
+    "description": "Relais d'alimentation électrique du calculateur de transmission - plage de mesure/performance du circuit de sondage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0890",
+    "description": "Relais d'alimentation électrique du calculateur de transmission - circuit de sondage trop faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0891",
+    "description": "Relais d'alimentation électrique du calculateur de transmission - circuit de sondage trop fort.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0892",
+    "description": "Relais d'alimentation électrique du calculateur de transmission - panne intermittente du circuit de sondage.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0893",
+    "description": "Plusieurs vitesses engagées.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0894",
+    "description": "Patinage d'un composant de la transmission.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0895",
+    "description": "Durée de changement de vitesse trop courte.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0896",
+    "description": "Durée de changement de vitesse trop longue.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0897",
+    "description": "Huile de transmission dégradée.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0898",
+    "description": "Commande de transmission - commande de lampe témoin d'affichage des défauts - circuit trop bas.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0899",
+    "description": "Commande de transmission - commande de lampe témoin d'affichage des défauts - circuit trop haut.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0900",
+    "description": "Capteur d'embrayage - circuit ouvert.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0901",
+    "description": "Capteur d'embrayage - plage de msure/performance du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0902",
+    "description": "Capteur d'embrayage - circuit trop bas.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0903",
+    "description": "Capteur d'embrayage - circuit trop haut.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0904",
+    "description": "Circuit de sélection de coulisse de transmission - panne.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0905",
+    "description": "Circuit de sélection de coulisse de transmission - plage de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0906",
+    "description": "Circuit de sélection de coulisse de transmission - basse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0907",
+    "description": "Circuit de sélection de coulisse de transmission - haute.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0908",
+    "description": "Circuit de sélection de coulisse de transmission - panne intermittente du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0909",
+    "description": "Erreur de commande de sélection de coulisse de transmission.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0910",
+    "description": "Capteur de sélection de coulisse de transmission - circuit ouvert.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0911",
+    "description": "Capteur de sélection de coulisse de transmission - plage de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0912",
+    "description": "Capteur de sélection de coulisse de transmission - circuit trop bas.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0913",
+    "description": "Capteur de sélection de coulisse de transmission - circuit trop haut.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0914",
+    "description": "Circuit de position de changement de vitesses - panne.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0915",
+    "description": "Circuit de position de changement de vitesses - plage de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0916",
+    "description": "Circuit de position de changement de vitesses - basse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0917",
+    "description": "Circuit de position de changement de vitesses - haute.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0918",
+    "description": "Circuit de position de changement de vitesses - panne intermittente.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0919",
+    "description": "Commande de position de changement de vitesses - erreur.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0920",
+    "description": "Capteur de changement de vitesses vers l'avant - circuit ouvert.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0921",
+    "description": "Capteur de changement de vitesses vers l'avant - plage de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0921",
+    "description": "Capteur de changement de vitesses vers l'avant - plage de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0922",
+    "description": "Capteur de changement de vitesses vers l'avant - circuit trop bas.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0923",
+    "description": "Capteur de changement de vitesses vers l'avant - circuit trop haut.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0924",
+    "description": "Capteur de changement de vitesses vers l'arrière - circuit ouvert.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0925",
+    "description": "Capteur de changement de vitesses vers l'arrière - plage de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0926",
+    "description": "Capteur de changement de vitesses vers l'arrière - circuit trop bas.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0927",
+    "description": "Capteur de changement de vitesses vers l'arrière - circuit trop haut.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0928",
+    "description": "Electrovanne de blocage de changement de vitesse - circuit ouvert.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0929",
+    "description": "Electrovanne de blocage de changement de vitesse - plage de mesure/performance du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0930",
+    "description": "Electrovanne de blocage de changement de vitesse - circuit trop bas.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0931",
+    "description": "Electrovanne de blocage de changement de vitesse - circuit trop haut.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0932",
+    "description": "Capteur de pression hydraulique - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0933",
+    "description": "Capteur de pression hydraulique - plage de mesure/performance du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0934",
+    "description": "Capteur de pression hydraulique - signal d'entrée du circuit trop bas.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0935",
+    "description": "Capteur de pression hydraulique - signal d'entrée du circuit trop haut.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0936",
+    "description": "Capteur de pression hydraulique - circuit intermittent.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0937",
+    "description": "Sonde de température du fluide hydraulique - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0938",
+    "description": "Sonde de température du fluide hydraulique - plage de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0939",
+    "description": "Sonde de température du fluide hydraulique - signal d'entrée du circuit trop bas.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0940",
+    "description": "Sonde de température du fluide hydraulique - signal d'entrée du circuit trop haut.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0941",
+    "description": "Sonde de température du fluide hydraulique - circuit intermittent.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0942",
+    "description": "Module de pression hydraulique.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0943",
+    "description": "Module de pression hydraulique - durée de cycle trop courte.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0944",
+    "description": "Module de pression hydraulique - perte de pression.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0945",
+    "description": "Relais de la pompe hydraulique - circuit ouvert.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0946",
+    "description": "Relais de la pompe hydraulique - plage de mesure/performance du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0947",
+    "description": "Relais de la pompe hydraulique - circuit trop bas.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0948",
+    "description": "Relais de la pompe hydraulique - circuit trop haut.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0949",
+    "description": "Boite de vitesse à passage automatique - apprentissage adaptatif non effectué.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0950",
+    "description": "Circuit de commande boite de vitesses à passage automatique.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0951",
+    "description": "Circuit de commande boite de vitesses à passage automatique - plage de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0952",
+    "description": "Circuit de commande boite de vitesses à passage automatique - basse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0953",
+    "description": "Circuit de commande boite de vitesses à passage automatique - haute.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0954",
+    "description": "Circuit de commande boite de vitesses à passage automatique - panne intermittente du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0955",
+    "description": "Circuit de programme boite de vitesses à passage automatique - panne.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0956",
+    "description": "Circuit de programme boite de vitesses à passage automatique - plage de mesure/performance.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0957",
+    "description": "Circuit de programme boite de vitesses à passage automatique - basse.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0958",
+    "description": "Circuit de programme boite de vitesses à passage automatique - haute.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0959",
+    "description": "Circuit de programme boite de vitesses à passage automatique - panne intermittente du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0960",
+    "description": "Electrovanne de régulation de pression A - circuit de commande ouvert.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0961",
+    "description": "Electrovanne de régulation de pression A - plage de mesure/performance du circuit de commande.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0962",
+    "description": "Electrovanne de régulation de pression A - circuit de commande trop faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0963",
+    "description": "Electrovanne de régulation de pression A - circuit de commande trop fort.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0964",
+    "description": "Electrovanne de régulation de pression B - circuit de commande ouvert.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0965",
+    "description": "Electrovanne de régulation de pression B - plage de mesure/performance du circuit de commande.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0966",
+    "description": "Electrovanne de régulation de pression B - circuit de commande trop faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0967",
+    "description": "Electrovanne de régulation de pression B - circuit de commande trop fort.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0968",
+    "description": "Electrovanne de régulation de pression C - circuit de commande ouvert.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0969",
+    "description": "Electrovanne de régulation de pression C - plage de mesure/performance du circuit de commande.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0970",
+    "description": "Electrovanne de régulation de pression C - circuit de commande trop faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0971",
+    "description": "Electrovanne de régulation de pression C - circuit de commande trop fort.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0972",
+    "description": "Electrovanne de changement de vitesse A - plage de mesure/performance du circuit de commande.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0973",
+    "description": "Electrovanne de changement de vitesse A - circuit de commande trop faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0974",
+    "description": "Electrovanne de changement de vitesse A - circuit de commande trop fort.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0975",
+    "description": "Electrovanne de changement de vitesse B - plage de mesure/performance du circuit de commande.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0976",
+    "description": "Electrovanne de changement de vitesse B - circuit de commande trop faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0977",
+    "description": "Electrovanne de changement de vitesse B - circuit de commande trop fort.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0978",
+    "description": "Electrovanne de changement de vitesse C - plage de mesure/performance du circuit de commande.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0979",
+    "description": "Electrovanne de changement de vitesse C - circuit de commande trop faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0980",
+    "description": "Electrovanne de changement de vitesse C - circuit de commande trop fort.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0981",
+    "description": "Electrovanne de changement de vitesse D - plage de mesure/performance du circuit de commande.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0982",
+    "description": "Electrovanne de changement de vitesse D - circuit de commande trop faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0983",
+    "description": "Electrovanne de changement de vitesse D - circuit de commande trop fort.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0984",
+    "description": "Electrovanne de changement de vitesse E - plage de mesure/performance du circuit de commande.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0985",
+    "description": "Electrovanne de changement de vitesse E - circuit de commande trop faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0986",
+    "description": "Electrovanne de changement de vitesse E - circuit de commande trop fort.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0987",
+    "description": "Capteur de pression d'huile de transmission E - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0988",
+    "description": "Capteur de pression d'huile de transmission E - plage de mesure/performance du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0989",
+    "description": "Capteur de pression d'huile de transmission E - circuit trop bas.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0990",
+    "description": "Capteur de pression d'huile de transmission E - circuit trop haut.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0991",
+    "description": "Capteur de pression d'huile de transmission E - circuit intermittent.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0992",
+    "description": "Capteur de pression d'huile de transmission F - panne du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0993",
+    "description": "Capteur de pression d'huile de transmission F - plage de mesure/performance du circuit.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0994",
+    "description": "Capteur de pression d'huile de transmission F - circuit trop bas.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0995",
+    "description": "Capteur de pression d'huile de transmission F - circuit trop haut.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0996",
+    "description": "Capteur de pression d'huile de transmission F - circuit intermittent.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0997",
+    "description": "Electrovanne de changement de vitesse F - plage de mesure/performance du circuit de commande.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0998",
+    "description": "Electrovanne de changement de vitesse F - circuit de commande trop faible.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  },
+  {
+    "code": "P0999",
+    "description": "Electrovanne de changement de vitesse F - circuit de commande trop fort.",
+    "subTitle": "Internal electronic anomaly in the sensor for gear entry in the transmission.",
+    "aide": "problème calculateur. Controler le programme de la boite automatique"
+  }
+]

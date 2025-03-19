@@ -55,7 +55,7 @@ const Hero = () => {
                     },
                     {
                       href: "/fluence",
-                      src: "/images/dq200C.webp",
+                      src: "/images/dq200C.png",
                       alt: "Calculateur DQ200",
                       label: "Calculateur DQ200",
                     },

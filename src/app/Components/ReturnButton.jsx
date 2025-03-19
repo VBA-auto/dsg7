@@ -6,7 +6,7 @@ const ReturnButton = () => {
     <div>
       <div className="">
         <button
-          className="flex items-center rounded-md"
+          className="flex items-center rounded-md cursor-pointer"
           onClick={() => window.history.back()}
         >
           <IoArrowBackSharp className="text-red-500 text-md mr-1" />

@@ -30,40 +30,40 @@ const Hero = () => {
                   {[
                     {
                       href: "/produits/Captur(DC4)",
-                      src: "/images/calculators.png",
-                      alt: "Renault Captur",
-                      label: "Renault Captur",
+                      src: "/images/dc4_captur.webp",
+                      alt: "Calculateur DC4",
+                      label: "Calculateur DC4",
                     },
 
                     {
                       href: "/produits/clio(DC4)",
-                      src: "/images/dq381-1.webp",
-                      alt: "Renault Clio IV",
-                      label: "Renault Clio 4",
+                      src: "/images/strie-1.png",
+                      alt: "Calculateur DC4/DC0",
+                      label: "Calculateur DC4/DC0",
                     },
                     {
                       href: "/produits/DSG7(DQ381)",
-                      src: "/images/dq200C.webp",
+                      src: "/images/platPng.webp",
                       alt: "Renault Megane",
-                      label: "Calculateur DQ381",
-                    },
-                    {
-                      href: "/produits/MecatroniqueDSG7(DQ200)",
-                      src: "/images/dq200M-1.webp",
-                      alt: "Renault Scenic",
-                      label: "Mecatronique DQ200",
-                    },
-                    {
-                      href: "/fluence",
-                      src: "/images/cal-normal-6.webp",
-                      alt: "Renault Fluence",
                       label: "Calculateur DW5",
                     },
                     {
-                      href: "/clio-rs",
-                      src: "/images/platPng.webp",
-                      alt: "Ford Focus",
+                      href: "/produits/MecatroniqueDSG7(DQ200)",
+                      src: "/images/dq250-1.webp",
+                      alt: "Mécatronique DQ200",
+                      label: "Mécatronique DQ200",
+                    },
+                    {
+                      href: "/fluence",
+                      src: "/images/dq200C.webp",
+                      alt: "Calculateur DQ200",
                       label: "Calculateur DQ200",
+                    },
+                    {
+                      href: "/clio-rs",
+                      src: "/images/dq381-1.webp",
+                      alt: "Ford Focus",
+                      label: "Calculateur DQ381/382",
                     },
                   ].map((car, index) => (
                     <div key={index} className="carsCard rounded-md">

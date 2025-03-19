@@ -117,7 +117,7 @@ const AideenLigneSearch = () => {
       <div className="relative">
         <input
           type="text"
-          placeholder="Code erreur ou description"
+          placeholder="Veuillez saisir ici votre code défaut ou la description"
           value={searchTerm}
           onChange={handleChange}
           onFocus={() => setIsSearchOpen(true)}

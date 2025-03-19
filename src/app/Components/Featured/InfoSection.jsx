@@ -29,14 +29,14 @@ const InformativeSection = () => {
               products, from engine components to exterior accessories.
             </p>
             <p className="text-gray-600">
-              Our team of experts is committed to delivering exceptional customer
-              service and ensuring you find the right parts for your car. Whether
-              you're a professional mechanic or a car enthusiast, DSG7 has
-              everything you need.
+              Our team of experts is committed to delivering exceptional
+              customer service and ensuring you find the right parts for your
+              car. Whether you're a professional mechanic or a car enthusiast,
+              DSG7 has everything you need.
             </p>
 
-{/* Call to Action Button */}
-<BuyButton href="about-us" text="About us" />
+            {/* Call to Action Button */}
+            <BuyButton href="about-us" text="About us" />
           </div>
         </div>
       </div>

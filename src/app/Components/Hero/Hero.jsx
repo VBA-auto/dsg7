@@ -29,20 +29,20 @@ const Hero = () => {
                 <div className="grid grid-cols-2 md:gap-5 md:grid-cols-3 ">
                   {[
                     {
-                      href: "/produits/Captur(DC4)",
+                      href: "/produits/calculateur-dc4",
                       src: "/images/dc4_captur.webp",
                       alt: "Calculateur DC4",
                       label: "Calculateur DC4",
                     },
 
                     {
-                      href: "/produits/clio(DC4)",
+                      href: "/produits/calculateur-dc4-dc0",
                       src: "/images/strie-1.png",
                       alt: "Calculateur DC4/DC0",
                       label: "Calculateur DC4/DC0",
                     },
                     {
-                      href: "/produits/DSG7(DQ381)",
+                      href: "/produits/calculateur-dw5",
                       src: "/images/platPng.webp",
                       alt: "Renault Megane",
                       label: "Calculateur DW5",

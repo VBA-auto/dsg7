@@ -49,7 +49,7 @@ const Hero = () => {
                     },
                     {
                       href: "/produits/mecatronique-dq200",
-                      src: "/images/dq250-1.webp",
+                      src: "/images/mecadq2001.webp",
                       alt: "Mécatronique DQ200",
                       label: "Mécatronique DQ200",
                     },

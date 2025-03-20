@@ -11,7 +11,7 @@ import RecommendedProducts from "./References";
 import ReturnButton from "../ReturnButton";
 
 const DefaultSingle = ({ product }) => {
-  console.log(product);
+  // console.log(product);
   const imageSlide = product?.image;
   return (
     <div>
@@ -20,7 +20,6 @@ const DefaultSingle = ({ product }) => {
           <div className="md:w-2/3 md:ms-auto">
             <ReturnButton />
             <ResponsiveSlider images={imageSlide} />
-            {/* <Image width={600} height={500} src={product?.image} alt="sd" /> */}
           </div>
 
           {/* Product Details */}
@@ -67,7 +66,7 @@ const DefaultSingle = ({ product }) => {
           </div>
         </div>
         <div className="mt-16">
-          <RecommendedProducts />
+          <RecommendedProducts category={product.category} />
         </div>
       </div>
     </div>

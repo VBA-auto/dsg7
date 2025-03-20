@@ -12,6 +12,7 @@
     "orderLink": "#",
     "url": "dsg7-dq381",
     "category": "calcudq381",
+    "ref": "same",
     "status": "single",
     "description": "<div> <p>Calculateur DQ381/382 équipe de nombreux véhicules du groupe Volkswagen, notamment Audi A3 (8V/8Y), Q2, TT, S3, Volkswagen Golf 7/8, Tiguan, Arteon, Passat B8, T-Roc, Seat Leon III/IV, Tarraco, Ateca et Skoda Octavia III/IV, Superb III. Il gère le passage des rapports et le fonctionnement du double embrayage de la boîte DSG7 à embrayage mouillé. Une panne peut entraîner des passages difficiles, l'impossibilité d’engager certaines vitesses paires ou impaires, ou encore l'affichage du message 'Boîte de vitesses à contrôler', souvent accompagné des codes défauts P17BF, P189C, P0841, P177B. Expédition rapide en 24/48h. Livré vierge ou pré-programmé (Plug & Play)</p> </div>"
   },
@@ -24,6 +25,7 @@
     "orderLink": "#",
     "url": "calculateur-dsg7-dq200",
     "category": "calcudq200",
+    "ref": "same",
     "status": "single",
     "description": "<div> <p>Calculateur DQ200 (avec capteur) est conçu pour gérer le passage des rapports et le double embrayage des boîtes automatiques DSG7 à embrayage à sec. Il est monté sur de nombreux modèles du groupe Volkswagen, notamment Audi A1, A3, Q2, Volkswagen Golf 6/7, Polo, Passat B7, Tiguan, Touran, Jetta, Seat Ibiza, Leon, Alhambra, Toledo et Skoda Octavia, Superb, Fabia, Yeti. Une panne peut entraîner l’impossibilité d’engager les vitesses paires ou impaires, des passages difficiles ou l'affichage du message 'Boîte de vitesses à contrôler', souvent accompagné des codes défauts P189C, P17BF, P0841, P177B. Disponible en stock. </br>Expédition rapide en 24/48 Calculateur livré vierge ou pré-programmé (Plug & Play).</p> </div>"
   },
@@ -36,6 +38,7 @@
     "orderLink": "#",
     "url": "mecatronique-dsg7-dq200",
     "category": "mecatroniquedq200",
+    "ref": "same",
     "status": "single",
     "description": "<div> <p>La mécatronique DSG7 (DQ200) - TEMIC 0AM927769D / 0AM325065 contrôle le passage des rapports et le double embrayage. Une défaillance peut entraîner des pertes de vitesses (P189C, P17BF, P0841, P177B), un voyant 'Boîte de vitesses à contrôler' allumé (P17BF, P189C) ou un dysfonctionnement de la pompe hydraulique et des moteurs d’embrayage (P0C21800, P0C21900). Disponible en stock, avec expédition 24/48h. </br>Mécatronique livré vierge ou pré-programmé.</p> </div>"
   },
@@ -53,6 +56,7 @@
     "orderLink": "#",
     "url": "mecatronique-dsg6-dq250",
     "category": "mecatroniquedsg6",
+    "ref": "same",
     "status": "single",
     "description": "<div> <p>Le mécatronique DSG6 (DQ250) pour les boîtes à double embrayage mouillé. Compatible avec de nombreux moteurs, notamment les 2.0 TSI/TFSI, 3.2 V6, 1.9 TDI et 2.0 TDI. Ce module équipe plusieurs modèles des groupes Volkswagen, Audi, Seat et Skoda, tels que les Volkswagen Golf, Jetta, Passat, Scirocco, Touran, Sharan, Audi A3, TT, Seat Leon, Alhambra, Altea et Skoda Octavia, Superb, Yeti. Cette mécatronique est disponible sous plusieurs références OEM, incluant 02E DQ250, 02E927770AD, 02E927770AJ, 02E927770AT, 02E927770AQ, 02E927770AM, 02E927770AS et 02E927770AL.</p> </div>"
   },
@@ -77,6 +81,7 @@
     "orderLink": "#",
     "url": "captur-dc4",
     "category": "dc4",
+    "ref": "dc4",
     "status": "double",
     "product": "Captur",
     "description": "<div> <p>Calculateur pour boîte automatique Renault Captur 1.5 Diesel et 1.2 Essence.  Conçu pour les boîtes EDC / DC4 équipant les Captur produits entre 2013 et 2018. Ce module de commande est neuf, garanti constructeur, et arrive déjà programmé, prêt à être installé sans réglages supplémentaires. Il vous suffit de le monter sans intervention complémentaire. Envoyez-nous votre immatriculation par e-mail ou SMS afin que nous le programmions avant expedition. Pour toute question ou assistance, consultez notre <a class='text-[#E7000B]' href='/aide'>aide en ligne.</a></p> </div>"
@@ -102,6 +107,7 @@
     "url": "clio-dc4",
     "product": "clio-dc4",
     "category": "dc4",
+    "ref": "dc4",
     "status": "double",
     "description": "<div> <p>Calculateur pour boîte automatique Renault Clio 4 1.5 Diesel et 1.2 Essence.  Conçu pour les boîtes EDC / DC4 équipant les Renault Clio 4 produits entre 2013 et 2018. Ce module de commande est neuf, garanti constructeur, et arrive déjà programmé, prêt à être installé sans réglages supplémentaires. Il vous suffit de le monter sans intervention complémentaire. Envoyez-nous votre immatriculation par e-mail ou SMS afin que nous le programmions avant expedition. Pour toute question ou assistance, consultez notre <a class='text-[#E7000B]' href='/aide'>aide en ligne.</a></p> </div>"
   },
@@ -125,6 +131,7 @@
     "orderLink": "#",
     "url": "clioRS-dc4",
     "category": "dc4",
+    "ref": "dc4",
     "status": "double",
     "product": "Clio RS",
     "description": "<div> <p>Calculateur pour boîte automatique Renault Clio 4 RS 1.6 Essence.  Conçu pour les boîtes EDC / DC4 équipant les Renault Clio 4 RS produits entre 2011 et 2018. Il existe différents programmes notamaent pour les “phase 2”.Ce module de commande est neuf, garanti constructeur, et arrive déjà programmé, prêt à être installé sans réglages supplémentaires. Il vous suffit de le monter sans intervention complémentaire. Envoyez-nous votre immatriculation par e-mail ou SMS afin que nous le programmions avant expedition. Pour toute question ou assistance, consultez notre <a class='text-[#E7000B]' href='/aide'>aide en ligne.</a></p> </div>"
@@ -149,6 +156,7 @@
     "orderLink": "#",
     "url": "megane-dc4",
     "category": "dc4",
+    "ref": "dc4",
     "status": "double",
     "product": "Megane",
     "description": "<div> <p>Calculateur pour boîte automatique Renault Megane 3 1.5 Diesel et 1.2 Essence.  Conçu pour les boîtes EDC / DC4 équipant les Renault Megane 3 produits entre 2008 et 2013. Ce module de commande est neuf, garanti constructeur, et arrive déjà programmé, prêt à être installé sans réglages supplémentaires. Il vous suffit de le monter sans intervention complémentaire. Envoyez-nous votre immatriculation par e-mail ou SMS afin que nous le programmions avant expedition. Pour toute question ou assistance, consultez notre <a class='text-[#E7000B]' href='/aide'>aide en ligne.</a></p> </div>"
@@ -173,6 +181,7 @@
     "orderLink": "#",
     "url": "scenic-dc4",
     "category": "dc4",
+    "ref": "dc4",
     "status": "double",
     "product": "Scenic",
     "description": "<div> <p>Calculateur pour boîte automatique Renault Scenic 3 1.5 Diesel (court et long).  Conçu pour les boîtes EDC / DC4 équipant les Renault Scenic 3 produits entre 2008 et 2013. Ce module de commande est neuf, garanti constructeur, et arrive déjà programmé, prêt à être installé sans réglages supplémentaires. Il vous suffit de le monter sans intervention complémentaire. Envoyez-nous votre immatriculation par e-mail ou SMS afin que nous le programmions avant expedition. Pour toute question ou assistance, consultez notre <a class='text-[#E7000B]' href='/aide'>aide en ligne.</a></p> </div>"
@@ -193,6 +202,7 @@
     "orderLink": "#",
     "url": "dw5-clio5",
     "category": "dw5",
+    "ref": "dw5",
     "status": "single",
     "product": "Scenic",
     "description": "<div> <p>Calculateur pour boîte automatique Renault Clio 5. Conçu pour les boîtes auto DW5 (double embrayage mouillé) équipant les Renault Clio 5 produits entre 2015 et 2022, ce module de commande est neuf, garanti constructeur, et arrive déjà programmé, prêt à être installé sans réglages supplémentaires. Il vous suffit de le monter sans intervention complémentaire. Envoyez-nous votre immatriculation par e-mail ou SMS afin que nous le programmions avant expédition. Pour toute question ou assistance, consultez notre <a class='text-[#E7000B]' href='/aide'>aide en ligne.</a></p> </div>"
@@ -213,6 +223,7 @@
     "orderLink": "#",
     "url": "dw5-megane5",
     "category": "dw5",
+    "ref": "dw5",
     "status": "single",
     "product": "Scenic",
     "description": "<div> <p>Calculateur pour boîte automatique Renault Mégane 4. Conçu pour les boîtes auto DW5 (double embrayage mouillé) équipant les Renault Mégane 4 produits entre 2015 et 2022, ce module de commande est neuf, garanti constructeur, et arrive déjà programmé, prêt à être installé sans réglages supplémentaires. Il vous suffit de le monter sans intervention complémentaire. Envoyez-nous votre immatriculation par e-mail ou SMS afin que nous le programmions avant expédition. Pour toute question ou assistance, consultez notre <a class='text-[#E7000B]' href='/aide'>aide en ligne.</a></p> </div>"
@@ -231,6 +242,7 @@
     "paragraph": "Calculateur Renault pour DW5 SCENIC 5",
     "price": "700",
     "category": "dw5",
+    "ref": "dw5",
     "orderLink": "#",
     "url": "dw5-scenic5",
     "status": "single",
@@ -250,6 +262,7 @@
     "price": "700",
     "orderLink": "#",
     "category": "dc4dc0",
+    "ref": "dc4-dc0",
     "url": "dc4-dc0-duster",
     "status": "single",
     "product": "Scenic",
@@ -269,6 +282,7 @@
     "orderLink": "#",
     "url": "dc4-dc0-twingo3",
     "category": "dc4dc0",
+    "ref": "dc4-dc0",
     "status": "single",
     "product": "Scenic",
     "description": "<div> <p>Calculateur pour boîte automatique Renault Twingo 3. Conçu pour les boîtes auto DC4/DC0 équipant les Renault Twingo 3 produits entre 2015 et 2022, ce module de commande est neuf, garanti constructeur, et arrive déjà programmé, prêt à être installé sans réglages supplémentaires. Il vous suffit de le monter sans intervention complémentaire. Envoyez-nous votre immatriculation par e-mail ou SMS afin que nous le programmions avant expédition. Pour toute question ou assistance, consultez notre <a class='text-[#E7000B]' href='/aide'>aide en ligne.</a></p> </div>"
@@ -285,6 +299,7 @@
     "paragraph": "Calculateur Renault pour DC4/DC0 MEGANE 4",
     "price": "700",
     "category": "dc4dc0",
+    "ref": "dc4-dc0",
     "orderLink": "#",
     "url": "dc4-dc0-megane4",
     "status": "single",

@@ -66,7 +66,7 @@ const DefaultSingle = ({ product }) => {
           </div>
         </div>
         <div className="mt-16">
-          <RecommendedProducts category={product.category} />
+          <RecommendedProducts ref={product.ref} />
         </div>
       </div>
     </div>

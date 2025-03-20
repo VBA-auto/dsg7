@@ -18,17 +18,15 @@ async function fetchProducts() {
   }
 }
 
-export default async function RecommendedProducts({ category }) {
+export default async function RecommendedProducts({ ref }) {
   // Fetch all products
   const allProducts = await fetchProducts();
   console.log(allProducts);
 
   // Filter products that have the same category as the current product
-  const similarProducts = allProducts.filter(
-    (product) => product.category === category
-  );
+  const similarProducts = allProducts.filter((product) => product.ref === ref);
   console.log(similarProducts);
-  console.log(category);
+  console.log(ref);
 
   // If no similar products found, return null or a message
   if (similarProducts.length === 0) {

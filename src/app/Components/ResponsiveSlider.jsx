@@ -77,7 +77,7 @@ const ResponsiveSlider = ({ images }) => {
           disabled={currentIndex === 0}
           className="bg-white h-[60px] px-1 rounded-md text-red-600 disabled:opacity-50"
         >
-          <MdArrowBackIosNew className="text-3xl font-[500]" />
+          <MdArrowBackIosNew className="text-3xl font-[500] hover:border hover:rounded-md hover:bg-gray-200 cursor-pointer" />
         </button>
 
         {/* Thumbnails Container */}
@@ -120,7 +120,7 @@ const ResponsiveSlider = ({ images }) => {
           disabled={currentIndex === images.length - 1}
           className="bg-white h-[60px] px-1 rounded-md text-red-600 disabled:opacity-50"
         >
-          <MdArrowForwardIos className="text-3xl font-[500]" />
+          <MdArrowForwardIos className="text-3xl font-[500] hover:border hover:rounded-md hover:bg-gray-200 cursor-pointer" />
         </button>
       </div>
     </div>

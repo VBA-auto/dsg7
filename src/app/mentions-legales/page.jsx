@@ -1,10 +1,21 @@
+import Head from "next/head";
 import React from "react";
 
 const LegalNotice = () => {
+  const pageDescription =
+    "Découvrez les mentions légales de DSG7.fr, nos conditions générales et nos coordonnées de contact.";
+  const HeadingText = "Mentions légales de DSG7.fr";
   return (
     <div className="max-w-7xl mx-auto my-8 p-6 bg-white shadow-lg rounded-lg">
+      <Head>
+        <title>Mentions légales | DSG7</title>
+        <meta name="description" content={pageDescription} />
+        <meta name="headline" content={HeadingText} />
+      </Head>
+      <div className="sr-only">
+        <h1>Mentions légales de DSG7.fr</h1>
+      </div>{" "}
       <h1 className="text-4xl font-bold text-center mb-8">Mentions Légales</h1>
-
       <div className="space-y-6">
         {/* Section 1: Siège Social et Hébergement */}
         <section>

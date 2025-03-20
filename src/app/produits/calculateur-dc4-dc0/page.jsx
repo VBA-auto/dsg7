@@ -1,6 +1,8 @@
 // app/shop/page.jsx
 import Link from "next/link";
 import Image from "next/image";
+import ReturnButton from "@/app/Components/ReturnButton";
+import Head from "next/head";
 
 async function fetchProducts() {
   try {
@@ -20,6 +22,10 @@ async function fetchProducts() {
 }
 
 export default async function CalculateurDC4() {
+  const pageDescription =
+    "Calculateur DC4 / dco Renault duster megane 4 captur 2";
+  const HeadingText = "calculateur megane 4";
+
   const products = await fetchProducts();
   const filteredProducts = products.filter(
     (product) => product.category === "dc4dc0"
@@ -27,10 +33,27 @@ export default async function CalculateurDC4() {
 
   return (
     <div className="max-w-7xl mx-auto py-12 px-5 md:px-0">
-      <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
-        Calculateur DC4/DC0
-      </h1>
-
+      <Head>
+        <title>Calculateur DC4/DC0 - Vente & Réparation </title>
+        <meta name="description" content={pageDescription} />
+        <meta name="headline" content={HeadingText} />
+      </Head>
+      <div className="sr-only">
+        <h1>calculateur megane 4</h1>
+        <h1>Calculateur captur 2</h1>
+      </div>{" "}
+      <div className="flex justify-between items-center">
+        <div className="">
+          <ReturnButton />
+        </div>
+        <div className="">
+          {" "}
+          <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
+            Calculateur DC4/DC0
+          </h1>
+        </div>
+        <div className=""></div>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
         {filteredProducts?.map((product) => (
           <div
@@ -44,7 +67,7 @@ export default async function CalculateurDC4() {
                   height={300}
                   src={product.image[0]}
                   alt={product.title}
-                  className="border w-[400px] h-[250px] mx-auto hover:opacity-80 transition-opacity duration-300"
+                  className="border w-[400px] h-[280px] mx-auto hover:opacity-80 transition-opacity duration-300"
                 />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50 bg-opacity-50">
                   <span className="text-white text-center text-lg font-semibold">
@@ -67,7 +90,6 @@ export default async function CalculateurDC4() {
           </div>
         ))}
       </div>
-
       <div className="mt-16 text-center text-gray-600 mb-8">
         <h2 className="text-2xl font-semibold mb-4">
           Pourquoi choisir nos produits

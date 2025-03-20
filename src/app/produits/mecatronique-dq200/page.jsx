@@ -1,6 +1,8 @@
 // app/shop/page.jsx
 import Link from "next/link";
 import Image from "next/image";
+import ReturnButton from "@/app/Components/ReturnButton";
+import Head from "next/head";
 
 async function fetchProducts() {
   try {
@@ -20,6 +22,8 @@ async function fetchProducts() {
 }
 
 export default async function CalculateurDC4() {
+  const pageDescription = "Mecatronique DSG7 (DQ200) - Vente & Réparation ";
+
   const products = await fetchProducts();
   const filteredProducts = products.filter(
     (product) => product.category === "mecatroniquedq200"
@@ -27,9 +31,23 @@ export default async function CalculateurDC4() {
 
   return (
     <div className="max-w-7xl mx-auto py-12 px-5 md:px-0">
-      <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
-        Mécatronique DQ200
-      </h1>
+      <Head>
+        <title>Mecatronique DSG7 (DQ200) - Vente & Réparation </title>
+        <meta name="description" content={pageDescription} />
+      </Head>
+
+      <div className="flex justify-between items-center">
+        <div className="">
+          <ReturnButton />
+        </div>
+        <div className="">
+          {" "}
+          <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
+            Mécatronique DQ200
+          </h1>
+        </div>
+        <div className=""></div>
+      </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
         {filteredProducts?.map((product) => (

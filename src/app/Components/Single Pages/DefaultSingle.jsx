@@ -9,12 +9,18 @@ import MeganeModalButtons from "./All Modal/Megane/MeganeModalButtons";
 import ScenicModalButtons from "./All Modal/Scenic/ScenicModalButtons";
 import RecommendedProducts from "./References";
 import ReturnButton from "../ReturnButton";
+import Head from "next/head";
 
 const DefaultSingle = ({ product }) => {
   // console.log(product);
   const imageSlide = product?.image;
   return (
     <div>
+      <Head>
+        <title>{product?.metaTitle}</title>
+        <meta name="description" content={product?.metaDes} />
+        <meta name="headline" content={product?.metaH1} />
+      </Head>
       <div className="max-w-7xl mx-auto mt-8 mb-24 px-5 md:px-0">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="md:w-2/3 md:ms-auto">

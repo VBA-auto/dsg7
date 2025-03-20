@@ -1,6 +1,7 @@
 // app/shop/page.jsx
 import Link from "next/link";
 import Image from "next/image";
+import Head from "next/head";
 
 async function fetchProducts() {
   try {
@@ -20,10 +21,27 @@ async function fetchProducts() {
 }
 
 export default async function ShopPage() {
+  const pageDescription =
+    "Calculateur Renault, Calculateur DSG7, Mécatronique DQ200, Calculateur DQ381";
+  const HeadingText =
+    "BOITE EDC Renault DC4 (H2 A2C30743000 / H2 A2C53374830/ H2 310321488R";
   const products = await fetchProducts();
 
   return (
     <div className="max-w-7xl mx-auto py-12 px-5 md:px-0">
+      <Head>
+        <title>Calculateur Reanult et calculateur DSG7</title>
+        <meta name="description" content={pageDescription} />
+        <meta name="headline" content={HeadingText} />
+      </Head>
+      <div className="sr-only">
+        <h1>
+          BOITE EDC Renault DC4 H2 A2C30743000 / H2 A2C53374830/ H2 310321488R
+        </h1>
+        <h1>Mécatronique DSG7</h1>
+        <h1>Calculateur DSG7</h1>
+        <h1>Calculateur DQ381</h1>
+      </div>
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-2">
         Retrouvez nous produits
       </h1>
@@ -48,7 +66,7 @@ export default async function ShopPage() {
                   height={300}
                   src={product.image[0]}
                   alt={product.title}
-                  className="border w-[400px] h-[250px] mx-auto hover:opacity-80 transition-opacity duration-300"
+                  className="border w-[400px] h-[280px] mx-auto hover:opacity-80 transition-opacity duration-300"
                 />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50 bg-opacity-50">
                   <span className="text-white text-center text-lg font-semibold">

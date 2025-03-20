@@ -1,7 +1,6 @@
 // app/layout.js
 import { Alumni_Sans } from "next/font/google";
 import "./globals.css";
-import Script from "next/script";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer";
 
@@ -11,9 +10,8 @@ const alumniSans = Alumni_Sans({
 });
 
 export const metadata = {
-  title:
-    "DSG7",
-
+  title: "DSG7",
+  description: "Spécialiste DSG & EDC - Réparation & Vente | DSG7",
 };
 
 export default function RootLayout({ children }) {

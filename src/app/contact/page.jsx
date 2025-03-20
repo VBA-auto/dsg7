@@ -1,7 +1,12 @@
 "use client"; // Mark as a client component for interactivity
+import Head from "next/head";
 import { useState } from "react";
 
 const ContactPage = () => {
+  const pageDescription =
+    "Besoin d'aide sur votre boîte DSG ou DC4 ? Contactez notre support technique pour un diagnostic rapide et précis.";
+  const HeadingText = "Envoyez-nous un message, Assistance rapide";
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -58,6 +63,15 @@ const ContactPage = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
+      <Head>
+        <title>Contactez-nous | DSG7</title>
+        <meta name="description" content={pageDescription} />
+        <meta name="headline" content={HeadingText} />
+      </Head>
+      <div className="sr-only">
+        <h1>Envoyez-nous un message, Assistance rapide</h1>
+        <h1>Chat en ligne, Horaires de réponse</h1>
+      </div>
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
         Contactez nous
       </h1>

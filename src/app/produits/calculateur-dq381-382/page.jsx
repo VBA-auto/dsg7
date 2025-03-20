@@ -1,6 +1,8 @@
 // app/shop/page.jsx
 import Link from "next/link";
 import Image from "next/image";
+import ReturnButton from "@/app/Components/ReturnButton";
+import Head from "next/head";
 
 async function fetchProducts() {
   try {
@@ -20,6 +22,9 @@ async function fetchProducts() {
 }
 
 export default async function CalculateurDC4() {
+  const pageDescription = "Calculateur pour boite DSG7 (DQ381 et DQ382)";
+  const HeadingText = "calculateur DQ381";
+
   const products = await fetchProducts();
   const filteredProducts = products.filter(
     (product) => product.category === "calcudq381"
@@ -27,10 +32,29 @@ export default async function CalculateurDC4() {
 
   return (
     <div className="max-w-7xl mx-auto py-12 px-5 md:px-0">
-      <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
-        Calculateur DSG7 (DQ200)
-      </h1>
-
+      <Head>
+        <title>Calculateur DSG7 (DQ381 et DQ382)</title>
+        <meta name="description" content={pageDescription} />
+        <meta name="headline" content={HeadingText} />
+      </Head>
+      <div className="sr-only">
+        <h1>calculateur DQ381</h1>
+        <h1>calculateur DQ382</h1>
+        <h2>capteur DSG7</h2>
+        <h2>Capteur DQ381</h2>
+      </div>{" "}
+      <div className="flex justify-between items-center">
+        <div className="">
+          <ReturnButton />
+        </div>
+        <div className="">
+          {" "}
+          <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
+            Calculateur DSG7 (DQ200)
+          </h1>
+        </div>
+        <div className=""></div>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
         {filteredProducts?.map((product) => (
           <div
@@ -67,7 +91,6 @@ export default async function CalculateurDC4() {
           </div>
         ))}
       </div>
-
       <div className="mt-16 text-center text-gray-600 mb-8">
         <h2 className="text-2xl font-semibold mb-4">
           Pourquoi choisir nos produits

@@ -1,9 +1,24 @@
+import Head from "next/head";
 import AideenLigneSearch from "../Components/AideenLigneSearch";
 import SEOErrorCodes from "../Components/SeoErrorCodes";
 
 const MiseEnLigne = () => {
+  const pageDescription =
+    "En fonction de vos codes défaut nous pouvons vous aider";
+  const HeadingText = "Problème vitesse paire ou impaire";
   return (
     <main className="aide mb-8">
+      <Head>
+        <title>Aide en ligne - Diagnostic Boîte Auto DSG & EDC | DSG7</title>
+        <meta name="description" content={pageDescription} />
+        <meta name="headline" content={HeadingText} />
+      </Head>
+      <div className="sr-only">
+        <h1>Problème vitesse paire ou impaire</h1>
+        <h1>boite de vitesse a controler </h1>
+        <h2>pas de marche arriere </h2>
+      </div>
+
       <section className="md:px-0 px-5">
         <div className="">
           <div className="relative">

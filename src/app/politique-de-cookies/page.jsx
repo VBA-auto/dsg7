@@ -1,8 +1,21 @@
+import Head from "next/head";
 import React from "react";
 
 const CookiePolicy = () => {
+  const pageDescription =
+    "Informations sur l'utilisation des cookies sur DSG7.fr et votre droit à la confidentialité.";
+  const HeadingText = "Politique de cookies DSG7.fr";
+
   return (
     <div className="max-w-7xl mx-auto p-6 shadow-md my-8 rounded-lg">
+      <Head>
+        <title>Politique de cookies | DSG7</title>
+        <meta name="description" content={pageDescription} />
+        <meta name="headline" content={HeadingText} />
+      </Head>
+      <div className="sr-only">
+        <h1>Politique de cookies DSG7.fr</h1>
+      </div>{" "}
       <h1 className="text-4xl font-bold text-center mb-8">
         Politique de cookies (UE)
       </h1>
@@ -12,7 +25,6 @@ const CookiePolicy = () => {
         résidents permanents légaux de l’Espace Économique Européen et de la
         Suisse.
       </p>
-
       <div className="space-y-6">
         {/* Section 1: Introduction */}
         <section>

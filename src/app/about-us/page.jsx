@@ -1,8 +1,15 @@
-import Image from "next/image";
+import Head from "next/head";
 
 const AboutUs = () => {
+  const pageDescription = "Expert en calculateur renault et mécatronique DSG7";
+  const HeadingText = "BOITE EDC Renault DC4";
   return (
     <div className="bg-white">
+      <Head>
+        <title>Qui sommes-nous ? | </title>
+        <meta name="description" content={pageDescription} />
+        <meta name="headline" content={HeadingText} />
+      </Head>
       {/* Mission Statement */}
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="mb-32">

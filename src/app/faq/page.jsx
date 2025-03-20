@@ -1,9 +1,14 @@
 "use client"; // Mark as a client component for interactivity
+import Head from "next/head";
 import { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState(null);
+
+  const pageDescription =
+    "Trouvez des solutions aux pannes des boîtes DSG et DC4. Symptômes, entretien, réparation et remplacement détaillés.";
+  const HeadingText = "probleme boite de vitesse à controler ";
 
   // Toggle accordion
   const toggleAccordion = (index) => {
@@ -77,6 +82,17 @@ const FAQ = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
+      <Head>
+        <title>FAQ DSG & EDC - Problèmes & Solutions |</title>
+        <meta name="description" content={pageDescription} />
+        <meta name="headline" content={HeadingText} />
+      </Head>
+      <div className="sr-only">
+        <h1>probleme boite de vitesse à controler </h1>
+        <h1>Symptômes et solutions, Entretien et prévention</h1>
+        <h2>Tutoriels de diagnostic, Pièces compatibles</h2>
+      </div>
+
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
         Frequently Asked Questions
       </h1>

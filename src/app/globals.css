@@ -113,7 +113,7 @@ li {
     box-shadow: 0px 0px 5px #cfcfcf;
   }
 }
-@media screen and (min-width: 425px) and (max-width: 575px) {
+@media screen and (min-width: 425px) and (max-width: 640px) {
   .carsCard {
     /* width: 150px; */
     height: 100px;

@@ -107,7 +107,7 @@ export default async function ShopPage() {
             <h3 className="font-medium mb-2">Aide en ligne</h3>
             <p>
               Par telephone ou en ligne:{" "}
-              <Link href="/aide" className="text-red-500 underline">
+              <Link href="/aide-en-ligne" className="text-red-500 underline">
                 Aide
               </Link>
             </p>

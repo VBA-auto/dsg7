@@ -48,19 +48,19 @@ const Hero = () => {
                       label: "Calculateur DW5",
                     },
                     {
-                      href: "/produits/MecatroniqueDSG7(DQ200)",
+                      href: "/produits/mecatronique-dq200",
                       src: "/images/dq250-1.webp",
                       alt: "Mécatronique DQ200",
                       label: "Mécatronique DQ200",
                     },
                     {
-                      href: "/fluence",
+                      href: "/produits/calculateur-dq200",
                       src: "/images/dq200C.png",
                       alt: "Calculateur DQ200",
                       label: "Calculateur DQ200",
                     },
                     {
-                      href: "/clio-rs",
+                      href: "/produits/calculateur-dq381-382",
                       src: "/images/dq381-1.webp",
                       alt: "Ford Focus",
                       label: "Calculateur DQ381/382",

@@ -10,7 +10,7 @@ import ReviewSlider from "../Review";
 const Hero = () => {
   return (
     <div className="hero">
-      <div className="max-w-7xl mx-auto mt-24">
+      <div className="max-w-7xl mx-auto mt-24 grids">
         <div className="md:flex gap-5 justify-baseline items-center ">
           <div className="md:w-1/2 ms-4">
             <div className="">
@@ -24,9 +24,10 @@ const Hero = () => {
                 </h1>
               </div>
             </div>
+
             <div className="">
               <div className="md:flex md:gap-2 mb-8">
-                <div className="grid grid-cols-2 md:gap-5 md:grid-cols-3 ">
+                <div className="grids grid grid-cols-2 md:gap-5 md:grid-cols-3">
                   {[
                     {
                       href: "/produits/calculateur-dc4",
@@ -66,7 +67,10 @@ const Hero = () => {
                       label: "Calculateur DQ381/382",
                     },
                   ].map((car, index) => (
-                    <div key={index} className="carsCard rounded-md">
+                    <div
+                      key={index}
+                      className="carsCard rounded-md mb-5 md:mb-0"
+                    >
                       <Link
                         rel="preload"
                         href={car.href}
@@ -144,7 +148,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="md:my-[60px] my-[30px] md:px-0 w-full">
-          <div className="md:w-full w-[420px] mx-auto px-8">
+          <div className="md:w-full sliderP  mx-auto px-8">
             <ReviewSlider />
           </div>
         </div>

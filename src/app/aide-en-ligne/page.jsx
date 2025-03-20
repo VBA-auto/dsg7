@@ -7,7 +7,7 @@ const MiseEnLigne = () => {
     "En fonction de vos codes défaut nous pouvons vous aider";
   const HeadingText = "Problème vitesse paire ou impaire";
   return (
-    <main className="aide mb-8">
+    <main className="aide mb-8 ">
       <Head>
         <title>Aide en ligne - Diagnostic Boîte Auto DSG & EDC | DSG7</title>
         <meta name="description" content={pageDescription} />
@@ -19,7 +19,7 @@ const MiseEnLigne = () => {
         <h2>pas de marche arriere </h2>
       </div>
 
-      <section className="md:px-0 px-5">
+      <section className="md:px-0 px-5 container mx-auto">
         <div className="">
           <div className="relative">
             {/* Partie gauche - Texte initial */}
@@ -33,7 +33,7 @@ const MiseEnLigne = () => {
                 <div className="">
                   <SEOErrorCodes />
                 </div>
-                <div className="w-[700px]">
+                <div className="md:w-[700px] mx-auto w-full">
                   <div className="">
                     <AideenLigneSearch />
                   </div>

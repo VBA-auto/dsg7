@@ -47,7 +47,7 @@ const DefaultSingle = ({ product }) => {
               <div className="mt-5">
                 <Link
                   href={product?.orderLink}
-                  className="text-sm font-bold text-center uppercase tracking-wider px-8 py-2.5 text-white duration-300 rounded bg-gradient-to-r from-red-600 to-red-600 shadow-lg hover:shadow-xl shadow-[#6B8375]/50 hover:scale-105 transition-all"
+                  className="text-sm font-bold text-center uppercase tracking-wider px-8 py-2.5 text-white duration-300 rounded bg-gradient-to-r from-red-500 to-red-500 shadow-lg hover:shadow-xl shadow-[#6B8375]/50 hover:scale-105 transition-all"
                 >
                   COMMANDER
                 </Link>

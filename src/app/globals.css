@@ -12,7 +12,10 @@
     --foreground: #171717;
   }
 }
-
+input::placeholder {
+  color: #fb2c36; /* Change this to your desired color */
+  opacity: 1; /* Ensures the color is fully opaque */
+}
 body {
   color: var(--foreground);
   background: var(--background);

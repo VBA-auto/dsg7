@@ -195,7 +195,7 @@ const ContactPage = () => {
             <div>
               <button
                 type="submit"
-                className="w-full bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition duration-300"
+                className="w-full bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-500 transition duration-300"
               >
                 Submit
               </button>

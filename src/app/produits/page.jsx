@@ -81,7 +81,7 @@ export default async function ShopPage() {
               <p className="text-gray-700 mb-2">${product.price}</p>
               <Link
                 href={`/produits/${product.url}`}
-                className="text-sm font-bold text-center uppercase tracking-wider px-8 py-2 text-white duration-300 rounded bg-gradient-to-r from-red-400 to-red-500 shadow-lg hover:shadow-xl shadow-[#6B8375]/50 hover:scale-105 transition-all"
+                className="text-sm font-bold text-center uppercase tracking-wider px-8 py-2 text-white duration-300 rounded bg-gradient-to-r from-red-500 to-red-500 shadow-lg hover:shadow-xl shadow-[#6B8375]/50 hover:scale-105 transition-all"
               >
                 <span>Voir plus</span>
               </Link>

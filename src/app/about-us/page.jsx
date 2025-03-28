@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 const AboutUs = () => {
   const pageDescription = "Expert en calculateur renault et mécatronique DSG7";
@@ -44,11 +45,25 @@ const AboutUs = () => {
           <h4 className="text-[18px] font-[500] mb-5">
             Si les boîtes à double embrayage sont au cœur de notre activité,
             nous en maîtrisons chaque subtilité, qu'elles soient à sec- comme
-            les <b className="text-red-500">EDC (DC4) de Renault</b> et les{" "}
+            les{" "}
+            <b className="text-red-500">
+              <Link href="/produits/calculateur-dc4" className="underline">
+                EDC (DC4) de Renault
+              </Link>
+            </b>{" "}
+            et les{" "}
             <b className="text-red-500">DSG7 (DQ200) du groupe Volkswagen</b> -
             ou à bain d'huile, à l'image des{" "}
-            <b className="text-red-500">DSG6, 0B5 DL501, DQ381 et DQ500</b>.
-            Derrière ces désignations techniques se cachent des mécaniques de
+            <b className="text-red-500">
+              <Link
+                href="/produits/mecatronique-dsg6-dq250"
+                className="underline"
+              >
+                DSG6
+              </Link>
+              , 0B5 DL501, DQ381 et DQ500
+            </b>
+            . Derrière ces désignations techniques se cachent des mécaniques de
             précision, où la moindre anomalie peut impacter le comportement du
             véhicule. Notre mission ? Diagnostiquer et corriger ces
             dysfonctionnements avec la plus grande rigueur.

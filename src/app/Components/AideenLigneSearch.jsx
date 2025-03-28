@@ -194,7 +194,7 @@ const AideenLigneSearch = () => {
               </div>
             </div>
           ) : (
-            <p className="text-black  text-[14px]">
+            <p className="text-red-500 bg-white rounded-md px-2   text-[14px]">
               Commencer à saisir les informations (codes ou autre)…
             </p>
           )}
@@ -204,7 +204,7 @@ const AideenLigneSearch = () => {
       {isSearchOpen ? (
         ""
       ) : (
-        <div className=" text-black mt-5 italic text-[14px]">
+        <div className=" text-red-500 bg-white rounded-md px-2 mt-5 italic text-[14px]">
           <p>* Codes défault a titre indicatif uniquement</p>
         </div>
       )}

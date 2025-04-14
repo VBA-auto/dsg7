@@ -10,6 +10,10 @@ import ScenicModalButtons from "./All Modal/Scenic/ScenicModalButtons";
 import RecommendedProducts from "./References";
 import ReturnButton from "../ReturnButton";
 import Head from "next/head";
+import DSG7_dq381Button from "./All Modal/DSG7_DQ381/DSG7_dq381Button";
+import DSG7_DQ200Button from "./All Modal/DSG7_DQ200/DSG7_DQ200Button";
+import MECA_DSG7_DQ200Button from "./All Modal/MECA_DSG7_DQ200/MECA_DSG7_DQ200Button";
+import MECA_DSG6_DQ250Button from "./All Modal/MECA_DSG6_DQ250/MECA_DSG6_DQ250Button";
 
 const DefaultSingle = ({ product }) => {
   // console.log(product);
@@ -68,6 +72,18 @@ const DefaultSingle = ({ product }) => {
             {product?.status === "double" && product?.product === "Scenic" && (
               <ScenicModalButtons />
             )}
+            {product?.status === "double" &&
+              product?.product === "DSG7_DQ381" && <DSG7_dq381Button />}
+            {product?.status === "double" &&
+              product?.product === "DSG7_DQ200" && <DSG7_DQ200Button />}
+            {product?.status === "double" &&
+              product?.product === "MECA_DSG7_DQ200" && (
+                <MECA_DSG7_DQ200Button />
+              )}
+            {product?.status === "double" &&
+              product?.product === "MECA_DSG6_DQ250" && (
+                <MECA_DSG6_DQ250Button />
+              )}
           </div>
         </div>
         <div className="mt-16">

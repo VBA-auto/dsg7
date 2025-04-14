@@ -16,7 +16,8 @@
     "url": "dsg7-dq381",
     "category": "calcudq381",
     "reference": "same",
-    "status": "single",
+    "status": "double",
+    "product": "DSG7_DQ381",
     "description": "<div> <p>Calculateur DQ381/382 équipe de nombreux véhicules du groupe Volkswagen, notamment Audi A3 (8V/8Y), Q2, TT, S3, Volkswagen Golf 7/8, Tiguan, Arteon, Passat B8, T-Roc, Seat Leon III/IV, Tarraco, Ateca et Skoda Octavia III/IV, Superb III. Il gère le passage des rapports et le fonctionnement du double embrayage de la boîte DSG7 à embrayage mouillé. Une panne peut entraîner des passages difficiles, l'impossibilité d’engager certaines vitesses paires ou impaires, ou encore l'affichage du message 'Boîte de vitesses à contrôler', souvent accompagné des codes défauts P17BF, P189C, P0841, P177B. Expédition rapide en 24/48h. Livré vierge ou pré-programmé (Plug & Play)</p> </div>"
   },
   {
@@ -32,7 +33,8 @@
     "url": "calculateur-dsg7-dq200",
     "category": "calcudq200",
     "reference": "same",
-    "status": "single",
+    "status": "double",
+    "product": "DSG7_DQ200",
     "description": "<div> <p>Calculateur DQ200 (avec capteur) est conçu pour gérer le passage des rapports et le double embrayage des boîtes automatiques DSG7 à embrayage à sec. Il est monté sur de nombreux modèles du groupe Volkswagen, notamment Audi A1, A3, Q2, Volkswagen Golf 6/7, Polo, Passat B7, Tiguan, Touran, Jetta, Seat Ibiza, Leon, Alhambra, Toledo et Skoda Octavia, Superb, Fabia, Yeti. Une panne peut entraîner l’impossibilité d’engager les vitesses paires ou impaires, des passages difficiles ou l'affichage du message 'Boîte de vitesses à contrôler', souvent accompagné des codes défauts P189C, P17BF, P0841, P177B. Disponible en stock. </br>Expédition rapide en 24/48 Calculateur livré vierge ou pré-programmé (Plug & Play).</p> </div>"
   },
   {
@@ -53,7 +55,8 @@
     "url": "mecatronique-dsg7-dq200",
     "category": "mecatroniquedq200",
     "reference": "same",
-    "status": "single",
+    "status": "double",
+    "product": "MECA_DSG7_DQ200",
     "description": "<div> <p>La mécatronique DSG7 (DQ200) - TEMIC 0AM927769D / 0AM325065 contrôle le passage des rapports et le double embrayage. Une défaillance peut entraîner des pertes de vitesses (P189C, P17BF, P0841, P177B), un voyant 'Boîte de vitesses à contrôler' allumé (P17BF, P189C) ou un dysfonctionnement de la pompe hydraulique et des moteurs d’embrayage (P0C21800, P0C21900). Disponible en stock, avec expédition 24/48h. </br>Mécatronique livré vierge ou pré-programmé.</p> </div>"
   },
   {
@@ -74,7 +77,8 @@
     "url": "mecatronique-dsg6-dq250",
     "category": "mecatroniquedsg6",
     "reference": "same",
-    "status": "single",
+    "status": "double",
+    "product": "MECA_DSG6_DQ250",
     "description": "<div> <p>Le mécatronique DSG6 (DQ250) pour les boîtes à double embrayage mouillé. Compatible avec de nombreux moteurs, notamment les 2.0 TSI/TFSI, 3.2 V6, 1.9 TDI et 2.0 TDI. Ce module équipe plusieurs modèles des groupes Volkswagen, Audi, Seat et Skoda, tels que les Volkswagen Golf, Jetta, Passat, Scirocco, Touran, Sharan, Audi A3, TT, Seat Leon, Alhambra, Altea et Skoda Octavia, Superb, Yeti. Cette mécatronique est disponible sous plusieurs références OEM, incluant 02E DQ250, 02E927770AD, 02E927770AJ, 02E927770AT, 02E927770AQ, 02E927770AM, 02E927770AS et 02E927770AL.</p> </div>"
   },
 

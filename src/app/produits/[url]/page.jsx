@@ -3,8 +3,8 @@ import DefaultSingle from "@/app/Components/Single Pages/DefaultSingle";
 
 async function fetchProduct(url) {
   try {
-    // const res = await fetch("https://dsg7.fr/products.json", {
-    const res = await fetch("http://localhost:3000/products.json", {
+    const res = await fetch("https://dsg7.fr/products.json", {
+      // const res = await fetch("http://localhost:3000/products.json", {
       cache: "no-cache",
     });
     // try {

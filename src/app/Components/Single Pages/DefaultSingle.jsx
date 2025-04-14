@@ -57,9 +57,8 @@ const DefaultSingle = ({ product }) => {
             {product?.status === "double" && product?.product === "Captur" && (
               <ModalButtons />
             )}
-            {product?.status === "double" && product?.product === "Clio" && (
-              <ClioModalButtons />
-            )}
+            {product?.status === "double" &&
+              product?.product === "clio-dc4" && <ClioModalButtons />}
             {product?.status === "double" && product?.product === "Clio RS" && (
               <ClioRSModalButtons />
             )}

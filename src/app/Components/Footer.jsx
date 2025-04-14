@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
-import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -18,7 +19,9 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-3">Liens rapide</h3>
+            <h3 className="text-lg font-semibold mb-3 underline">
+              Liens rapide
+            </h3>
             <ul className="space-y-2 text-gray-800">
               <li>
                 <Link href="/produits" className="hover:text-red-400">
@@ -30,11 +33,11 @@ export default function Footer() {
                   Qui sommes-nous ?
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/contact" className="hover:text-red-400">
                   Contact
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/faq" className="hover:text-red-400">
                   FAQ
@@ -45,31 +48,33 @@ export default function Footer() {
 
           {/* Social Media */}
           <div>
-            <h3 className="text-lg font-semibold mb-3">Nous suivre</h3>
+            <h3 className="text-lg font-semibold mb-3 underline">
+              Nous suivre
+            </h3>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/profile.php?id=61554187663999"
                 target="_blank"
                 className="text-gray-800 hover:text-red-400"
               >
                 <FaFacebookF size={20} />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/vbacalculateur/"
                 target="_blank"
                 className="text-gray-800 hover:text-red-400"
               >
                 <FaInstagram size={20} />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://twitter.com/vbacalculateur"
                 target="_blank"
                 className="text-gray-800 hover:text-red-400"
               >
-                <FaTwitter size={20} />
+                <FaXTwitter size={20} />
               </a>
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/channel/UCdW6FARqs2Sv6rzeBidaQsw"
                 target="_blank"
                 className="text-gray-800 hover:text-red-400"
               >
@@ -77,14 +82,14 @@ export default function Footer() {
               </a>
             </div>
             <div className="mt-3">
-              <p className="underline hover:text-red-400">
+              <p className=" hover:text-red-400">
                 <Link href="/politique-de-cookies">
                   Politique de cookies (UE)
                 </Link>
               </p>
             </div>
             <div className="mt-1">
-              <p className="underline hover:text-red-400">
+              <p className=" hover:text-red-400">
                 <Link href="/mentions-legales">Mentions légales</Link>
               </p>
             </div>

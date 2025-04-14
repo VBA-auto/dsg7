@@ -68,7 +68,7 @@ export default async function CalculateurDC4() {
                   height={300}
                   src={product.image[0]}
                   alt={product.title}
-                  className="border w-[400px] h-[250px] mx-auto hover:opacity-80 transition-opacity duration-300"
+                  className="border w-[400px] mx-auto hover:opacity-80 transition-opacity duration-300"
                 />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50 bg-opacity-50">
                   <span className="text-white text-center text-lg font-semibold">
@@ -83,7 +83,7 @@ export default async function CalculateurDC4() {
               <p className="text-gray-700 mb-2">${product.price}</p>
               <Link
                 href={`/produits/${product.url}`}
-                className="text-sm font-bold text-center uppercase tracking-wider px-8 py-2 text-white duration-300 rounded bg-gradient-to-r from-red-400 to-red-500 shadow-lg hover:shadow-xl shadow-[#6B8375]/50 hover:scale-105 transition-all"
+                className="text-sm font-bold text-center uppercase tracking-wider px-8 py-2 text-white duration-300 rounded bg-gradient-to-r from-red-500 to-red-500 shadow-lg hover:shadow-xl shadow-[#6B8375]/50 hover:scale-105 transition-all"
               >
                 <span>Voir plus</span>
               </Link>

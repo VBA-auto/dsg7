@@ -4,6 +4,7 @@ import Link from "next/link";
 import BuyButton from "../Buttons/BuyButton";
 import useScrollHeader from "./useScrollHeader";
 import SearchOverlay from "./SearchOverlay";
+import Image from "next/image";
 
 export default function Header() {
   const isScrolled = useScrollHeader(); // Using the custom hook
@@ -48,7 +49,15 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1 flex items-center justify-between">
         {/* Logo on the Left */}
         <div className="flex items-center">
-          <Link href="/" className="">
+          <Link href="/" className="flex gap-1 items-center">
+            <div className="w-[32px]">
+              <Image
+                src="/images/logoPoly.webp"
+                width={70}
+                height={30}
+                alt=""
+              />
+            </div>
             <h1 className="text-4xl sm:text-[50px] text-red-500 font-extrabold">
               DSG7.FR
             </h1>

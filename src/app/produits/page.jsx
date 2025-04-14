@@ -66,7 +66,7 @@ export default async function ShopPage() {
                   height={300}
                   src={product.image[0]}
                   alt={product.title}
-                  className="border w-[400px] h-[280px] mx-auto hover:opacity-80 transition-opacity duration-300"
+                  className="border w-[400px]  mx-auto hover:opacity-80 transition-opacity duration-300"
                 />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50 bg-opacity-50">
                   <span className="text-white text-center text-lg font-semibold">

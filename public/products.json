@@ -37,7 +37,12 @@
   },
   {
     "id": 3,
-    "image": ["/images/mecadq2001.webp", "/images/dq200M-2.webp"],
+    "image": [
+      "/images/mecadq2001.webp",
+      "/images/mecadq2002.webp",
+      "/images/dq200M-2.webp",
+      "/images/dq200M-1.webp"
+    ],
     "title": "Mécatronique DSG7 (DQ200)",
     "paragraph": "Mécatronique complet DS7 (DQ200) pour Audi, volkswagen, Skoda",
     "price": "700",
@@ -97,7 +102,7 @@
     "url": "captur-dc4",
     "category": "dc4",
     "reference": "dc4",
-    "status": "single",
+    "status": "double",
     "product": "Captur",
     "description": "<div> <p>Calculateur pour boîte automatique Renault Captur 1.5 Diesel et 1.2 Essence.  Conçu pour les boîtes EDC / DC4 équipant les Captur produits entre 2013 et 2018. Ce module de commande est neuf, garanti constructeur, et arrive déjà programmé, prêt à être installé sans réglages supplémentaires. Il vous suffit de le monter sans intervention complémentaire. Envoyez-nous votre immatriculation par e-mail ou SMS afin que nous le programmions avant expedition. Pour toute question ou assistance, consultez notre <a class='text-[#E7000B]' href='/aide-en-ligne'>aide en ligne.</a></p> </div>"
   },
@@ -126,7 +131,7 @@
     "product": "clio-dc4",
     "category": "dc4",
     "reference": "dc4",
-    "status": "single",
+    "status": "double",
     "description": "<div> <p>Calculateur pour boîte automatique Renault Clio 4 1.5 Diesel et 1.2 Essence.  Conçu pour les boîtes EDC / DC4 équipant les Renault Clio 4 produits entre 2013 et 2018. Ce module de commande est neuf, garanti constructeur, et arrive déjà programmé, prêt à être installé sans réglages supplémentaires. Il vous suffit de le monter sans intervention complémentaire. Envoyez-nous votre immatriculation par e-mail ou SMS afin que nous le programmions avant expedition. Pour toute question ou assistance, consultez notre <Link class='text-[#E7000B]' href='/aide-en-ligne'>aide en ligne.</Link></p> </div>"
   },
   {

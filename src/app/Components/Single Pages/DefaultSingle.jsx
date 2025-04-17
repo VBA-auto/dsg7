@@ -14,6 +14,7 @@ import DSG7_dq381Button from "./All Modal/DSG7_DQ381/DSG7_dq381Button";
 import DSG7_DQ200Button from "./All Modal/DSG7_DQ200/DSG7_DQ200Button";
 import MECA_DSG7_DQ200Button from "./All Modal/MECA_DSG7_DQ200/MECA_DSG7_DQ200Button";
 import MECA_DSG6_DQ250Button from "./All Modal/MECA_DSG6_DQ250/MECA_DSG6_DQ250Button";
+import DW5_Clio_5Button from "./All Modal/DW5_Clio_5/DW5_Clio_5Button";
 
 const DefaultSingle = ({ product }) => {
   console.log(product);
@@ -84,6 +85,12 @@ const DefaultSingle = ({ product }) => {
               product?.product === "MECA_DSG6_DQ250" && (
                 <MECA_DSG6_DQ250Button />
               )}
+            {product?.status === "double" &&
+              product?.product === "DW5_CLIO_5" && <DW5_Clio_5Button />}
+            {product?.status === "double" &&
+              product?.product === "DW5_MEGANE_4" && <DW5_Clio_5Button />}
+            {product?.status === "double" &&
+              product?.product === "DW5_SCENIC_5" && <DW5_Clio_5Button />}
           </div>
         </div>
         <div className="mt-16">

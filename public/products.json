@@ -304,7 +304,7 @@
     ],
     "title": "DC4/DC0 DUSTER",
     "paragraph": "Calculateur Renault pour DC4/DC0 DUSTER",
-    "price": "700",
+    "price": "890",
     "orderLink": "#",
     "metaTitle": "calculateur duster boite automatique DC4-DC0019",
     "metaDes": "calculateur duster boite automatique DC4-DC0019",
@@ -312,8 +312,8 @@
     "category": "dc4dc0",
     "reference": "dc4-dc0",
     "url": "dc4-dc0-duster",
-    "status": "single",
-    "product": "Scenic",
+    "status": "double",
+    "product": "DC4_DC0_DUSTER",
     "description": "<div> <p>Calculateur pour boîte automatique Renault Duster. Conçu pour les boîtes auto DC4/DC0 équipant les Renault Duster produits entre 2015 et 2022, ce module de commande est neuf, garanti constructeur, et arrive déjà programmé, prêt à être installé sans réglages supplémentaires. Il vous suffit de le monter sans intervention complémentaire. Envoyez-nous votre immatriculation par e-mail ou SMS afin que nous le programmions avant expédition. Pour toute question ou assistance, consultez notre <a class='text-[#E7000B]' href='/aide-en-ligne'>aide en ligne.</a></p> </div>"
   },
   {
@@ -326,7 +326,7 @@
     ],
     "title": "DC4/DC0 TWING0 3",
     "paragraph": "Calculateur Renault pour DC4/DC0 TWING0 3",
-    "price": "700",
+    "price": "890",
     "orderLink": "#",
     "metaTitle": "calculateur duster boite automatique DC4-DC0 Twingo 3",
     "metaDes": "calculateur duster boite automatique DC4-DC0 Twingo 3",
@@ -334,8 +334,8 @@
     "url": "dc4-dc0-twingo3",
     "category": "dc4dc0",
     "reference": "dc4-dc0",
-    "status": "single",
-    "product": "Scenic",
+    "status": "double",
+    "product": "DC4_DC0_TWING0",
     "description": "<div> <p>Calculateur pour boîte automatique Renault Twingo 3. Conçu pour les boîtes auto DC4/DC0 équipant les Renault Twingo 3 produits entre 2015 et 2022, ce module de commande est neuf, garanti constructeur, et arrive déjà programmé, prêt à être installé sans réglages supplémentaires. Il vous suffit de le monter sans intervention complémentaire. Envoyez-nous votre immatriculation par e-mail ou SMS afin que nous le programmions avant expédition. Pour toute question ou assistance, consultez notre <a class='text-[#E7000B]' href='/aide-en-ligne'>aide en ligne.</a></p> </div>"
   },
   {
@@ -348,7 +348,7 @@
     ],
     "title": "DC4/DC0 MEGANE 4",
     "paragraph": "Calculateur Renault pour DC4/DC0 MEGANE 4",
-    "price": "700",
+    "price": "890",
     "category": "dc4dc0",
     "reference": "dc4-dc0",
     "orderLink": "#",
@@ -356,8 +356,8 @@
     "metaDes": "calculateur duster boite automatique DC4-DC0 megane 4",
     "metaH1": "calculateur duster boite automatique DC4-DC0 megane 4",
     "url": "dc4-dc0-megane4",
-    "status": "single",
-    "product": "Scenic",
+    "status": "double",
+    "product": "DC4_DC0_MEGANE",
     "description": "<div> <p>Calculateur pour boîte automatique Renault Mégane 4. Conçu pour les boîtes auto DC4/DC0 équipant les Renault Mégane 4 produits entre 2015 et 2022, ce module de commande est neuf, garanti constructeur, et arrive déjà programmé, prêt à être installé sans réglages supplémentaires. Il vous suffit de le monter sans intervention complémentaire. Envoyez-nous votre immatriculation par e-mail ou SMS afin que nous le programmions avant expédition. Pour toute question ou assistance, consultez notre <a class='text-[#E7000B]' href='/aide-en-ligne'>aide en ligne.</a></p> </div>"
   }
 ]

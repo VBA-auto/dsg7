@@ -21,7 +21,7 @@ const imagesSlide = [
   "/images/plat-6.webp",
 ];
 
-const DW5_Clio_5Modal = () => {
+const DW5_SCENIC_5Modal = () => {
   const [stock, setStock] = useState(null);
 
   const handleStockChange = (currentStock) => {
@@ -57,7 +57,7 @@ const DW5_Clio_5Modal = () => {
                         &gt;
                         <span className="text-gray-400 hover:underline">
                           {" "}
-                          DW5 CLIO 5
+                          DW5 SCENIC 5
                         </span>{" "}
                       </p>
                       <div className="w-full mt-5">
@@ -87,7 +87,7 @@ const DW5_Clio_5Modal = () => {
                         Désignation
                       </p>
                       <h1 className="text-[18px] font-[500]">
-                        Boîtier mecatronique DW5 (Clio 5)
+                        Boîtier mecatronique DW5 (Scenic 5)
                       </h1>
                     </div>
 
@@ -96,7 +96,8 @@ const DW5_Clio_5Modal = () => {
                         Description
                       </p>
                       <p className="text-[18px] font-[500]">
-                        Boîtier mecatronique pour boîte automatique DW5
+                        Boîtier mecatronique pour boîte automatique DW5 (Scenic
+                        5)
                       </p>
                     </div>
                     <div className="px-4 mb-3">
@@ -106,9 +107,6 @@ const DW5_Clio_5Modal = () => {
                       <div className="flex flex-wrap gap-2">
                         <button className="bg-gray-100  px-2 text-[18px] font-[500] text-black mt-1 rounded">
                           Renault
-                        </button>
-                        <button className="bg-gray-100  px-2 text-[18px] font-[500] text-black mt-1 rounded">
-                          Dacia
                         </button>
                       </div>
                     </div>
@@ -123,7 +121,7 @@ const DW5_Clio_5Modal = () => {
                         Véhicule
                       </p>
                       <p className="text-[18px] font-[500]">
-                        Renault Clio 5, Captur, Dacia Sandero
+                        Renault Scenic 5 E-Tech (2023+)
                       </p>
                     </div>
                     <div className="px-4 mb-3">
@@ -132,7 +130,7 @@ const DW5_Clio_5Modal = () => {
                       </p>
                       <p className="text-[18px] font-[500]">
                         Pour modèles équipés de la boîte automatique DW5 à
-                        partir de 2019
+                        partir de 2023
                       </p>
                     </div>
                     <div className="px-4 mb-3">
@@ -141,7 +139,7 @@ const DW5_Clio_5Modal = () => {
                       </p>
                       <p className="text-[18px] font-[500]">
                         <span className="text-[16px]">
-                          28150-5WB00, 281505WB00, 28150-5WB01, 281505WB01
+                          28150-5WCM0, 281505WCM0 (pour Scenic 5)
                         </span>
                       </p>
                     </div>
@@ -170,11 +168,9 @@ const DW5_Clio_5Modal = () => {
                     </div>
                     <div className="">
                       <p className="text-[15px] text-gray-500">
-                        Renault Clio 5, Captur, Dacia Sandero
+                        Renault Scenic 5 E-Tech (2023+)
                       </p>
-                      <h1 className="my-1">
-                        Renault Clio 5, Captur, Dacia Sandero
-                      </h1>
+                      <h1 className="my-1">Renault Scenic 5 E-Tech (2023+)</h1>
                     </div>
                   </div>
                   <div className="md:w-1/2 flex items-center md:justify-end justify-center gap-5">
@@ -290,4 +286,4 @@ const DW5_Clio_5Modal = () => {
   );
 };
 
-export default DW5_Clio_5Modal;
+export default DW5_SCENIC_5Modal;

@@ -21,7 +21,7 @@ const imagesSlide = [
   "/images/plat-6.webp",
 ];
 
-const DW5_Clio_5Modal = () => {
+const DW5_Megane_4Modal = () => {
   const [stock, setStock] = useState(null);
 
   const handleStockChange = (currentStock) => {
@@ -57,7 +57,7 @@ const DW5_Clio_5Modal = () => {
                         &gt;
                         <span className="text-gray-400 hover:underline">
                           {" "}
-                          DW5 CLIO 5
+                          DW5 MEGANE 4
                         </span>{" "}
                       </p>
                       <div className="w-full mt-5">
@@ -87,7 +87,7 @@ const DW5_Clio_5Modal = () => {
                         Désignation
                       </p>
                       <h1 className="text-[18px] font-[500]">
-                        Boîtier mecatronique DW5 (Clio 5)
+                        Boîtier mecatronique DW5 (Megane 4)
                       </h1>
                     </div>
 
@@ -96,7 +96,8 @@ const DW5_Clio_5Modal = () => {
                         Description
                       </p>
                       <p className="text-[18px] font-[500]">
-                        Boîtier mecatronique pour boîte automatique DW5
+                        Boîtier mecatronique pour boîte automatique DW5 (Megane
+                        4) EDC
                       </p>
                     </div>
                     <div className="px-4 mb-3">
@@ -108,7 +109,10 @@ const DW5_Clio_5Modal = () => {
                           Renault
                         </button>
                         <button className="bg-gray-100  px-2 text-[18px] font-[500] text-black mt-1 rounded">
-                          Dacia
+                          Nissan
+                        </button>
+                        <button className="bg-gray-100  px-2 text-[18px] font-[500] text-black mt-1 rounded">
+                          Kadjar
                         </button>
                       </div>
                     </div>
@@ -123,7 +127,7 @@ const DW5_Clio_5Modal = () => {
                         Véhicule
                       </p>
                       <p className="text-[18px] font-[500]">
-                        Renault Clio 5, Captur, Dacia Sandero
+                        Renault Megane 4, Kadjar, Nissan Qashqai (J11B)
                       </p>
                     </div>
                     <div className="px-4 mb-3">
@@ -132,7 +136,7 @@ const DW5_Clio_5Modal = () => {
                       </p>
                       <p className="text-[18px] font-[500]">
                         Pour modèles équipés de la boîte automatique DW5 à
-                        partir de 2019
+                        partir de 2016
                       </p>
                     </div>
                     <div className="px-4 mb-3">
@@ -141,7 +145,7 @@ const DW5_Clio_5Modal = () => {
                       </p>
                       <p className="text-[18px] font-[500]">
                         <span className="text-[16px]">
-                          28150-5WB00, 281505WB00, 28150-5WB01, 281505WB01
+                          28150-5WBJ0, 281505WBJ0, 28150-5WBK0, 281505WBK0
                         </span>
                       </p>
                     </div>
@@ -170,10 +174,10 @@ const DW5_Clio_5Modal = () => {
                     </div>
                     <div className="">
                       <p className="text-[15px] text-gray-500">
-                        Renault Clio 5, Captur, Dacia Sandero
+                        Renault Megane 4, Kadjar, Nissan Qashqai (J11B)
                       </p>
                       <h1 className="my-1">
-                        Renault Clio 5, Captur, Dacia Sandero
+                        Renault Megane 4, Kadjar, Nissan Qashqai (J11B)
                       </h1>
                     </div>
                   </div>
@@ -290,4 +294,4 @@ const DW5_Clio_5Modal = () => {
   );
 };
 
-export default DW5_Clio_5Modal;
+export default DW5_Megane_4Modal;

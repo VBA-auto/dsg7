@@ -19,7 +19,7 @@ const imagesSlide = [
   "/images/strie-4.webp",
 ];
 
-const DC4_DC0_DUSTERModal = () => {
+const DC4_DC0_MEGANEModal = () => {
   const [stock, setStock] = useState(null);
 
   const handleStockChange = (currentStock) => {
@@ -55,7 +55,7 @@ const DC4_DC0_DUSTERModal = () => {
                         &gt;
                         <span className="text-gray-400 hover:underline">
                           {" "}
-                          DC4/DC0 (Duster II)
+                          DC4/DC0 MEGANE 4
                         </span>{" "}
                       </p>
                       <div className="w-full mt-5">
@@ -85,7 +85,7 @@ const DC4_DC0_DUSTERModal = () => {
                         Désignation
                       </p>
                       <h1 className="text-[18px] font-[500]">
-                        Boîtier mecatronique DC4/DC0 (Duster II)
+                        Boîtier mecatronique DC4/DC0 MEGANE 4
                       </h1>
                     </div>
 
@@ -95,7 +95,7 @@ const DC4_DC0_DUSTERModal = () => {
                       </p>
                       <p className="text-[18px] font-[500]">
                         Boîtier mecatronique pour boîte automatique DC4/DC0
-                        (Dual Clutch)
+                        MEGANE 4
                       </p>
                     </div>
                     <div className="px-4 mb-3">
@@ -107,7 +107,7 @@ const DC4_DC0_DUSTERModal = () => {
                           Renault
                         </button>
                         <button className="bg-gray-100  px-2 text-[18px] font-[500] text-black mt-1 rounded">
-                          Dacia
+                          Megane
                         </button>
                       </div>
                     </div>
@@ -289,4 +289,4 @@ const DC4_DC0_DUSTERModal = () => {
   );
 };
 
-export default DC4_DC0_DUSTERModal;
+export default DC4_DC0_MEGANEModal;

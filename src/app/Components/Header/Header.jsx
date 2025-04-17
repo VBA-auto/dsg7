@@ -50,7 +50,7 @@ export default function Header() {
         {/* Logo on the Left */}
         <div className="flex items-center">
           <Link href="/" className="flex gap-1 items-center">
-            <div className="w-[32px]">
+            <div className="w-[34px]">
               <Image
                 src="/images/logoPoly.webp"
                 width={70}

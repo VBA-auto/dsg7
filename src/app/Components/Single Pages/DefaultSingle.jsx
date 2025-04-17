@@ -18,6 +18,8 @@ import DW5_Clio_5Button from "./All Modal/DW5_Clio_5/DW5_Clio_5Button";
 import DW5_Megane_4Button from "./All Modal/DW5_MEGANE_4/DW5_Megane_4Button";
 import DW5_SCENIC_5Button from "./All Modal/DW5_SCENIC_5/DW5_SCENIC_5Button";
 import DC4_DC0_DUSTERButton from "./All Modal/DC4_DC0_DUSTER/DC4_DC0_DUSTERButton";
+import DC4_DC0_TWING0Button from "./All Modal/DC4_DC0_TWING0/DC4_DC0_TWING0Button";
+import DC4_DC0_MEGANEButton from "./All Modal/DC4_DC0_MEGANE/DC4_DC0_MEGANEButton";
 
 const DefaultSingle = ({ product }) => {
   console.log(product);
@@ -103,9 +105,9 @@ const DefaultSingle = ({ product }) => {
             {product?.status === "double" &&
               product?.product === "DC4_DC0_DUSTER" && <DC4_DC0_DUSTERButton />}
             {product?.status === "double" &&
-              product?.product === "DC4_DC0_TWING0" && <DW5_Clio_5Button />}
+              product?.product === "DC4_DC0_TWING0" && <DC4_DC0_TWING0Button />}
             {product?.status === "double" &&
-              product?.product === "DC4_DC0_MEGANE" && <DW5_Clio_5Button />}
+              product?.product === "DC4_DC0_MEGANE" && <DC4_DC0_MEGANEButton />}
           </div>
         </div>
         <div className="mt-16">

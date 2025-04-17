@@ -7,12 +7,9 @@ async function fetchProduct(url) {
       // const res = await fetch("http://localhost:3000/products.json", {
       cache: "no-cache",
     });
-    // try {
-    //   const res = await fetch("http://localhost:3000/products.json", {
-    //     cache: "force-cache",
-    //   });
     const products = await res.json();
     const product = products.find((p) => p.url === url);
+    console.log(product, "from server");
     return product;
   } catch (error) {
     console.error("Error fetching product:", error);

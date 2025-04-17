@@ -10,6 +10,7 @@ import PricngPop890 from "@/app/Components/PricngPop890";
 import ReturnButton from "@/app/Components/ReturnButton";
 import VehicleStockDisplay from "@/app/Components/VehicleStockDisplay";
 import ResponsiveSlider from "@/app/Components/ResponsiveSlider";
+import PricngPopAuto from "@/app/Components/PricngPopAuto";
 
 const imagesSlide = [
   "/images/dq381-1.webp",
@@ -101,7 +102,13 @@ const DSG7_dq381Modal = () => {
                       </p>
                       <div className="flex flex-wrap gap-2">
                         <button className="bg-gray-100  px-2 text-[18px] font-[500] text-black mt-1 rounded">
-                          Clio 4 RS
+                          Audi
+                        </button>
+                        <button className="bg-gray-100  px-2 text-[18px] font-[500] text-black mt-1 rounded">
+                          Seat Leon
+                        </button>
+                        <button className="bg-gray-100  px-2 text-[18px] font-[500] text-black mt-1 rounded">
+                          Golf 7 Tiguanx
                         </button>
                       </div>
                     </div>
@@ -140,7 +147,7 @@ const DSG7_dq381Modal = () => {
               </div>
               <div className="">
                 <div className="px-4 mb-8">
-                  <PricngPop890 />
+                  <PricngPopAuto price={990} />
                 </div>
               </div>
 

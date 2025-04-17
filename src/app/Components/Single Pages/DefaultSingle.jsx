@@ -16,7 +16,7 @@ import MECA_DSG7_DQ200Button from "./All Modal/MECA_DSG7_DQ200/MECA_DSG7_DQ200Bu
 import MECA_DSG6_DQ250Button from "./All Modal/MECA_DSG6_DQ250/MECA_DSG6_DQ250Button";
 
 const DefaultSingle = ({ product }) => {
-  // console.log(product);
+  console.log(product);
   const imageSlide = product?.image;
   return (
     <div>
@@ -45,7 +45,7 @@ const DefaultSingle = ({ product }) => {
 
             {/* Price */}
             <h5 className="text-[18px] font-semibold text-red-500 mt-4">
-              {product?.price}€
+              {product?.price} €
             </h5>
             {product?.status === "single" && (
               <div className="mt-5">

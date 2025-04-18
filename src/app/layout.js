@@ -3,6 +3,7 @@ import { Alumni_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer";
+import Script from "next/script";
 
 const alumniSans = Alumni_Sans({
   subsets: ["latin"],
@@ -33,6 +34,18 @@ export default function RootLayout({ children }) {
           })(window,document,'script','dataLayer','GTM-KBNRP5KN');`}
         </script>
         {/* End Google Tag Manager */}
+        {/* Google tag (gtag.js) */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-1NPTK4G84N"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-1NPTK4G84N');`}
+        </Script>
+        {/* End Google tag (gtag.js) */}
       </head>
       <body className="antialiased">
         {/* Google Tag Manager (noscript) */}

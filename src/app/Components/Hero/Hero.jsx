@@ -83,6 +83,7 @@ const Hero = () => {
                           alt={car.alt}
                           loading="lazy"
                           className="m-auto h-[70px] object-contain"
+                          unoptimized
                         />
                         {car.label}
                       </Link>

@@ -126,7 +126,7 @@ const AideenLigneSearch = () => {
         {/* Loader */}
         {loading && (
           <div className="absolute right-3 top-1/2 transform -translate-y-1/2">
-            <div className="w-5 h-5 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+            <div className="w-5 h-5 border-4 border-red-500 border-t-transparent rounded-full animate-spin"></div>
           </div>
         )}
       </div>
@@ -187,7 +187,7 @@ const AideenLigneSearch = () => {
               <div className="my-4">
                 <Link
                   href="/contact"
-                  className="px-2 py-2 text-[14px] border border-blue-400 rounded-md text-[#2C80EF] hover:bg-[#2C80EF] hover:text-white"
+                  className="px-2 py-2 text-[14px] border border-red-500 rounded-md text-red-500 hover:bg-[#fff] hover:text-white"
                 >
                   Contactez-nous
                 </Link>

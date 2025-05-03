@@ -55,6 +55,7 @@ export default function Header() {
                 src="/images/logoPoly.webp"
                 width={70}
                 height={30}
+                unoptimized
                 alt=""
               />
             </div>

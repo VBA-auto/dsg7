@@ -51,6 +51,7 @@ export default async function RecommendedProducts({ reference, id }) {
                   layout="fill"
                   objectFit="cover"
                   className="rounded-md"
+                  unoptimized
                 />
               </div>
               <p className="mt-2 text-sm font-medium">

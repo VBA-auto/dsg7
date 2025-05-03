@@ -90,6 +90,7 @@ const ReviewSlider = () => {
                       height={50}
                       alt="review user image"
                       className="rounded-full"
+                      unoptimized
                     />
                   </div>
                 ) : (
@@ -155,6 +156,7 @@ const ReviewSlider = () => {
                   height={50}
                   alt="review user image"
                   className="rounded-full"
+                  unoptimized
                 />
               </div>
             ) : (

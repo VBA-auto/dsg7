@@ -67,6 +67,7 @@ export default async function CalculateurDC4() {
                   width={700}
                   height={300}
                   src={product.image[0]}
+                  unoptimized
                   alt={product.title}
                   className="border w-[400px] mx-auto hover:opacity-80 transition-opacity duration-300"
                 />

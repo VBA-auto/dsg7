@@ -95,6 +95,7 @@ const SearchOverlay = ({ isOpen, onClose }) => {
                         width={400}
                         height={400}
                         className="object-cover rounded-lg"
+                        unoptimized
                       />
                     </div>
                     <div className="mt-2">

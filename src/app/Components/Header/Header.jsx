@@ -97,16 +97,7 @@ export default function Header() {
             </span>
             <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-red-500 transition-all duration-300 group-hover:w-full" />
           </Link>
-          <Link href="/contact" className="relative group">
-            <span
-              className={`text-lg font-[500] uppercase tracking-wider transition ${
-                isScrolled ? "text-red-500" : "text-red-500"
-              }`}
-            >
-              Contact
-            </span>
-            <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-red-500 transition-all duration-300 group-hover:w-full" />
-          </Link>
+
           <Link href="/retours" className="relative group">
             <span
               className={`text-lg font-[500] uppercase tracking-wider transition ${
@@ -124,6 +115,16 @@ export default function Header() {
               }`}
             >
               FAQ
+            </span>
+            <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-red-500 transition-all duration-300 group-hover:w-full" />
+          </Link>
+          <Link href="/contact" className="relative group">
+            <span
+              className={`text-lg font-[500] uppercase tracking-wider transition ${
+                isScrolled ? "text-red-500" : "text-red-500"
+              }`}
+            >
+              Contact
             </span>
             <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-red-500 transition-all duration-300 group-hover:w-full" />
           </Link>
@@ -213,15 +214,7 @@ export default function Header() {
                 Qui sommes nous ?
               </span>
             </Link>
-            <Link
-              href="/contact"
-              className="relative group"
-              onClick={closeNavbar}
-            >
-              <span className="text-lg font-[500] uppercase tracking-wider text-red-500">
-                Contact
-              </span>
-            </Link>
+
             <Link
               href="/retours"
               className="relative group"
@@ -234,6 +227,15 @@ export default function Header() {
             <Link href="/faq" className="relative group" onClick={closeNavbar}>
               <span className="text-lg font-[500] uppercase tracking-wider text-red-500">
                 FAQ
+              </span>
+            </Link>
+            <Link
+              href="/contact"
+              className="relative group"
+              onClick={closeNavbar}
+            >
+              <span className="text-lg font-[500] uppercase tracking-wider text-red-500">
+                Contact
               </span>
             </Link>
             <div className="md:hidden block" onClick={closeNavbar}>

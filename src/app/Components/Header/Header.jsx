@@ -66,7 +66,7 @@ export default function Header() {
         </div>
 
         {/* Center Navigation Links */}
-        <nav className="hidden md:flex space-x-12 items-center md:absolute left-1/2 transform -translate-x-1/2">
+        <nav className="hidden md:flex space-x-10 items-center md:absolute left-1/2 transform -translate-x-1/2">
           <Link href="/" className="relative group">
             <span
               className={`text-lg font-[500] uppercase tracking-wider transition ${
@@ -104,6 +104,16 @@ export default function Header() {
               }`}
             >
               Contact
+            </span>
+            <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-red-500 transition-all duration-300 group-hover:w-full" />
+          </Link>
+          <Link href="/retours" className="relative group">
+            <span
+              className={`text-lg font-[500] uppercase tracking-wider transition ${
+                isScrolled ? "text-red-500" : "text-red-500"
+              }`}
+            >
+              RETOUR
             </span>
             <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-red-500 transition-all duration-300 group-hover:w-full" />
           </Link>
@@ -210,6 +220,15 @@ export default function Header() {
             >
               <span className="text-lg font-[500] uppercase tracking-wider text-red-500">
                 Contact
+              </span>
+            </Link>
+            <Link
+              href="/retours"
+              className="relative group"
+              onClick={closeNavbar}
+            >
+              <span className="text-lg font-[500] uppercase tracking-wider text-red-500">
+                Retour
               </span>
             </Link>
             <Link href="/faq" className="relative group" onClick={closeNavbar}>

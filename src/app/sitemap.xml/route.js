@@ -27,7 +27,7 @@ export async function GET() {
     { path: "/produits/megane-dc4", priority: 0.7 },
     { path: "/produits/scenic-dc4", priority: 0.7 },
     { path: "/produits/dw5-clio5", priority: 0.7 },
-    { path: "/produits/dw5-megane5", priority: 0.7 },
+    { path: "/produits/dw5-megane4", priority: 0.7 },
     { path: "/produits/dw5-scenic5", priority: 0.7 },
     { path: "/produits/dc4-dc0-duster", priority: 0.7 },
     { path: "/produits/dc4-dc0-twingo3", priority: 0.7 },

@@ -15,6 +15,12 @@ export default function Footer() {
             <p className="text-red-500 text-sm">
               Spécialiste boite EDC / DSG double embrayage
             </p>
+            <Link href="https://laboiteautomatique.com/">
+              {" "}
+              <p className="text-[#2C80EF] text-sm">
+                https://laboiteautomatique.com
+              </p>
+            </Link>
           </div>
 
           {/* Quick Links */}

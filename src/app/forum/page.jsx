@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic"; // 👈 Add this
+
 import clientPromise from "@/app/lib/mongodb";
 import PostList from "../Components/Dashboard/PostList";
 import FlyerAd from "../Components/FlyerAd";
@@ -7,17 +9,17 @@ export default async function ForumPage() {
   const db = client.db("DSG7");
   const posts = await db
     .collection("Forum")
-    .find({ visibility: true }) // ✅ Only show approved posts
+    .find({ visibility: true })
     .sort({ createdAt: -1 })
     .toArray();
 
   const cleanPosts = posts?.map((post) => ({
-    _id: post?._id.toString(), // ObjectId ➜ string
+    _id: post?._id.toString(),
     title: post?.title,
     description: post?.description,
     name: post?.name,
     visibility: post?.visibility,
-    createdAt: post?.createdAt?.toString(), // ISODate ➜ string (optional)
+    createdAt: post?.createdAt?.toString(),
     likes: post?.likes || 0,
     views: post?.views || 0,
     comments: (post?.comments || []).map((comment) => ({
@@ -35,8 +37,6 @@ export default async function ForumPage() {
       <div className="w-full lg:w-3/4 space-y-6">
         <PostList posts={cleanPosts} />
       </div>
-
-      {/* Here should be a section just like Flyer */}
       <div className="w-full lg:w-1/4">
         <FlyerAd />
       </div>

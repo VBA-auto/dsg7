@@ -46,7 +46,7 @@ export default function Header() {
         isScrolled ? "bg-white shadow-md" : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4  py-1 flex items-center justify-between">
         {/* Logo on the Left */}
         <div className="flex items-center">
           <Link href="/" className="flex gap-1 items-center">
@@ -98,13 +98,13 @@ export default function Header() {
             <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-red-500 transition-all duration-300 group-hover:w-full" />
           </Link>
 
-          <Link href="/retours" className="relative group">
+          <Link href="/forum" className="relative group">
             <span
               className={`text-lg font-[500] uppercase tracking-wider transition ${
                 isScrolled ? "text-red-500" : "text-red-500"
               }`}
             >
-              RETOUR
+              FORUM
             </span>
             <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-red-500 transition-all duration-300 group-hover:w-full" />
           </Link>

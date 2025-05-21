@@ -11,22 +11,22 @@ export default async function ForumPage() {
     .sort({ createdAt: -1 })
     .toArray();
 
-  const cleanPosts = posts.map((post) => ({
-    _id: post._id.toString(), // ObjectId ➜ string
-    title: post.title,
-    description: post.description,
-    name: post.name,
-    visibility: post.visibility,
-    createdAt: post.createdAt?.toString(), // ISODate ➜ string (optional)
-    likes: post.likes || 0,
-    views: post.views || 0,
-    comments: (post.comments || []).map((comment) => ({
-      id: comment.id,
-      author: comment.author,
-      email: comment.email,
-      text: comment.text,
-      timestamp: comment.timestamp,
-      likes: comment.likes || 0,
+  const cleanPosts = posts?.map((post) => ({
+    _id: post?._id.toString(), // ObjectId ➜ string
+    title: post?.title,
+    description: post?.description,
+    name: post?.name,
+    visibility: post?.visibility,
+    createdAt: post?.createdAt?.toString(), // ISODate ➜ string (optional)
+    likes: post?.likes || 0,
+    views: post?.views || 0,
+    comments: (post?.comments || []).map((comment) => ({
+      id: comment?.id,
+      author: comment?.author,
+      email: comment?.email,
+      text: comment?.text,
+      timestamp: comment?.timestamp,
+      likes: comment?.likes || 0,
     })),
   }));
 

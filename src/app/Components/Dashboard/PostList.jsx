@@ -2,6 +2,7 @@
 import { TiEye } from "react-icons/ti";
 import { useState } from "react";
 import Comments from "./Comments";
+import { sanitizeDescription } from "./sanitize";
 
 export default function PostList({ posts }) {
   const [selectedPost, setSelectedPost] = useState(null);
@@ -71,9 +72,15 @@ export default function PostList({ posts }) {
               >
                 {post.title}
               </h2>
-              <p className="text-sm text-gray-700">
+              {/* <p className="text-sm text-gray-700">
                 {post.description?.slice(0, 120)}...
-              </p>
+              </p> */}
+              <p
+                className="text-sm text-gray-700"
+                dangerouslySetInnerHTML={{
+                  __html: sanitizeDescription(post.description).slice(0, 160),
+                }}
+              />
               <p className="text-xs text-gray-700 mt-1">
                 Posted on {new Date(post.createdAt).toLocaleDateString()}
               </p>
@@ -97,11 +104,17 @@ export default function PostList({ posts }) {
           {selectedPost && (
             <>
               <h3 className="text-2xl font-bold text-red-500 mb-2">
-                {selectedPost.title}
+                {selectedPost?.title}
               </h3>
-              <p className="text-black text-lg mb-2">
+              {/* <p className="text-black text-lg mb-2">
                 {selectedPost.description}
-              </p>
+              </p> */}
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: selectedPost?.description,
+                }}
+              />
+
               <p className="text-sm text-gray-500 mb-1">
                 Posted by:{" "}
                 <span className="font-semibold">{selectedPost.name}</span>

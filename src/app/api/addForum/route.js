@@ -18,7 +18,8 @@ async function preparePostData(data, db) {
     relatedPosts,
     createdAt: new Date().toISOString(),
     visibility: true,
-    comments: [],
+    comments: Array.isArray(data.comments) ? data.comments : [],
+
     likes: 0,
   };
 }

@@ -9,6 +9,7 @@ import DotLottieLoader from "../../Loader/DotLottieLoader";
 const AddForumPostForm = () => {
   const [loading, setLoading] = useState(false);
   const [description, setDescription] = useState("");
+  const [comments, setComments] = useState([]);
 
   const {
     register,
@@ -38,8 +39,9 @@ const AddForumPostForm = () => {
 
       setValue("name", data.name || "");
       setDescription(data.description || "");
+      setComments(data.comments || []);
 
-      toast.success("AI generated content!");
+      toast.success("AI generated full content!");
     } catch (err) {
       console.error("AI error:", err);
       toast.error("Failed to generate content");
@@ -57,9 +59,9 @@ const AddForumPostForm = () => {
         description,
         createdAt: new Date().toISOString(),
         visibility: true,
-        comments: [],
+        comments,
         likes: 0,
-        views: 0,
+        views: 170,
       };
 
       const res = await fetch("/api/addForum", {
@@ -75,6 +77,7 @@ const AddForumPostForm = () => {
       toast.success("Forum post added!");
       reset();
       setDescription("");
+      setComments([]);
     } catch (err) {
       console.error("Submit error:", err);
       toast.error("Something went wrong");
@@ -130,6 +133,93 @@ const AddForumPostForm = () => {
           <label className="block text-sm text-black mb-1">Description</label>
           <CustomTextEditor value={description} onChange={setDescription} />
         </div>
+
+        {/* Editable AI Comments */}
+        {comments.length > 0 && (
+          <div>
+            <label className="block mb-1 font-medium text-black">
+              AI Generated Comments (editable)
+            </label>
+
+            {comments.map((comment, index) => (
+              <div
+                key={index}
+                className="mb-3 border border-gray-200 p-3 rounded-lg bg-gray-50"
+              >
+                <div className="flex justify-between items-center mb-1">
+                  <span className="font-semibold">Comment #{index + 1}</span>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      const updated = [...comments];
+                      updated.splice(index, 1);
+                      setComments(updated);
+                    }}
+                    className="text-red-600 hover:text-red-800 text-sm"
+                  >
+                    Remove
+                  </button>
+                </div>
+                <label className="text-sm">Name</label>
+                <input
+                  type="text"
+                  placeholder="Author"
+                  className="w-full border px-3 py-1 mb-1 rounded"
+                  value={comment.author}
+                  onChange={(e) => {
+                    const updated = [...comments];
+                    updated[index].author = e.target.value;
+                    setComments(updated);
+                  }}
+                />
+                <label className="text-sm">Email</label>
+                <input
+                  type="text"
+                  placeholder="Email"
+                  className="w-full border px-3 py-1 mb-1 rounded"
+                  value={comment.email}
+                  onChange={(e) => {
+                    const updated = [...comments];
+                    updated[index].email = e.target.value;
+                    setComments(updated);
+                  }}
+                />
+                <label className="text-sm">Comment</label>
+                <textarea
+                  placeholder="Comment"
+                  className="w-full border px-3 py-2 rounded"
+                  value={comment.text}
+                  onChange={(e) => {
+                    const updated = [...comments];
+                    updated[index].text = e.target.value;
+                    setComments(updated);
+                  }}
+                />
+              </div>
+            ))}
+
+            <div className="text-right">
+              <button
+                type="button"
+                onClick={() =>
+                  setComments([
+                    ...comments,
+                    {
+                      author: "",
+                      email: "",
+                      text: "",
+                      timestamp: new Date().toISOString(),
+                      likes: 0,
+                    },
+                  ])
+                }
+                className="text-sm px-3 py-1 bg-green-100 text-green-800 rounded hover:bg-green-200"
+              >
+                ➕ Add Comment
+              </button>
+            </div>
+          </div>
+        )}
 
         <div className="text-center mt-5">
           <button

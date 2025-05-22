@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { sanitizeDescription } from "./sanitize";
 
 export default function ForumDelete() {
   const [posts, setPosts] = useState([]);
@@ -59,9 +60,15 @@ export default function ForumDelete() {
             >
               <div>
                 <h2 className="font-bold">{post.name}</h2>
-                <p className="text-sm text-gray-600">
+                {/* <p className="text-sm text-gray-600">
                   {post.description.slice(0, 100)}...
-                </p>
+                </p> */}
+                <p
+                  className="text-sm text-gray-700"
+                  dangerouslySetInnerHTML={{
+                    __html: sanitizeDescription(post.description).slice(0, 160),
+                  }}
+                />
               </div>
               <button
                 onClick={() => handleDelete(post._id)}

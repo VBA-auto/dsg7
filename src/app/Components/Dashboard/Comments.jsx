@@ -135,11 +135,8 @@ export default function Comments({ initialComments = [], postId }) {
       )}
 
       <div className="space-y-6">
-        {comments.map((comment) => (
-          <div
-            key={comment._id || comment.id}
-            className="flex items-start space-x-3"
-          >
+        {comments.map((comment, i) => (
+          <div key={i} className="flex items-start space-x-3">
             <FaRegUserCircle size={36} className="text-gray-400 rounded-full" />
             <div className="flex-grow w-full">
               <div className="flex items-center space-x-2 mb-0.5">

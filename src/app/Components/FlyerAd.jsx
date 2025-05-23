@@ -7,12 +7,10 @@ export default function FlyerAd() {
       <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-blue-400 rounded-full mix-blend-multiply filter blur-2xl opacity-20 animate-pulse"></div>
 
       <div className="relative p-6 z-10">
-        <h3 className="text-xl font-bold text-gray-800 mb-3">
-          🛠 Produit en vedette
-        </h3>
+        <h3 className="text-xl font-bold text-gray-800 mb-3">Produit phare</h3>
         <div className="w-full h-40 rounded-lg overflow-hidden mb-3">
           <Image
-            src="/images/cal-normal-1.webp" // Use your uploaded image here
+            src="/images/flyer.webp" // Use your uploaded image here
             alt="Calculateur Boîte Auto EDC"
             width={400}
             height={160}

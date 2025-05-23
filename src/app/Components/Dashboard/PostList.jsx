@@ -3,6 +3,7 @@ import { TiEye } from "react-icons/ti";
 import { useState } from "react";
 import Comments from "./Comments";
 import { sanitizeDescription } from "./sanitize";
+import { MdCancel } from "react-icons/md";
 
 export default function PostList({ posts }) {
   const [selectedPost, setSelectedPost] = useState(null);
@@ -49,7 +50,7 @@ export default function PostList({ posts }) {
             className="text-red-500 border px-2 rounded-md"
             onClick={() => document.getElementById("NewPostModal").showModal()}
           >
-            Post your thoughts
+            Postez ici
           </button>
         </div>
       </div>
@@ -82,17 +83,17 @@ export default function PostList({ posts }) {
                 }}
               />
               <p className="text-xs text-gray-700 mt-1">
-                Posted on {new Date(post.createdAt).toLocaleDateString()}
+                Posté le {new Date(post.createdAt).toLocaleDateString()}
               </p>
             </div>
             <div className="md:w-1/4 md:text-end">
               <div className="flex md:justify-end items-center gap-2">
-                <p>{post.comments.length} answer</p>
+                <p>{post.comments.length} réponse</p>
                 <p className="flex items-center gap-1">
-                  <TiEye className="mt-[-3px]" /> {post.views || 0} views
+                  <TiEye className="mt-[-3px]" /> {post.views || 0} vues
                 </p>
               </div>
-              <p>by {post.name}</p>
+              <p>par {post.name}</p>
             </div>
           </div>
         ))
@@ -103,7 +104,7 @@ export default function PostList({ posts }) {
         <div className="modal-box w-11/12 max-w-5xl bg-white">
           {selectedPost && (
             <>
-              <h3 className="text-2xl font-bold text-red-500 mb-2">
+              <h3 className="text-2xl font-bold text-red-500 my-3">
                 {selectedPost?.title}
               </h3>
               {/* <p className="text-black text-lg mb-2">
@@ -116,7 +117,7 @@ export default function PostList({ posts }) {
               />
 
               <p className="text-sm text-gray-500 mb-1">
-                Posted by:{" "}
+                Posté par:{" "}
                 <span className="font-semibold">{selectedPost.name}</span>
               </p>
               <p className="text-sm text-gray-400">
@@ -133,7 +134,9 @@ export default function PostList({ posts }) {
           )}
           <div className="modal-action">
             <form method="dialog">
-              <button className="btn">Close</button>
+              <button className="btn btn-sm bg-red-500 border-0 fixed top-0 right-0">
+                <MdCancel className="text-xl" />
+              </button>
             </form>
           </div>
         </div>
@@ -141,7 +144,7 @@ export default function PostList({ posts }) {
       <dialog id="NewPostModal" className="modal">
         <div className="modal-box w-11/12 max-w-2xl bg-white">
           <h3 className="text-xl font-semibold text-red-500 mb-4">
-            Post Your Thoughts
+            Postez ici
           </h3>
           <div className="space-y-3">
             <input

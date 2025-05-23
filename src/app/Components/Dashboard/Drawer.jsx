@@ -91,7 +91,7 @@ const Drawer = () => {
                   activeView === "delete" ? "bg-gray-100" : ""
                 }`}
               >
-                Delete Post
+                Delete Discussions
               </button>
             </li>
             <li>

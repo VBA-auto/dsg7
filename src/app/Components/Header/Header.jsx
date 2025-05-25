@@ -216,12 +216,12 @@ export default function Header() {
             </Link>
 
             <Link
-              href="/retours"
+              href="/forum"
               className="relative group"
               onClick={closeNavbar}
             >
               <span className="text-lg font-[500] uppercase tracking-wider text-red-500">
-                Retour
+                FORUM
               </span>
             </Link>
             <Link href="/faq" className="relative group" onClick={closeNavbar}>

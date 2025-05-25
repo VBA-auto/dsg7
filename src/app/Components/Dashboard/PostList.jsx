@@ -47,7 +47,7 @@ export default function PostList({ posts }) {
       <div className="">
         <div className="mx-auto text-center ">
           <button
-            className="text-[17px] text-red-500 border px-6 py-1 rounded-md cursor-pointer hover:bg-red-500 hover:text-white"
+            className="text-[17px] text-red-500 border px-12 py-2 rounded-md cursor-pointer hover:bg-red-500 hover:text-white"
             onClick={() => document.getElementById("NewPostModal").showModal()}
           >
             Postez ici

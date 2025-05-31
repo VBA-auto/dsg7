@@ -8,7 +8,7 @@ const LegalNotice = () => {
   return (
     <div className="max-w-7xl mx-auto my-8 p-6 bg-white shadow-lg rounded-lg">
       <Head>
-        <title>Mentions légales | DSG7</title>
+        <title>Mentions légales | DSG7 | DSG7.FR</title>
         <meta name="description" content={pageDescription} />
         <meta name="headline" content={HeadingText} />
       </Head>

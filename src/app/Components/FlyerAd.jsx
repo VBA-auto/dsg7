@@ -22,8 +22,8 @@ export default function FlyerAd() {
           Calculateur EDC Renault
         </h4>
         <p className="text-sm text-gray-600 mt-1">
-          Remplacez votre calculateur défectueux en toute confiance. 100%
-          compatible avec Captur, Clio IV, Mégane III.
+          Remplacez votre calculateur défectueux en toute confiance. 100<span style={{ fontFamily: "'Poppins', sans-serif", fontSize: "14px" }}>%</span>
+          {" "}compatible avec Captur, Clio IV, Mégane III.
         </p>
         <a
           href="https://laboiteautomatique.com/"
@@ -36,3 +36,4 @@ export default function FlyerAd() {
     </div>
   );
 }
+

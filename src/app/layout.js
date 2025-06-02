@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       <head>
         <script
           type="text/javascript"
-          charset="UTF-8"
+          charSet="UTF-8"
           src="//cdn.cookie-script.com/s/2dfaac991e926201f6835d73ddea8f26.js"
           async
         ></script>

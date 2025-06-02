@@ -58,6 +58,67 @@ export default function Comments({ initialComments = [], postId }) {
     }
   };
 
+
+  // DISLIKE AND LIKE FINCTIONS
+
+  const handleLike = async (commentId) => {
+    try {
+      const res = await fetch("/api/likeComments", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ postId, commentId }),
+      });
+
+      const result = await res.json();
+
+      if (res.ok) {
+        setComments(comments.map(comment => 
+          comment.id === commentId 
+            ? { ...comment, likes: (comment.likes || 0) + 1 } 
+            : comment
+        ));
+      } else {
+        alert(result.error || "Failed to like comment");
+      }
+    } catch (error) {
+      console.error("Like error:", error);
+      alert("Failed to like comment");
+    }
+  };
+
+const handleDislike = async (commentId) => {
+  try {
+    // Check if user already disliked this comment
+    const dislikedComments = JSON.parse(localStorage.getItem('dislikedComments') || '{}');
+    
+    if (dislikedComments[commentId]) {
+      alert('You already disliked this comment');
+      return;
+    }
+
+    // Update local state immediately
+    setComments(comments.map(comment => 
+      comment.id === commentId 
+        ? { 
+            ...comment, 
+            dislikes: (comment.dislikes || 0) + 1,
+            userDisliked: true // Add flag for UI
+          } 
+        : comment
+    ));
+
+    // Mark as disliked in localStorage
+    localStorage.setItem(
+      'dislikedComments',
+      JSON.stringify({ ...dislikedComments, [commentId]: true })
+    );
+
+  } catch (error) {
+    console.error("Dislike error:", error);
+    alert("Failed to dislike comment");
+  }
+};
+
   useEffect(() => {
     setComments(initialComments || []);
   }, [initialComments]);
@@ -80,7 +141,7 @@ export default function Comments({ initialComments = [], postId }) {
           value={newComment}
           onChange={(e) => setNewComment(e.target.value)}
           placeholder="Add a comment"
-          className="flex-grow p-2 border bg-white border-gray-300 rounded-md text-sm resize-none"
+          className="flex-grow p-2 border bg-white border-gray-300 rounded-md text-xl resize-none"
           rows="1"
         ></textarea>
         <button
@@ -152,18 +213,23 @@ export default function Comments({ initialComments = [], postId }) {
               </p>
 
               <div className="flex items-center space-x-4 mt-2 text-xs text-gray-500">
-                <button className="hover:text-blue-500 flex items-center">
+                {/* <button className="hover:text-blue-500 flex items-center">
                   <FaCommentDots className="mr-1" /> Reply
                 </button>
                 <button className="hover:text-blue-500 flex items-center">
                   <FaShare className="mr-1" /> Share
+                </button> */}
+                <button onClick={() => handleLike(comment?.id)} className="hover:text-blue-500 flex items-center">
+                  <FaThumbsUp className="mr-1" /> {comment?.likes || 0}
                 </button>
-                <button className="hover:text-blue-500 flex items-center">
-                  <FaThumbsUp className="mr-1" /> {comment.likes || 0}
-                </button>
-                <button className="hover:text-red-500 flex items-center">
-                  <FaThumbsDown className="mr-1" />
-                </button>
+<button 
+  onClick={() => handleDislike(comment.id)}
+  disabled={comment.userDisliked}
+  className={`flex items-center ${comment.userDisliked ? 'text-red-500 cursor-not-allowed' : 'hover:text-red-500'}`}
+>
+  <FaThumbsDown className="mr-1" /> 
+  {comment.dislikes || 0}
+</button>
               </div>
             </div>
           </div>

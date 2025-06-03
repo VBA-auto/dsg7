@@ -14,6 +14,26 @@ export default function Comments({ initialComments = [], postId }) {
   const [showModal, setShowModal] = useState(false);
   const [tempComment, setTempComment] = useState("");
   const [userInfo, setUserInfo] = useState({ name: "", email: "" });
+  const [userReactions, setUserReactions] = useState({});
+
+  // Initialize reactions from localStorage
+  useEffect(() => {
+    try {
+      const savedReactions = localStorage.getItem("commentReactions");
+      if (savedReactions) {
+        if (savedReactions.startsWith("[object")) {
+          setUserReactions({});
+          localStorage.removeItem("commentReactions");
+        } else {
+          setUserReactions(JSON.parse(savedReactions));
+        }
+      }
+    } catch (error) {
+      console.error("Failed to parse reactions from localStorage", error);
+      setUserReactions({});
+      localStorage.removeItem("commentReactions");
+    }
+  }, []);
 
   const handlePostClick = (e) => {
     e.preventDefault();
@@ -58,66 +78,75 @@ export default function Comments({ initialComments = [], postId }) {
     }
   };
 
+  // Like/Dislike functionality with local state
+  const handleReaction = (commentId, reactionType) => {
+    // Check if user already reacted
+    const currentReaction = userReactions[commentId];
 
-  // DISLIKE AND LIKE FINCTIONS
-
-  const handleLike = async (commentId) => {
-    try {
-      const res = await fetch("/api/likeComments", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ postId, commentId }),
-      });
-
-      const result = await res.json();
-
-      if (res.ok) {
-        setComments(comments.map(comment => 
-          comment.id === commentId 
-            ? { ...comment, likes: (comment.likes || 0) + 1 } 
+    // If clicking the same reaction again, remove it
+    if (currentReaction === reactionType) {
+      setComments((prevComments) =>
+        prevComments.map((comment) =>
+          comment.id === commentId
+            ? {
+                ...comment,
+                likes:
+                  reactionType === "like" ? comment.likes - 1 : comment.likes,
+                dislikes:
+                  reactionType === "dislike"
+                    ? comment.dislikes - 1
+                    : comment.dislikes,
+              }
             : comment
-        ));
-      } else {
-        alert(result.error || "Failed to like comment");
-      }
-    } catch (error) {
-      console.error("Like error:", error);
-      alert("Failed to like comment");
-    }
-  };
+        )
+      );
 
-const handleDislike = async (commentId) => {
-  try {
-    // Check if user already disliked this comment
-    const dislikedComments = JSON.parse(localStorage.getItem('dislikedComments') || '{}');
-    
-    if (dislikedComments[commentId]) {
-      alert('You already disliked this comment');
+      const newReactions = { ...userReactions };
+      delete newReactions[commentId];
+      setUserReactions(newReactions);
+      localStorage.setItem("commentReactions", JSON.stringify(newReactions));
       return;
     }
 
-    // Update local state immediately
-    setComments(comments.map(comment => 
-      comment.id === commentId 
-        ? { 
-            ...comment, 
-            dislikes: (comment.dislikes || 0) + 1,
-            userDisliked: true // Add flag for UI
-          } 
-        : comment
-    ));
+    // If switching reaction type
+    setComments((prevComments) =>
+      prevComments.map((comment) => {
+        if (comment.id === commentId) {
+          // Remove previous reaction count if exists
+          let likes = comment.likes || 0;
+          let dislikes = comment.dislikes || 0;
 
-    // Mark as disliked in localStorage
-    localStorage.setItem(
-      'dislikedComments',
-      JSON.stringify({ ...dislikedComments, [commentId]: true })
+          if (currentReaction === "like") {
+            likes--;
+          } else if (currentReaction === "dislike") {
+            dislikes--;
+          }
+
+          // Add new reaction
+          if (reactionType === "like") {
+            likes++;
+          } else {
+            dislikes++;
+          }
+
+          return {
+            ...comment,
+            likes,
+            dislikes,
+          };
+        }
+        return comment;
+      })
     );
 
-  } catch (error) {
-    console.error("Dislike error:", error);
-    alert("Failed to dislike comment");
-  }
-};
+    // Update user reactions
+    const newReactions = {
+      ...userReactions,
+      [commentId]: reactionType,
+    };
+    setUserReactions(newReactions);
+    localStorage.setItem("commentReactions", JSON.stringify(newReactions));
+  };
 
   useEffect(() => {
     setComments(initialComments || []);
@@ -213,23 +242,26 @@ const handleDislike = async (commentId) => {
               </p>
 
               <div className="flex items-center space-x-4 mt-2 text-xs text-gray-500">
-                {/* <button className="hover:text-blue-500 flex items-center">
-                  <FaCommentDots className="mr-1" /> Reply
+                <button
+                  onClick={() => handleReaction(comment.id, "like")}
+                  className={`flex items-center ${
+                    userReactions[comment.id] === "like"
+                      ? "text-blue-500"
+                      : "hover:text-blue-500"
+                  }`}
+                >
+                  <FaThumbsUp className="mr-1" /> {comment.likes || 0}
                 </button>
-                <button className="hover:text-blue-500 flex items-center">
-                  <FaShare className="mr-1" /> Share
-                </button> */}
-                <button onClick={() => handleLike(comment?.id)} className="hover:text-blue-500 flex items-center">
-                  <FaThumbsUp className="mr-1" /> {comment?.likes || 0}
+                <button
+                  onClick={() => handleReaction(comment.id, "dislike")}
+                  className={`flex items-center ${
+                    userReactions[comment.id] === "dislike"
+                      ? "text-red-500"
+                      : "hover:text-red-500"
+                  }`}
+                >
+                  <FaThumbsDown className="mr-1" /> {comment.dislikes || 0}
                 </button>
-<button 
-  onClick={() => handleDislike(comment.id)}
-  disabled={comment.userDisliked}
-  className={`flex items-center ${comment.userDisliked ? 'text-red-500 cursor-not-allowed' : 'hover:text-red-500'}`}
->
-  <FaThumbsDown className="mr-1" /> 
-  {comment.dislikes || 0}
-</button>
               </div>
             </div>
           </div>

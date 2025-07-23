@@ -83,7 +83,7 @@ export default async function CalculateurDC4() {
             </Link>
             <div className="p-4 border-t text-center border-gray-300">
               <h3 className="text-lg font-semibold">{product.title}</h3>
-              <p className="text-gray-700 mb-2">${product.price}</p>
+              <p className="text-gray-700 mb-2">€{product.price}</p>
               <Link
                 href={`/produits/${product.url}`}
                 className="text-sm font-bold text-center uppercase tracking-wider px-8 py-2 text-white duration-300 rounded bg-gradient-to-r from-red-500 to-red-500 shadow-lg hover:shadow-xl shadow-[#6B8375]/50 hover:scale-105 transition-all"

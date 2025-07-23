@@ -18,7 +18,7 @@ export default function Footer() {
             <Link href="https://laboiteautomatique.com/">
               {" "}
               <p className="text-[#2C80EF] text-sm">
-                https://laboiteautomatique.com
+                https://laboiteautomatique.fr
               </p>
             </Link>
           </div>

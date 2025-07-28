@@ -1,13 +1,16 @@
 import clientPromise from "@/app/lib/mongodb";
 
+
 export async function GET(req) {
   try {
     // Connect to MongoDB
     const client = await clientPromise;
-    const db = client.db("VBA-laboiteautomatique-DB");
+    const db = client.db("DSG7");
+    if(db){console.log("db connected");}
 
     // Fetch data from the `carsModel` collection
     const cars = await db.collection("carsModel").find().toArray();
+    console.log(cars);
 
     // Return the data as JSON
     return new Response(JSON.stringify(cars), {

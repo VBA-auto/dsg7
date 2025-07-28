@@ -17,6 +17,7 @@ const VehicleStockDisplay = ({ modelName, carType, onStockChange }) => {
         const response = await fetch(url);
         if (!response.ok) throw new Error(`Error: ${response.statusText}`);
         const data = await response.json();
+        console.log(data, "from data");
 
         // Find the vehicle by model and type
         const vehicle = data.find(

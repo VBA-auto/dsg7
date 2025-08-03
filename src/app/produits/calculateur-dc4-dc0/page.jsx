@@ -73,7 +73,7 @@ export default async function CalculateurDC4() {
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50 bg-opacity-50">
                   <span className="text-white text-center text-lg font-semibold">
                     <h3 className="text-lg font-semibold">{product.title}</h3>
-                    <p className="text-white mb-2">${product.price}</p>
+                    <p className="text-white mb-2">€{product.price}</p>
                   </span>
                 </div>
               </div>

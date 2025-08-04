@@ -61,6 +61,9 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <Script id="google-analytics-event" strategy="afterInteractive">
+          {`gtag('event', 'conversion_event_contact_1', {});`}
+        </Script>
       </body>
     </html>
   );
